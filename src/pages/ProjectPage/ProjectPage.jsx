@@ -1,7 +1,7 @@
 import { PageLayout } from "../../components";
-import * as S from "./IntroductionPage.style";
+import * as S from "./ProjectPage.style";
 
-const IntroductionPage = () => {
+const ProjectPage = () => {
 	return (
 		<PageLayout>
 			<S.Container>도입 화면 페이지</S.Container>
@@ -9,4 +9,4 @@ const IntroductionPage = () => {
 	);
 };
 
-export default IntroductionPage;
+export default ProjectPage;
