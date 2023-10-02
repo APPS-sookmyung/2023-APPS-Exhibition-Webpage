@@ -45,7 +45,7 @@ export const AppsExhibitionStyles = css`
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		max-width: 600px;
+		max-width: 1100px;
 		min-width: 320px;
 		height: 100%;
 		margin: 0 auto;

@@ -3,9 +3,9 @@ import * as S from "./InvitationPage.style";
 
 const InvitationPage = () => {
 	return (
-		<S.Layout>
-			<S.container>초대장화면 페이지</S.container>
-		</S.Layout>
+		<PageLayout>
+			<S.Container>초대장화면 페이지</S.Container>
+		</PageLayout>
 	);
 };
 
