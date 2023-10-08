@@ -1,12 +1,32 @@
-import { PageLayout } from "../../components";
-import * as S from "./HomePage.style";
+import { Header, PageLayout } from '../../components';
+import * as S from './HomePage.style';
 
 const HomePage = () => {
-	return (
-		<PageLayout>
-			<S.Container>홈페이지 화면</S.Container>
-		</PageLayout>
-	);
+  return (
+    <PageLayout header={<Header />}>
+      <S.Container>
+        <S.MainSection>
+          <S.MainSectionInner>
+            <S.MainSectionTitle>
+              Sookmyung APPS
+              <br />
+              Exhibition 2023
+            </S.MainSectionTitle>
+            <S.MainSectionSubTitle>Sookmyung Programming Club</S.MainSectionSubTitle>
+          </S.MainSectionInner>
+        </S.MainSection>
+
+        <S.MessageSection>
+          <S.MessageSectionInner>
+            <S.SectionTitle>
+              {'APPS는 개인과 공동체를 위한\n도전을 멈추지 않습니다.'}
+            </S.SectionTitle>
+            <S.SectionDescription>프로젝트는 아래에서 확인할 수 있습니다.</S.SectionDescription>
+          </S.MessageSectionInner>
+        </S.MessageSection>
+      </S.Container>
+    </PageLayout>
+  );
 };
 
 export default HomePage;
