@@ -1,11 +1,13 @@
-import * as S from "./PageLayout.style";
+import * as S from './PageLayout.style';
 
-const PageLayout = ({ backgroundColor = `#ffffff`, className, children }) => {
-	return (
-		<S.Layout className={className} backgroundColor={backgroundColor}>
-			{children}
-		</S.Layout>
-	);
+const PageLayout = ({ header, footer, background = '#0D0D0D', className, children }) => {
+  return (
+    <S.Layout className={className} background={background}>
+      {header}
+      {children}
+      {footer}
+    </S.Layout>
+  );
 };
 
 export default PageLayout;
