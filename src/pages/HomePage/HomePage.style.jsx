@@ -73,3 +73,14 @@ export const SectionDescription = styled.p`
   line-height: normal;
   color: ${Colors.grey};
 `;
+
+export const AboutAppsSection = styled.section`
+  height: 716px;
+  background: ${Colors.black};
+`;
+
+export const AboutAppsSectionInner = styled(SectionInner)`
+  height: 100%;
+  justify-content: center;
+  gap: 40px;
+`;
