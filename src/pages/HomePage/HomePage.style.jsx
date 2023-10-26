@@ -66,6 +66,15 @@ export const SectionTitle = styled.h2`
   white-space: pre-wrap;
 `;
 
+export const SectionSubTitle = styled.h3`
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  color: ${Colors.white};
+  line-height: normal;
+  white-space: pre-wrap;
+`;
+
 export const SectionDescription = styled.p`
   font-size: 30px;
   font-weight: 500;
@@ -80,6 +89,17 @@ export const AboutAppsSection = styled.section`
 `;
 
 export const AboutAppsSectionInner = styled(SectionInner)`
+  height: 100%;
+  justify-content: center;
+  gap: 40px;
+`;
+
+export const MemberSection = styled.section`
+  height: 716px;
+  background: ${Colors.black};
+`;
+
+export const MemebrSectionInner = styled(SectionInner)`
   height: 100%;
   justify-content: center;
   gap: 40px;

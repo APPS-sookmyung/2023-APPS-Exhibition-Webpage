@@ -1,4 +1,4 @@
-import { Header, PageLayout } from '../../components';
+import { Header, PageLayout, MemberCard } from '../../components';
 import * as S from './HomePage.style';
 
 const HomePage = () => {
@@ -38,6 +38,13 @@ const HomePage = () => {
             </S.SectionDescription>
           </S.AboutAppsSectionInner>
         </S.AboutAppsSection>
+
+        <S.MemberSection>
+          <S.MemebrSectionInner>
+            <S.SectionSubTitle>{'멤버 소개'}</S.SectionSubTitle>
+            <MemberCard></MemberCard>
+          </S.MemebrSectionInner>
+        </S.MemberSection>
       </S.Container>
     </PageLayout>
   );
