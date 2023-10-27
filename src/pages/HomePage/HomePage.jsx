@@ -40,10 +40,8 @@ const HomePage = () => {
         </S.AboutAppsSection>
 
         <S.MemberSection>
-          <S.MemebrSectionInner>
-            <S.SectionSubTitle>{'멤버 소개'}</S.SectionSubTitle>
-            <MemberCard></MemberCard>
-          </S.MemebrSectionInner>
+          <S.SectionSubTitle>{'멤버 소개'}</S.SectionSubTitle>
+          <MemberCard />
         </S.MemberSection>
       </S.Container>
     </PageLayout>
