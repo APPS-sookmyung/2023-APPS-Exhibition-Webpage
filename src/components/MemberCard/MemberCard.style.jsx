@@ -18,7 +18,7 @@ export const Card = styled.div`
 `;
 
 export const CardInner = styled.div`
-  height: 100%;
+  // height: 100%;
   justify-content: center;
   gap: 40px;
   padding: 10px;
@@ -32,8 +32,9 @@ export const Crown = styled.div`
 
 export const ImgConainer = styled.div`
   background-image: url(${(props) => props.image});
-  background-size: 100%;
+  background-size: cover;
   border-radius: 50%;
+  backgroung-repeat: no-repeat;
   width: 100%;
   height: 0;
   overflow: hidden;
