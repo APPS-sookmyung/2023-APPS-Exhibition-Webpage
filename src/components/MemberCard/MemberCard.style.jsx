@@ -1,7 +1,5 @@
 import styled from '@emotion/styled';
 import { Colors } from '../../theme';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 export const Container = styled.div`
   display: flex;
@@ -60,6 +58,7 @@ export const Major = styled.p`
   display: flex;
   justify-content: center;
   font-size: 13px;
+  width: 150px;
   color: ${Colors.white};
 `;
 
