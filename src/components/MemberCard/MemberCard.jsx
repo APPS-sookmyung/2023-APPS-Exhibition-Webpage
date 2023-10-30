@@ -8,7 +8,11 @@ export default function MemberCard() {
         <S.CardContainerOriginal1>
           {memberList.slice(0, 12).map((member, index) => (
             <S.Card key={index}>
-              {member.position !== null && <S.Crown></S.Crown>}
+              {member.position !== null && (
+                <S.Crown>
+                  <img style={{ width: '10px' }} src="/images/member/crown.png" alt="test" />
+                </S.Crown>
+              )}
               <S.ImgConainer image={member.memberImg}>
                 {member.position !== null && <S.Position>{member.position}</S.Position>}
               </S.ImgConainer>
