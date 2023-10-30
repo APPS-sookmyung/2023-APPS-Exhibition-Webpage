@@ -9,6 +9,7 @@ export const Header = styled.header`
   height: 58px;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
+  z-index: 10;
 `;
 
 export const Inner = styled.div`

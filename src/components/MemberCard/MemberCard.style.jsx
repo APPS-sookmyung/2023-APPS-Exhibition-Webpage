@@ -1,8 +1,6 @@
 import styled from '@emotion/styled';
 import { Colors } from '../../theme';
 
-// const windowWidth = window.innerWidth;
-
 export const Container = styled.div`
   display: flex;
   width: calc(210px * 24);
@@ -10,7 +8,7 @@ export const Container = styled.div`
 
 export const CardContainerOriginal1 = styled.div`
   display: flex;
-  // animation: OriginalRolling 15s linear infinite;
+  animation: OriginalRolling 20s linear infinite;
 
   @keyframes OriginalRolling {
     0% {
@@ -31,7 +29,7 @@ export const CardContainerOriginal1 = styled.div`
 export const CardContainerClone1 = styled.div`
   display: flex;
 
-  // animation: CloneRolling 15s linear infinite;
+  animation: CloneRolling 20s linear infinite;
 
   @keyframes CloneRolling {
     0% {
@@ -45,7 +43,7 @@ export const CardContainerClone1 = styled.div`
 
 export const CardContainerOriginal2 = styled.div`
   display: flex;
-  // animation: OriginalRolling 15s linear reverse infinite;
+  animation: OriginalRolling 20s linear reverse infinite;
 
   @keyframes OriginalRolling {
     0% {
@@ -66,7 +64,7 @@ export const CardContainerOriginal2 = styled.div`
 export const CardContainerClone2 = styled.div`
   display: flex;
 
-  // animation: CloneRolling 15s linear reverse infinite;
+  animation: CloneRolling 20s linear reverse infinite;
 
   @keyframes CloneRolling {
     0% {
@@ -77,12 +75,14 @@ export const CardContainerClone2 = styled.div`
     }
   }
 `;
+
 export const Card = styled.div`
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 40px;
   padding: 10px;
   transition: transform 1s;
-  width: 200px;
+  width: 230px;
   margin: 10px;
   border-radius: 5%;
   background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
@@ -101,7 +101,7 @@ export const CrownContainer = styled.div`
   z-index: 20;
   left: 50%;
   right: 50%;
-  bottom: 275px;
+  bottom: 295px;
 `;
 
 export const ImgConainer = styled.div`
@@ -115,17 +115,23 @@ export const ImgConainer = styled.div`
   padding-bottom: 100%;
   position: relative;
   background-color: ${Colors.black};
+  margin: 12px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
 `;
 
 export const InfoInner = styled.div`
+  display: flex;
   justify-content: center;
-  margin: 12px;
+  margin: 7px;
 `;
 
 export const Name = styled.p`
   display: flex;
   justify-content: center;
-  font-size: 25px;
+  align-content: center;
+  font-size: 30px;
   font-weight: bold;
   color: ${Colors.white};
 `;
@@ -133,8 +139,10 @@ export const Name = styled.p`
 export const Major = styled.p`
   display: flex;
   justify-content: center;
-  font-size: 13px;
-  width: 150px;
+  align-content: center;
+
+  font-size: 15px;
+  width: 230px;
   color: ${Colors.white};
 `;
 
