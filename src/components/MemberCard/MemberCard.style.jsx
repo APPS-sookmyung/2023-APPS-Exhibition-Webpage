@@ -1,25 +1,63 @@
 import styled from '@emotion/styled';
 import { Colors } from '../../theme';
 
+// const windowWidth = window.innerWidth;
+
 export const Container = styled.div`
   display: flex;
-  width: 100%;
+  flex-wrap: nowrap;
+  overflow: hidden;
+
+  // width: calc(210px * 24);
+`;
+
+export const CardContainer = styled.div`
+  display: flex;
+  overflow: hidden;
+
+  animation: 5s linear infinite normal none running scroll;
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    50.1% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+`;
+
+export const CardContainer1 = styled.div`
+  display: flex;
+  overflow: hidden;
+
+  animation: 5s linear infinite infiniteAnimation2;
+
+  @keyframes infiniteAnimation2 {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
 `;
 
 export const Card = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  width: 200px;
-  border-radius: 5%;
-  background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
-`;
-
-export const CardInner = styled.div`
-  // height: 100%;
   justify-content: center;
   gap: 40px;
   padding: 10px;
+  transition: transform 1s;
+  width: 200px;
+  margin: 10px;
+  border-radius: 5%;
+  background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
 `;
 
 export const Crown = styled.div`

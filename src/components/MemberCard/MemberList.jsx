@@ -1,7 +1,7 @@
 const memberList = [
   {
     memberImg: '/images/member/kyungminseo.png',
-    name: '경민서',
+    name: '시작',
     major: 'Software Convergence 22',
     position: null,
   },
@@ -67,7 +67,7 @@ const memberList = [
   },
   {
     memberImg: '/images/member/kyungminseo.png',
-    name: '하예영',
+    name: '끝',
     major: 'Software Convergence 22',
     position: null,
   },
