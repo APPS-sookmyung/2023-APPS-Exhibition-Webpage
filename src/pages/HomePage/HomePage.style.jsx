@@ -99,8 +99,7 @@ export const MemberSection = styled.section`
   background: ${Colors.black};
 `;
 
-export const MemebrSectionInner = styled(SectionInner)`
-  height: 100%;
+export const MemberCardSection = styled(SectionInner)`
   justify-content: center;
-  gap: 40px;
+  height: 100%;
 `;

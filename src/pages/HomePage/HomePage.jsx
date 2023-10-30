@@ -41,7 +41,9 @@ const HomePage = () => {
 
         <S.MemberSection>
           <S.SectionSubTitle>{'멤버 소개'}</S.SectionSubTitle>
-          <MemberCard />
+          <S.MemberCardSection>
+            <MemberCard />
+          </S.MemberCardSection>
         </S.MemberSection>
       </S.Container>
     </PageLayout>
