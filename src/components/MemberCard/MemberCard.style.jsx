@@ -3,7 +3,8 @@ import { Colors } from '../../theme';
 
 export const Container = styled.div`
   display: flex;
-  width: calc(210px * 24);
+  /* width: calc(210px * 24); */
+  width: 100%;
 `;
 
 export const CardContainerOriginal1 = styled.div`
@@ -87,6 +88,7 @@ export const Card = styled.div`
   border-radius: 5%;
   background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
   position: relative;
+  overflow: hidden;
 `;
 
 export const Crown = styled.img`

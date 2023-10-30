@@ -2,7 +2,8 @@ import styled from '@emotion/styled';
 
 export const Container = styled.div`
   display: flex;
-  width: calc(130px * 9);
+  /* width: calc(130px * 9); */
+  width: 100%;
 `;
 
 export const ImgConainer = styled.div`
@@ -25,11 +26,12 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 10px;
-  /* transition: transform 1s; */
+  transition: transform 1s;
   width: 120px;
   height: 120px;
   margin: 10px;
   border-radius: 5%;
   background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
   position: relative;
+  overflow: hidden;
 `;
