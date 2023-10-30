@@ -4,6 +4,7 @@ export const Container = styled.div`
   display: flex;
   /* width: calc(130px * 9); */
   width: 100%;
+  overflow: hidden;
 `;
 
 export const ImgConainer = styled.div`

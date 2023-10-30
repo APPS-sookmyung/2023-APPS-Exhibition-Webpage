@@ -5,6 +5,7 @@ export const Container = styled.div`
   display: flex;
   /* width: calc(210px * 24); */
   width: 100%;
+  overflow: hidden;
 `;
 
 export const CardContainerOriginal1 = styled.div`
@@ -18,7 +19,7 @@ export const CardContainerOriginal1 = styled.div`
     50% {
       transform: translateX(-100%);
     }
-    50.01% {
+    51% {
       transform: translateX(100%);
     }
     100% {
