@@ -86,17 +86,29 @@ export const Card = styled.div`
   margin: 10px;
   border-radius: 5%;
   background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
+  position: relative;
 `;
 
-export const Crown = styled.div`
-  width: 20px;
+export const Crown = styled.img`
+  width: 30px;
+`;
+
+export const CrownContainer = styled.div`
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 20;
+  left: 50%;
+  right: 50%;
+  bottom: 275px;
 `;
 
 export const ImgConainer = styled.div`
   background-image: url(${(props) => props.image});
   background-size: cover;
   border-radius: 50%;
-  backgroung-repeat: no-repeat;
+  background-repeat: no-repeat;
   width: 100%;
   height: 0;
   overflow: hidden;
