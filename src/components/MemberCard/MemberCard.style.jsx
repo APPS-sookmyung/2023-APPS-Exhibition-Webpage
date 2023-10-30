@@ -1,27 +1,91 @@
 import styled from '@emotion/styled';
 import { Colors } from '../../theme';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+
+// const windowWidth = window.innerWidth;
 
 export const Container = styled.div`
   display: flex;
-  width: 100%;
+  width: calc(210px * 24);
 `;
 
-export const Card = styled.div`
+export const CardContainerOriginal1 = styled.div`
   display: flex;
-  flex-direction: column;
-  margin: 10px;
-  width: 200px;
-  border-radius: 5%;
-  background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
+  animation: OriginalRolling 15s linear infinite;
+
+  @keyframes OriginalRolling {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    50.01% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 `;
 
-export const CardInner = styled.div`
-  // height: 100%;
+export const CardContainerClone1 = styled.div`
+  display: flex;
+
+  animation: CloneRolling 15s linear infinite;
+
+  @keyframes CloneRolling {
+    0% {
+      transition: translateX(0);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+`;
+
+export const CardContainerOriginal2 = styled.div`
+  display: flex;
+  animation: OriginalRolling 15s linear reverse infinite;
+
+  @keyframes OriginalRolling {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    50.01% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+`;
+
+export const CardContainerClone2 = styled.div`
+  display: flex;
+
+  animation: CloneRolling 15s linear reverse infinite;
+
+  @keyframes CloneRolling {
+    0% {
+      transition: translateX(0);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+`;
+export const Card = styled.div`
   justify-content: center;
   gap: 40px;
   padding: 10px;
+  transition: transform 1s;
+  width: 200px;
+  margin: 10px;
+  border-radius: 5%;
+  background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
 `;
 
 export const Crown = styled.div`
@@ -60,6 +124,7 @@ export const Major = styled.p`
   display: flex;
   justify-content: center;
   font-size: 13px;
+  width: 150px;
   color: ${Colors.white};
 `;
 
