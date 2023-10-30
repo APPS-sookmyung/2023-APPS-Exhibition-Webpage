@@ -1,8 +1,6 @@
 import styled from '@emotion/styled';
 import { Colors } from '../../theme';
 
-// const windowWidth = window.innerWidth;
-
 export const Container = styled.div`
   display: flex;
   width: calc(210px * 24);
@@ -10,7 +8,7 @@ export const Container = styled.div`
 
 export const CardContainerOriginal1 = styled.div`
   display: flex;
-  // animation: OriginalRolling 15s linear infinite;
+  animation: OriginalRolling 15s linear infinite;
 
   @keyframes OriginalRolling {
     0% {
@@ -31,7 +29,7 @@ export const CardContainerOriginal1 = styled.div`
 export const CardContainerClone1 = styled.div`
   display: flex;
 
-  // animation: CloneRolling 15s linear infinite;
+  animation: CloneRolling 15s linear infinite;
 
   @keyframes CloneRolling {
     0% {
@@ -45,7 +43,7 @@ export const CardContainerClone1 = styled.div`
 
 export const CardContainerOriginal2 = styled.div`
   display: flex;
-  // animation: OriginalRolling 15s linear reverse infinite;
+  animation: OriginalRolling 15s linear reverse infinite;
 
   @keyframes OriginalRolling {
     0% {
@@ -66,7 +64,7 @@ export const CardContainerOriginal2 = styled.div`
 export const CardContainerClone2 = styled.div`
   display: flex;
 
-  // animation: CloneRolling 15s linear reverse infinite;
+  animation: CloneRolling 15s linear reverse infinite;
 
   @keyframes CloneRolling {
     0% {
@@ -77,12 +75,13 @@ export const CardContainerClone2 = styled.div`
     }
   }
 `;
+
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 10px;
-  /* transition: transform 1s; */
+  transition: transform 1s;
   width: 230px;
   margin: 10px;
   border-radius: 5%;
