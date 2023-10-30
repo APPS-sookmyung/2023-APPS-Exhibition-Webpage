@@ -1,21 +1,9 @@
 const memberList = [
   {
     memberImg: '/images/member/kyungminseo.png',
-    name: '시작',
+    name: '경민서',
     major: 'Software Convergence 22',
     position: null,
-  },
-  {
-    memberImg: '/images/member/ohjisoo.png',
-    name: '오지수',
-    major: 'Computer Science 21',
-    position: '백엔드장',
-  },
-  {
-    memberImg: '/images/member/joyoungseo.png',
-    name: '조영서',
-    major: 'Computer Science 21',
-    position: '회장',
   },
   {
     memberImg: '/images/member/shinjinyoung.png',
@@ -25,10 +13,23 @@ const memberList = [
   },
   {
     memberImg: '/images/member/kyungminseo.png',
+    name: '서정연',
+    major: 'Software Convergence 21',
+    position: '프론트엔드장',
+  },
+  {
+    memberImg: '/images/member/ohjisoo.png',
+    name: '오지수',
+    major: 'Computer Science 21',
+    position: '백엔드장',
+  },
+  {
+    memberImg: '/images/member/kyungminseo.png',
     name: '이지은',
-    major: 'Computer Science 22',
+    major: 'Software Convergence 22',
     position: null,
   },
+
   {
     memberImg: '/images/member/kyungminseo.png',
     name: '이채은',
@@ -67,7 +68,7 @@ const memberList = [
   },
   {
     memberImg: '/images/member/kyungminseo.png',
-    name: '끝',
+    name: '하예영',
     major: 'Software Convergence 22',
     position: null,
   },
@@ -118,6 +119,12 @@ const memberList = [
     name: '정민주',
     major: 'Software Convergence 22',
     position: null,
+  },
+  {
+    memberImg: '/images/member/joyoungseo.png',
+    name: '조영서',
+    major: 'Computer Science 21',
+    position: '회장',
   },
   {
     memberImg: '/images/member/kyungminseo.png',

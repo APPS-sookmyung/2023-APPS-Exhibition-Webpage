@@ -5,43 +5,37 @@ import { Colors } from '../../theme';
 
 export const Container = styled.div`
   display: flex;
-  flex-wrap: nowrap;
-  overflow: hidden;
-
-  // width: calc(210px * 24);
+  width: calc(210px * 24);
 `;
 
-export const CardContainer = styled.div`
+export const CardContainerOriginal1 = styled.div`
   display: flex;
-  overflow: hidden;
+  animation: OriginalRolling 15s linear infinite;
 
-  animation: 5s linear infinite normal none running scroll;
-
-  @keyframes scroll {
+  @keyframes OriginalRolling {
     0% {
-      transform: translateX(0%);
+      transform: translateX(0);
     }
     50% {
       transform: translateX(-100%);
     }
-    50.1% {
+    50.01% {
       transform: translateX(100%);
     }
     100% {
-      transform: translateX(0%);
+      transform: translateX(0);
     }
   }
 `;
 
-export const CardContainer1 = styled.div`
+export const CardContainerClone1 = styled.div`
   display: flex;
-  overflow: hidden;
 
-  animation: 5s linear infinite infiniteAnimation2;
+  animation: CloneRolling 15s linear infinite;
 
-  @keyframes infiniteAnimation2 {
+  @keyframes CloneRolling {
     0% {
-      transform: translateX(0%);
+      transition: translateX(0);
     }
     100% {
       transform: translateX(-200%);
@@ -49,6 +43,40 @@ export const CardContainer1 = styled.div`
   }
 `;
 
+export const CardContainerOriginal2 = styled.div`
+  display: flex;
+  animation: OriginalRolling 15s linear reverse infinite;
+
+  @keyframes OriginalRolling {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    50.01% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+`;
+
+export const CardContainerClone2 = styled.div`
+  display: flex;
+
+  animation: CloneRolling 15s linear reverse infinite;
+
+  @keyframes CloneRolling {
+    0% {
+      transition: translateX(0);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+`;
 export const Card = styled.div`
   justify-content: center;
   gap: 40px;
