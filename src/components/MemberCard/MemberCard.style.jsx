@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const CardContainerOriginal1 = styled.div`
   display: flex;
-  animation: OriginalRolling 15s linear infinite;
+  // animation: OriginalRolling 15s linear infinite;
 
   @keyframes OriginalRolling {
     0% {
@@ -31,7 +31,7 @@ export const CardContainerOriginal1 = styled.div`
 export const CardContainerClone1 = styled.div`
   display: flex;
 
-  animation: CloneRolling 15s linear infinite;
+  // animation: CloneRolling 15s linear infinite;
 
   @keyframes CloneRolling {
     0% {
@@ -45,7 +45,7 @@ export const CardContainerClone1 = styled.div`
 
 export const CardContainerOriginal2 = styled.div`
   display: flex;
-  animation: OriginalRolling 15s linear reverse infinite;
+  // animation: OriginalRolling 15s linear reverse infinite;
 
   @keyframes OriginalRolling {
     0% {
@@ -66,7 +66,7 @@ export const CardContainerOriginal2 = styled.div`
 export const CardContainerClone2 = styled.div`
   display: flex;
 
-  animation: CloneRolling 15s linear reverse infinite;
+  // animation: CloneRolling 15s linear reverse infinite;
 
   @keyframes CloneRolling {
     0% {
@@ -86,19 +86,29 @@ export const Card = styled.div`
   margin: 10px;
   border-radius: 5%;
   background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
+  position: relative;
 `;
 
-export const Crown = styled.div`
-  background-image: url('../../../public/images/member/crown.png');
-  background-size: 100%;
-  width: 20px;
+export const Crown = styled.img`
+  width: 30px;
+`;
+
+export const CrownContainer = styled.div`
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 20;
+  left: 50%;
+  right: 50%;
+  bottom: 275px;
 `;
 
 export const ImgConainer = styled.div`
   background-image: url(${(props) => props.image});
   background-size: cover;
   border-radius: 50%;
-  backgroung-repeat: no-repeat;
+  background-repeat: no-repeat;
   width: 100%;
   height: 0;
   overflow: hidden;
