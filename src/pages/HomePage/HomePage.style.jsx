@@ -95,7 +95,7 @@ export const AboutAppsSectionInner = styled(SectionInner)`
 `;
 
 export const MemberSection = styled.section`
-  height: 716px;
+  height: 1000px;
   background: ${Colors.black};
 `;
 
