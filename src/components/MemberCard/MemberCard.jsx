@@ -1,12 +1,11 @@
 import * as S from './MemberCard.style';
-import * as CardContainerOriginal1 from './CardContainerOriginal1';
 import memberList from './MemberList';
 
 export default function MemberCard() {
   return (
     <>
       <S.Container>
-        <CardContainerOriginal1.CardContainerOriginal1>
+        <S.CardContainerOriginal1>
           {memberList.slice(0, 12).map((member, index) => (
             <S.Card key={index}>
               <S.CrownContainer>
@@ -23,7 +22,7 @@ export default function MemberCard() {
               </S.InfoInner>
             </S.Card>
           ))}
-        </CardContainerOriginal1.CardContainerOriginal1>
+        </S.CardContainerOriginal1>
         <S.CardContainerClone1>
           {memberList.slice(0, 12).map((member, index) => (
             <S.Card key={index}>
