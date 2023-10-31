@@ -97,9 +97,13 @@ export const AboutAppsSectionInner = styled(SectionInner)`
 export const MemberSection = styled.section`
   height: 1000px;
   background: ${Colors.black};
+  width: 100%;
+  position: relative;
 `;
 
-export const MemberCardSection = styled(SectionInner)`
-  justify-content: center;
+export const MemberCardSection = styled.div`
+  width: 100%;
   height: 100%;
+  position: absolute;
+  margin: 0;
 `;

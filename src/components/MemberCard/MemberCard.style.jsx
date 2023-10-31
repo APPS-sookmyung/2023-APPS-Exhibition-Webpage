@@ -3,11 +3,15 @@ import { Colors } from '../../theme';
 
 export const Container = styled.div`
   display: flex;
-  width: calc(210px * 24);
+  /* width: calc(210px * 24); */
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
 `;
 
 export const CardContainerOriginal1 = styled.div`
   display: flex;
+  margin: 0px;
   animation: OriginalRolling 20s linear infinite;
 
   @keyframes OriginalRolling {
@@ -28,12 +32,13 @@ export const CardContainerOriginal1 = styled.div`
 
 export const CardContainerClone1 = styled.div`
   display: flex;
+  margin: 0px;
 
   animation: CloneRolling 20s linear infinite;
 
   @keyframes CloneRolling {
     0% {
-      transition: translateX(0);
+      transform: translateX(0);
     }
     100% {
       transform: translateX(-200%);
@@ -43,6 +48,8 @@ export const CardContainerClone1 = styled.div`
 
 export const CardContainerOriginal2 = styled.div`
   display: flex;
+  margin: 0px;
+
   animation: OriginalRolling 20s linear reverse infinite;
 
   @keyframes OriginalRolling {
@@ -63,12 +70,13 @@ export const CardContainerOriginal2 = styled.div`
 
 export const CardContainerClone2 = styled.div`
   display: flex;
+  margin: 0px;
 
   animation: CloneRolling 20s linear reverse infinite;
 
   @keyframes CloneRolling {
     0% {
-      transition: translateX(0);
+      transform: translateX(0);
     }
     100% {
       transform: translateX(-200%);
@@ -81,12 +89,13 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 10px;
-  transition: transform 1s;
   width: 230px;
-  margin: 10px;
+  /* 위 | 오른쪽 | 아래 | 왼쪽 */
+  margin: 20px 20px 0px 0px;
   border-radius: 5%;
   background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
   position: relative;
+  overflow: hidden;
 `;
 
 export const Crown = styled.img`
