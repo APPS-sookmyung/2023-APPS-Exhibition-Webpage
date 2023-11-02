@@ -95,12 +95,15 @@ export const AboutAppsSectionInner = styled(SectionInner)`
 `;
 
 export const MemberSection = styled.section`
-  height: 716px;
+  height: 1000px;
   background: ${Colors.black};
+  width: 100%;
+  position: relative;
 `;
 
-export const MemebrSectionInner = styled(SectionInner)`
+export const MemberCardSection = styled.div`
+  width: 100%;
   height: 100%;
-  justify-content: center;
-  gap: 40px;
+  position: absolute;
+  margin: 0;
 `;
