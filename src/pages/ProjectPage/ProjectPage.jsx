@@ -96,7 +96,7 @@ const ProjectPage = () => {
           <S.ImageForSpace>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="images/member/kyungminseo.png" alt="Spring Boot" />
+                <S.StackImage src="images/member/kyungminseo.png"/>
                 <S.StackDescription>경민서</S.StackDescription>
                 <S.MemberDescription>Front-end</S.MemberDescription>
               </S.CircleForSpace>
@@ -104,7 +104,7 @@ const ProjectPage = () => {
 
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="images/member/yoonseohee.jpg" alt="React Native" />
+                <S.StackImage src="images/member/yoonseohee.jpg"/>
                 <S.StackDescription>윤서희</S.StackDescription>
                 <S.MemberDescription>Front-end</S.MemberDescription>
               </S.CircleForSpace>
@@ -112,18 +112,21 @@ const ProjectPage = () => {
 
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="images/member/yoonseohee.jpg" alt="React Native" />
+                <S.StackImage src="images/member/yoonseohee.jpg"/>
                 <S.StackDescription>황수연</S.StackDescription>
                 <S.MemberDescription>Back-end</S.MemberDescription>
               </S.CircleForSpace>
             </S.CircleImage>
 
             <S.CircleImage>
-              <S.CircleForSpace>
-                <S.StackImage src="images/member/joyoungseo.png" alt="React Native" />
-                <S.StackDescription>황수연</S.StackDescription>
-                <S.MemberDescription>Back-end</S.MemberDescription>
-              </S.CircleForSpace>
+              <S.CrownContainer>
+                <S.CrownImage src="images/member/crown.png" alt="Crown" />
+                <S.CircleForSpace>
+                  <S.StackImage src="images/member/joyoungseo.png"/>
+                  <S.StackDescription>조영서</S.StackDescription>
+                  <S.MemberDescription>Back-end</S.MemberDescription>
+                </S.CircleForSpace>
+              </S.CrownContainer>
             </S.CircleImage>
 
           </S.ImageForSpace>

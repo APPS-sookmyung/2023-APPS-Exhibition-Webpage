@@ -71,6 +71,11 @@ export const DescriptionDetail = styled.div`
   margin-bottom: 45px;
 `;
 
+export const CrownContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const CircleImage = styled.div`
   margin-top: 20px;
   margin-right: 20px;
@@ -87,6 +92,15 @@ export const StackImage = styled.img`
   max-width: 100%;
   max-height: 100%;
   border-radius: 50%;
+  position: relative;
+  z-index: 1;
+`;
+
+export const CrownImage = styled.img`
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 2;
 `;
 
 export const StackDescription = styled.div`
@@ -111,12 +125,4 @@ export const ImageForSpace = styled.div`
 export const CircleForSpace = styled.div`
   display: flex;
   flex-direction: column;
-`;
-
-export const CrownImage = styled.img`
-  width: 100px; // 필요에 따라 가로 및 세로 크기를 조정하세요
-  height: 100px;
-  border-radius: 50%;
-  position: relative; // 개발자 이미지의 위치를 상대 위치로 설정
-  z-index: 1; // 이미지가 다른 요소 위에 표시되도록 설정
 `;
