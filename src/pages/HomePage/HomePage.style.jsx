@@ -103,5 +103,4 @@ export const MemberSection = styled.section`
 
 export const MemberCardSection = styled.div`
   width: 100%;
-  height: 100%;
 `;

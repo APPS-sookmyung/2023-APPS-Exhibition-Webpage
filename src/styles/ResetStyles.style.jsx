@@ -86,7 +86,7 @@ export const resetStyles = css`
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: 'Pretendard';
     vertical-align: baseline;
     box-sizing: border-box;
   }

@@ -1,4 +1,11 @@
-import { Header, PageLayout, MemberCard, StackCard, Footer } from '../../components';
+import {
+  Header,
+  PageLayout,
+  MemberCard,
+  StackCard,
+  Footer,
+  ProjectsSection,
+} from '../../components';
 import * as S from './HomePage.style';
 
 const HomePage = () => {
@@ -46,6 +53,8 @@ const HomePage = () => {
             <StackCard />
           </S.MemberCardSection>
         </S.MemberSection>
+
+        <ProjectsSection />
       </S.Container>
     </PageLayout>
   );
