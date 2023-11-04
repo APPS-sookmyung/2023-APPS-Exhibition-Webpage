@@ -8,14 +8,14 @@ const StackCard = () => {
       <S.CardContainerOriginalStack>
         {stackList.slice(0, 18).map((stack, index) => (
           <S.Card key={index}>
-            <S.ImgConainer style={{ position: 'relative', zIndex: 10 }} image={stack.stackImg} />
+            <S.ImgContainer style={{ position: 'relative', zIndex: 10 }} image={stack.stackImg} />
           </S.Card>
         ))}
       </S.CardContainerOriginalStack>
       <S.CardContainerCloneStack>
         {stackList.slice(0, 18).map((stack, index) => (
           <S.Card key={index}>
-            <S.ImgConainer style={{ position: 'relative', zIndex: 10 }} image={stack.stackImg} />
+            <S.ImgContainer style={{ position: 'relative', zIndex: 10 }} image={stack.stackImg} />
           </S.Card>
         ))}
       </S.CardContainerCloneStack>

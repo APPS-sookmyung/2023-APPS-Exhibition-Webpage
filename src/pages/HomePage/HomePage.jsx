@@ -1,9 +1,9 @@
-import { Header, PageLayout, MemberCard, StackCard } from '../../components';
+import { Header, PageLayout, MemberCard, StackCard, Footer } from '../../components';
 import * as S from './HomePage.style';
 
 const HomePage = () => {
   return (
-    <PageLayout header={<Header />}>
+    <PageLayout header={<Header />} footer={<Footer />}>
       <S.Container>
         <S.MainSection>
           <S.MainSectionInner>

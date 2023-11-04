@@ -8,12 +8,11 @@ export const Container = styled.div`
   margin: 0 auto;
 `;
 
-export const ImgConainer = styled.div`
+export const ImgContainer = styled.div`
   background-image: url(${(props) => props.image});
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 0;
   overflow: hidden;
   padding-bottom: 100%;
   position: relative;
