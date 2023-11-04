@@ -4,8 +4,15 @@ export const Footer = styled.footer`
   display: flex;
   flex-direction: column;
   gap: 28px;
-  padding: 40px 20px;
+  padding: 40px 0;
   background-color: #191f28;
+`;
+
+export const FooterInner = styled.div`
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
 `;
 
 export const InfoList = styled.ul`
