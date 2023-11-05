@@ -24,7 +24,7 @@ export default function MemberCard() {
           ))}
         </S.CardContainerOriginal1>
         <S.CardContainerClone1>
-          {memberList.slice(0, 12).map((member, index) => (
+          {memberList.slice(0, 11).map((member, index) => (
             <S.Card key={index}>
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
