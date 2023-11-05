@@ -42,7 +42,7 @@ export const CardContainerOriginalStack = styled.div`
   margin: 0px;
   width: auto;
 
-  animation: OriginalRollingStack 10s linear infinite;
+  animation: OriginalRollingStack 15s linear infinite;
 
   @keyframes OriginalRollingStack {
     0% {
@@ -65,7 +65,7 @@ export const CardContainerCloneStack = styled.div`
   margin: 0px;
   width: auto;
 
-  animation: CloneRollingStack 10s linear infinite;
+  animation: CloneRollingStack 15s linear infinite;
 
   @keyframes CloneRollingStack {
     0% {

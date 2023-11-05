@@ -12,7 +12,7 @@ export const Container = styled.div`
 export const CardContainerOriginal1 = styled.div`
   display: flex;
   margin: 0px;
-  animation: OriginalRolling 20s linear infinite;
+  animation: OriginalRolling 25s linear infinite;
 
   @keyframes OriginalRolling {
     0% {
@@ -34,7 +34,7 @@ export const CardContainerClone1 = styled.div`
   display: flex;
   margin: 0px;
 
-  animation: CloneRolling 20s linear infinite;
+  animation: CloneRolling 25s linear infinite;
 
   @keyframes CloneRolling {
     0% {
@@ -50,7 +50,7 @@ export const CardContainerOriginal2 = styled.div`
   display: flex;
   margin: 0px;
 
-  animation: OriginalRolling 20s linear reverse infinite;
+  animation: OriginalRolling 25s linear reverse infinite;
 
   @keyframes OriginalRolling {
     0% {
@@ -72,7 +72,7 @@ export const CardContainerClone2 = styled.div`
   display: flex;
   margin: 0px;
 
-  animation: CloneRolling 20s linear reverse infinite;
+  animation: CloneRolling 25s linear reverse infinite;
 
   @keyframes CloneRolling {
     0% {
