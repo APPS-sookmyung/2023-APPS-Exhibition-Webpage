@@ -43,15 +43,17 @@ const ProjectPage = () => {
         <S.ButtonContainer>
           <S.StyledButton>
             <Link to="/your-link-path" style={{ textDecoration: 'none' }}>
-              <S.Icon style={{ color: '#333D4B' }}>🔗</S.Icon>
+              <S.Icon>
+                <img src="images/stackIcon/Btn.png" alt="Link Icon" style={{ width: '30px', height: '30px', fill: '#333D4B' }} />
+              </S.Icon>
               <S.Text>Link</S.Text>
             </Link>
           </S.StyledButton>
 
           <S.StyledButton>
-            <Link to="https://github.com/APPS-sookmyung/2023-COOKIEE-client-react" style={{ textDecoration: 'none' }}>
-              <FontAwesomeIcon icon={faGithub} size="2x" />
-              <S.Text>Github</S.Text>
+            <Link to="https://github.com/APPS-sookmyung/2023-COOKIEE-client-react" >
+              <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
+              <S.Text> Github</S.Text>
             </Link>
           </S.StyledButton>
         </S.ButtonContainer>

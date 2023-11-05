@@ -41,6 +41,11 @@ export const StyledButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  a {
+    color: #333D4B;
+    text-decoration: none;
+  }
 `;
 
 export const Icon = styled.span`
