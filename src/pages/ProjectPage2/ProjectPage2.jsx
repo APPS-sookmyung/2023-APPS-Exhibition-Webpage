@@ -1,5 +1,5 @@
 import { PageLayout, Header } from '../../components';
-import * as S from './ProjectPage.style';
+import * as S from './ProjectPage2.style';
 import { Link } from 'react-router-dom';
 
 import YouTube from 'react-youtube';
@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
-const ProjectPage = () => {
+const ProjectPage2 = () => {
   return (
     <PageLayout
       header={<Header />}
@@ -34,10 +34,10 @@ const ProjectPage = () => {
 
       <S.Project>
         <S.ProjectName>
-          Cookiee-
+          Pochak
         </S.ProjectName>
         <S.ProjectSummary>
-          하루하루의 쿠키를 모아보세요!
+          남이 만들어주는 SNS
         </S.ProjectSummary>
 
         <S.ButtonContainer>
@@ -99,7 +99,7 @@ const ProjectPage = () => {
             <S.CircleImage>
               <S.CircleForSpace>
                 <S.StackImage src="/images/member/kyungminseo.png"/>
-                <S.StackDescription>경민서</S.StackDescription>
+                <S.StackDescription>김다연</S.StackDescription>
                 <S.MemberDescription>Front-end</S.MemberDescription>
               </S.CircleForSpace>
             </S.CircleImage>
@@ -107,7 +107,7 @@ const ProjectPage = () => {
             <S.CircleImage>
               <S.CircleForSpace>
                 <S.StackImage src="/images/member/yoonseohee.jpg"/>
-                <S.StackDescription>윤서희</S.StackDescription>
+                <S.StackDescription>오지수</S.StackDescription>
                 <S.MemberDescription>Front-end</S.MemberDescription>
               </S.CircleForSpace>
             </S.CircleImage>
@@ -115,7 +115,7 @@ const ProjectPage = () => {
             <S.CircleImage>
               <S.CircleForSpace>
                 <S.StackImage src="/images/member/yoonseohee.jpg"/>
-                <S.StackDescription>황수연</S.StackDescription>
+                <S.StackDescription>하고은</S.StackDescription>
                 <S.MemberDescription>Back-end</S.MemberDescription>
               </S.CircleForSpace>
             </S.CircleImage>
@@ -125,7 +125,7 @@ const ProjectPage = () => {
                 <S.CrownImage src="/images/member/crown.png" alt="Crown" />
                 <S.CircleForSpace>
                   <S.StackImage src="/images/member/joyoungseo.png"/>
-                  <S.StackDescription>조영서</S.StackDescription>
+                  <S.StackDescription>황수연</S.StackDescription>
                   <S.MemberDescription>Back-end</S.MemberDescription>
                 </S.CircleForSpace>
               </S.CrownContainer>
@@ -140,4 +140,4 @@ const ProjectPage = () => {
   );
 };
 
-export default ProjectPage;
+export default ProjectPage2;
