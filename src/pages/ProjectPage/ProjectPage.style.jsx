@@ -16,22 +16,23 @@ export const Project = styled.div`
 
 export const ProjectName = styled.div`
   display: flex;
-  font-size: 35px;
-  font-weight: 800;
+  font-size: 60px;
+  font-weight: 900;
   margin-bottom: 30px;
 `;
 
 export const ProjectSummary = styled.div`
   display: flex;
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 60px;
 `;
 
 export const StyledButton = styled.button`
   background-color: ${Colors.white};
   color: black;
-  width: 100px;
-  height: 40px;
+  width: 181px;
+  height: 68px;
   border: none;
   border-radius: 10px;
   margin-top: 20px;
@@ -43,11 +44,11 @@ export const StyledButton = styled.button`
 `;
 
 export const Icon = styled.span`
-  font-size: 15px;
+  font-size: 30px;
 `;
 
 export const Text = styled.span`
-  font-size: 15px;
+  font-size: 30px;
   padding-left: 5px;
 `;
 
@@ -58,17 +59,16 @@ export const ButtonContainer = styled.div`
 `;
 
 export const DescriptionTitle = styled.div`
-  margin-top: 20px;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 800;
 `;
 
 export const DescriptionDetail = styled.div`
-  margin-top: 20px;
+  margin-top: 30px;
   line-height: 1.7;
-  font-size: 17px;
-  font-weight: 500;
-  margin-bottom: 45px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 70px;
 `;
 
 export const CrownContainer = styled.div`
@@ -79,8 +79,8 @@ export const CrownContainer = styled.div`
 export const CircleImage = styled.div`
   margin-top: 20px;
   margin-right: 20px;
-  width: 80px;
-  height: 80px;
+  width: 115px;
+  height: 115px;
   background-color: white;
   border-radius: 50%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -97,32 +97,37 @@ export const StackImage = styled.img`
 `;
 
 export const CrownImage = styled.img`
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 30px;
   position: absolute;
   z-index: 2;
 `;
 
 export const StackDescription = styled.div`
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center;
-  font-size: 13px;
+  font-size: 20px;
 `;
 
 export const MemberDescription = styled.div`
-  margin-top: 10px;
   text-align: center;
-  font-size: 12px;
+  font-size: 20px;
   color: ${Colors.grey};
 `;
 
 export const ImageForSpace = styled.div`
+  margin-top: 35px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 `;
 
 export const CircleForSpace = styled.div`
   display: flex;
   flex-direction: column;
+`;
+
+export const ForSpace = styled.div`
+  diplay: flex;
+  margin-bottom: 70px;
 `;

@@ -17,8 +17,8 @@ const ProjectPage = () => {
         <YouTube
           videoId="28qM1WwLsRo" // 동영상 뒤에 id 주소
           opts={{
-            width: "853px",
-            height: "480px",
+            width: "896px",
+            height: "476px",
             playerVars: {
               autoplay: 1, // 자동 재생 여부 
               modestbranding: 1, // 컨트롤 바에 유튜브 로고 표시 여부
@@ -43,20 +43,20 @@ const ProjectPage = () => {
         <S.ButtonContainer>
           <S.StyledButton>
             <Link to="/your-link-path" style={{ textDecoration: 'none' }}>
-              <S.Icon>🔗</S.Icon>
+              <S.Icon style={{ color: '#333D4B' }}>🔗</S.Icon>
               <S.Text>Link</S.Text>
             </Link>
           </S.StyledButton>
 
           <S.StyledButton>
             <Link to="https://github.com/APPS-sookmyung/2023-COOKIEE-client-react" style={{ textDecoration: 'none' }}>
-              <FontAwesomeIcon icon={faGithub} size="lg" />
+              <FontAwesomeIcon icon={faGithub} size="2x" />
               <S.Text>Github</S.Text>
             </Link>
           </S.StyledButton>
         </S.ButtonContainer>
         
-        <div style={{ width: '100%', borderTop: '2px solid #ffffff', margin: '20px 0' }}></div>
+        <div style={{ width: '100%', borderTop: '2px solid #ffffff', margin: '50px 0' }}></div>
 
         <S.DescriptionTitle>
           서비스 설명
@@ -90,7 +90,7 @@ const ProjectPage = () => {
             </S.CircleImage>
           </S.ImageForSpace>
         </S.DescriptionTitle>
-
+        <S.ForSpace></S.ForSpace>
         <S.DescriptionTitle>
           참여한 개발자
           <S.ImageForSpace>
@@ -131,6 +131,7 @@ const ProjectPage = () => {
 
           </S.ImageForSpace>
         </S.DescriptionTitle>
+        <S.ForSpace></S.ForSpace>
       </S.Project>
 
     </PageLayout>
