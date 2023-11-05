@@ -6,7 +6,7 @@ export default function MemberCard() {
     <>
       <S.Container>
         <S.CardContainerOriginal1>
-          {memberList.slice(0, 12).map((member, index) => (
+          {memberList.slice(0, 11).map((member, index) => (
             <S.Card key={index}>
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
@@ -44,7 +44,7 @@ export default function MemberCard() {
       </S.Container>
       <S.Container>
         <S.CardContainerOriginal2>
-          {memberList.slice(12, 23).map((member, index) => (
+          {memberList.slice(12, 22).map((member, index) => (
             <S.Card key={index}>
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
