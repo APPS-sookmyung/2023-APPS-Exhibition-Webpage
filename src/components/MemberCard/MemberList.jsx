@@ -54,12 +54,7 @@ const memberList = [
     major: 'Software Convergence 22',
     position: null,
   },
-  {
-    memberImg: '/images/member/kyungminseo.png',
-    name: '정나윤',
-    major: 'Software Convergence 22',
-    position: null,
-  },
+
   {
     memberImg: '/images/member/kyungminseo.png',
     name: '최서윤',
