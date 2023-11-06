@@ -140,8 +140,9 @@ export const Name = styled.p`
   display: flex;
   justify-content: center;
   align-content: center;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 5px;
   color: ${Colors.white};
 `;
 
@@ -149,7 +150,6 @@ export const Major = styled.p`
   display: flex;
   justify-content: center;
   align-content: center;
-
   font-size: 15px;
   width: 230px;
   color: ${Colors.white};

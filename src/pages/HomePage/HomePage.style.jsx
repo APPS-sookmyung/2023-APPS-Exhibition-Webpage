@@ -59,27 +59,28 @@ export const MessageSectionInner = styled(SectionInner)`
 
 export const SectionTitle = styled.h2`
   font-size: 60px;
-  font-weight: 800;
+  font-weight: 700;
   text-align: center;
+  line-height: 1.4;
   color: ${Colors.white};
-  line-height: normal;
   white-space: pre-wrap;
 `;
 
 export const SectionSubTitle = styled.h3`
-  font-size: 50px;
-  font-weight: 800;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
   text-align: center;
   color: ${Colors.white};
-  line-height: normal;
+  line-height: 1.4;
   white-space: pre-wrap;
 `;
 
 export const SectionDescription = styled.p`
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 500;
   text-align: center;
-  line-height: normal;
+  line-height: 1.4;
   color: ${Colors.grey};
 `;
 

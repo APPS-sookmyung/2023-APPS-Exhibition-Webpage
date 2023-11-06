@@ -26,7 +26,7 @@ const PROJECT_CATEGORY_LIST = [
       },
       {
         id: 4,
-        name: 'APPS check',
+        name: 'APPS Check',
         memberNameList: ['류미성', '신진영', '이채은'],
         imageUrl: '/images/projects/img-project-1.png',
       },

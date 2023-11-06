@@ -35,11 +35,11 @@ export const SectionInner = styled.div`
 `;
 
 export const SectionTitle = styled.h2`
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   color: #ffffff;
   text-align: center;
   font-size: 60px;
-  font-weight: 800;
+  font-weight: 700;
 `;
 
 export const SectionNav = styled.nav`
@@ -55,16 +55,16 @@ export const SectionNavItem = styled.a`
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 230px;
-  height: 60px;
-  padding: 0 14px;
-  border-radius: 20px;
+  max-width: 200px;
+  height: 50px;
+  padding: 14px;
+  border-radius: 50px;
   background-color: #ffffff;
 
   & > span {
     color: #333d4b;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 22px;
+    font-weight: 700;
     text-align: center;
   }
 `;
@@ -83,8 +83,8 @@ export const ProjectCategoryItemTitle = styled.h3`
   margin-bottom: 40px;
   color: #ffffff;
   text-align: center;
-  font-size: 50px;
-  font-weight: 800;
+  font-size: 48px;
+  font-weight: 700;
 `;
 
 export const ProjectCardList = styled.ul`
@@ -103,8 +103,8 @@ export const ProjectCategoryItemLink = styled.a`
   justify-content: space-between;
   position: relative;
   width: 100%;
-  height: 310px;
-  padding: 40px 30px 20px;
+  height: 290px;
+  padding: 32px 40px;
   background: linear-gradient(118deg, #351068 0%, #180038 100%);
   border-radius: 20px;
 `;
@@ -112,8 +112,8 @@ export const ProjectCategoryItemLink = styled.a`
 export const ProjectName = styled.h4`
   z-index: 1;
   color: #ffffff;
-  font-size: 60px;
-  font-weight: 800;
+  font-size: 32px;
+  font-weight: 700;
 `;
 
 export const ProjectMemberList = styled.ul`
@@ -123,8 +123,8 @@ export const ProjectMemberList = styled.ul`
 
 export const ProjectMemberItem = styled.li`
   color: #ffffff;
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 18px;
+  /* font-weight: 700; */
 
   &:not(:last-of-type) {
     &::after {
@@ -136,8 +136,8 @@ export const ProjectMemberItem = styled.li`
 
 export const ProjectImage = styled.img`
   position: absolute;
-  right: 10px;
-  bottom: 50px;
-  height: 180px;
+  right: 30px;
+  bottom: 70px;
+  height: 150px;
   z-index: 0;
 `;

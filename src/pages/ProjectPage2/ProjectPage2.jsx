@@ -6,7 +6,6 @@ import YouTube from 'react-youtube';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-
 const ProjectPage2 = () => {
   return (
     <PageLayout
@@ -17,13 +16,13 @@ const ProjectPage2 = () => {
         <YouTube
           videoId="28qM1WwLsRo" // 동영상 뒤에 id 주소
           opts={{
-            width: "896px",
-            height: "476px",
+            width: '896px',
+            height: '476px',
             playerVars: {
-              autoplay: 1, // 자동 재생 여부 
+              autoplay: 1, // 자동 재생 여부
               modestbranding: 1, // 컨트롤 바에 유튜브 로고 표시 여부
               loop: 1, // 반복 재생
-              playlist: "28qM1WwLsRo", // 반복 재생으로 재생할 플레이 리스트
+              playlist: '28qM1WwLsRo', // 반복 재생으로 재생할 플레이 리스트
             },
           }}
           onReady={(e) => {
@@ -33,45 +32,41 @@ const ProjectPage2 = () => {
       </S.Centered>
 
       <S.Project>
-        <S.ProjectName>
-          Pochak
-        </S.ProjectName>
-        <S.ProjectSummary>
-          남이 만들어주는 SNS
-        </S.ProjectSummary>
+        <S.ProjectName>Pochak</S.ProjectName>
+        <S.ProjectSummary>남이 만들어주는 SNS</S.ProjectSummary>
 
         <S.ButtonContainer>
           <S.StyledButton>
             <Link to="/your-link-path" style={{ textDecoration: 'none' }}>
               <S.Icon>
-                <img src="/images/stackIcon/Btn.png" alt="Link Icon" style={{ width: '30px', height: '30px', fill: '#333D4B' }} />
+                <img
+                  src="/images/stackIcon/Btn.png"
+                  alt="Link Icon"
+                  style={{ width: '30px', height: '30px', fill: '#333D4B' }}
+                />
               </S.Icon>
               <S.Text>Link</S.Text>
             </Link>
           </S.StyledButton>
 
           <S.StyledButton>
-            <Link to="https://github.com/APPS-sookmyung/2023-COOKIEE-client-react" >
+            <Link to="https://github.com/APPS-sookmyung/2023-COOKIEE-client-react">
               <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
               <S.Text> Github</S.Text>
             </Link>
           </S.StyledButton>
         </S.ButtonContainer>
-        
+
         <div style={{ width: '100%', borderTop: '2px solid #ffffff', margin: '50px 0' }}></div>
 
-        <S.DescriptionTitle>
-          서비스 설명
-        </S.DescriptionTitle>
+        <S.DescriptionTitle>서비스 설명</S.DescriptionTitle>
         <S.DescriptionDetail>
-          우리의 서비스는 <br/> 블라블라
+          우리의 서비스는 <br /> 블라블라
         </S.DescriptionDetail>
 
-        <S.DescriptionTitle>
-          기획의도
-        </S.DescriptionTitle>
+        <S.DescriptionTitle>기획의도</S.DescriptionTitle>
         <S.DescriptionDetail>
-          우리의 기획의도는 <br/> 블라블라
+          우리의 기획의도는 <br /> 블라블라
         </S.DescriptionDetail>
 
         <S.DescriptionTitle>
@@ -98,7 +93,7 @@ const ProjectPage2 = () => {
           <S.ImageForSpace>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/member/kyungminseo.png"/>
+                <S.StackImage src="/images/member/kyungminseo.png" />
                 <S.StackDescription>김다연</S.StackDescription>
                 <S.MemberDescription>Front-end</S.MemberDescription>
               </S.CircleForSpace>
@@ -106,7 +101,7 @@ const ProjectPage2 = () => {
 
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/member/yoonseohee.jpg"/>
+                <S.StackImage src="/images/member/yoonseohee.jpg" />
                 <S.StackDescription>오지수</S.StackDescription>
                 <S.MemberDescription>Front-end</S.MemberDescription>
               </S.CircleForSpace>
@@ -114,7 +109,7 @@ const ProjectPage2 = () => {
 
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/member/yoonseohee.jpg"/>
+                <S.StackImage src="/images/member/yoonseohee.jpg" />
                 <S.StackDescription>하고은</S.StackDescription>
                 <S.MemberDescription>Back-end</S.MemberDescription>
               </S.CircleForSpace>
@@ -124,18 +119,16 @@ const ProjectPage2 = () => {
               <S.CrownContainer>
                 <S.CrownImage src="/images/member/crown.png" alt="Crown" />
                 <S.CircleForSpace>
-                  <S.StackImage src="/images/member/joyoungseo.png"/>
+                  <S.StackImage src="/images/member/joyoungseo.png" />
                   <S.StackDescription>황수연</S.StackDescription>
                   <S.MemberDescription>Back-end</S.MemberDescription>
                 </S.CircleForSpace>
               </S.CrownContainer>
             </S.CircleImage>
-
           </S.ImageForSpace>
         </S.DescriptionTitle>
         <S.ForSpace></S.ForSpace>
       </S.Project>
-
     </PageLayout>
   );
 };

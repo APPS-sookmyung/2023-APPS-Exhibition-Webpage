@@ -18,6 +18,7 @@ export const FooterInner = styled.div`
 export const InfoList = styled.ul`
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
   gap: 28px;
 `;
 
