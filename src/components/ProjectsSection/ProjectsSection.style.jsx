@@ -18,12 +18,30 @@ export const Background = styled.div`
 
 export const TopBackground = styled(Background)`
   top: 0;
-  background-image: url('/images/home/img-projects-section-top-background.png');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(13, 13, 13, 1) 0%,
+      rgba(13, 13, 13, 0.5) 10%,
+      rgba(13, 13, 13, 0) 30%,
+      rgba(13, 13, 13, 0) 70%,
+      rgba(13, 13, 13, 0.5) 80%,
+      rgba(13, 13, 13, 1) 100%
+    ),
+    url('/images/home/img-projects-section-top-background.png');
+  background-size: cover;
 `;
 
 export const BottomBackground = styled(Background)`
   bottom: 0;
-  background-image: url('/images/home/img-projects-section-bottom-background.png');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(13, 13, 13, 1) 0%,
+      rgba(13, 13, 13, 0.2) 40%,
+      rgba(13, 13, 13, 0) 70%,
+      rgba(13, 13, 13, 0) 80%,
+      rgba(13, 13, 13, 0) 100%
+    ),
+    url('/images/home/img-projects-section-bottom-background.png');
 `;
 
 export const SectionInner = styled.div`
