@@ -78,7 +78,7 @@ export const SectionSubTitle = styled.h3`
 
 export const SectionDescription = styled.p`
   font-size: 28px;
-  font-weight: 500;
+  /* font-weight: 500; */
   text-align: center;
   line-height: 1.4;
   color: ${Colors.grey};
