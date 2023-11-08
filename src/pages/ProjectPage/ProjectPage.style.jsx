@@ -3,29 +3,31 @@ import styled from '@emotion/styled';
 
 export const Centered = styled.div`
   display: flex;
-  /* max-width: 150px; */
+  /* max-width: 500px; */
   justify-content: center;
   margin-top: 116px;
 `;
 
 export const Project = styled.div`
   display: flex;
+  width: 100%;
+  max-width: 900px;
   flex-direction: column;
-  padding: 30px 250px;
+  margin: 0 auto;
+  padding: 30px;
   color: ${Colors.white};
 `;
 
 export const ProjectName = styled.div`
   display: flex;
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 30px;
 `;
 
 export const ProjectSummary = styled.div`
   display: flex;
   font-size: 22px;
-  font-weight: 400;
   margin-bottom: 30px;
 `;
 
