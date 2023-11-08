@@ -1,14 +1,30 @@
-.slide-in {
-  transform: translateX(0) !important;
-  opacity: 1 !important;
-  animation: anim 3s normal linear;
+.anim.tada {
+  animation: tada 15s linear infinite;
 }
 
-@keyframes anim {
+.anim {
+  background: #7de2fc linear-gradient(-225deg, #7de2fc 0%, #b9b6e5 100%);
+}
+
+@keyframes tada {
   0% {
+    transform: translateX(0);
+  }
+  50% {
     transform: translateX(-100%);
   }
   100% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
+}
+
+.scroll-text {
+  font-size: 5rem;
+  transition: 1.5s;
+}
+
+.scrolled-text {
+  font-size: 5rem;
+  background-color: red;
+  transition: 1.5s;
 }

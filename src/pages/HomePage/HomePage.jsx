@@ -7,41 +7,24 @@ import {
   ProjectsSection,
 } from '../../components';
 import * as S from './HomePage.style';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 import './HomePage.css';
 
 const HomePage = () => {
-  const useElementOnScreen = (options) => {
-    const containerRef = useRef(null);
-    const [inVisible, setIsVisible] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
-    const callbackFunction = (entries) => {
-      const [entry] = entries;
-      setIsVisible(entry.isIntersecting);
-    };
-
-    useEffect(() => {
-      const observer = new IntersectionObserver(callbackFunction, options);
-      if (containerRef.current) observer.observe(containerRef.current);
-
-      return () => {
-        if (containerRef.current) observer.unobserve(containerRef.current);
-      };
-    }, [containerRef, options]);
-
-    return [containerRef, inVisible];
+  const updateScroll = () => {
+    setScrollPosition(window.scrollY || document.documentElement.scrollTop);
   };
 
-  const [containerRef, isVisible] = useElementOnScreen({
-    root: null,
-    rootMargin: '0px',
-    threshold: 1.0,
-  });
+  useEffect(() => {
+    window.addEventListener('scroll', updateScroll);
+  }, []);
+
   return (
     <PageLayout header={<Header />} footer={<Footer />}>
-      <div>{isVisible ? 'visible' : 'invisible'}</div>
-      <S.Container ref={containerRef}>
+      <S.Container>
         <S.MainSection>
           <S.MainSectionInner>
             <S.MainSectionTitle>
@@ -54,18 +37,18 @@ const HomePage = () => {
         </S.MainSection>
 
         <S.MessageSection>
-          <S.MessageSectionInner>
-            <S.SectionTitle className="anim">
+          <S.MessageSectionInner className={scrollPosition > 100 ? 'scroll-text' : 'scrolled-text'}>
+            <S.SectionTitle>
               {'APPS는 개인과 공동체를 위한\n도전을 멈추지 않습니다.'}
             </S.SectionTitle>
-            <S.SectionDescription className="anim">
-              프로젝트는 아래에서 확인할 수 있습니다.
-            </S.SectionDescription>
+            <S.SectionDescription>프로젝트는 아래에서 확인할 수 있습니다.</S.SectionDescription>
           </S.MessageSectionInner>
         </S.MessageSection>
 
         <S.AboutAppsSection>
-          <S.AboutAppsSectionInner>
+          <S.AboutAppsSectionInner
+            className={scrollPosition > 200 ? 'scroll-text' : 'scrolled-text'}
+          >
             <S.SectionTitle className="anim">{'APPS 소개'}</S.SectionTitle>
             <S.SectionDescription className="anim">
               APPS는 모바일 앱&웹 프로그래밍 동아리로,
