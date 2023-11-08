@@ -95,11 +95,13 @@ export const Card = styled.div`
   border-radius: 5%;
   background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 `;
 
 export const Crown = styled.img`
   width: 30px;
+  position: relative;
+  z-index: 10;
 `;
 
 export const CrownContainer = styled.div`
@@ -111,6 +113,7 @@ export const CrownContainer = styled.div`
   left: 50%;
   right: 50%;
   bottom: 295px;
+  z-index: 5;
 `;
 
 export const ImgConainer = styled.div`
