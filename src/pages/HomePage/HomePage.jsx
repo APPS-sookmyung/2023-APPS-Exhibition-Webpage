@@ -39,19 +39,8 @@ const HomePage = () => {
 
         <S.AboutAppsSection>
           <S.AboutAppsSectionInner>
-
-            <S.SectionTitle id="aboutApps">{'APPS 소개'}</S.SectionTitle>
-            <S.SectionDescription>
-              APPS는 모바일 앱&웹 프로그래밍 동아리로,
-              <br /> 기술과 아이디어를 통해 프로젝트를 진행하며
-              <br />
-              개발 능력을 향상시키고 커뮤니티 내에서 성장합니다.
-              <br />
-              활발한 소통과 피드백을 통해 개인과 공동체 발전을 촉진합니다.
-            </S.SectionDescription>
-
             <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
-              <S.SectionTitle>{'APPS 소개'}</S.SectionTitle>
+              <S.SectionTitle id="aboutApps">{'APPS 소개'}</S.SectionTitle>
               <S.SectionDescription>
                 APPS는 모바일 앱&웹 프로그래밍 동아리로,
                 <br /> 기술과 아이디어를 통해 프로젝트를 진행하며
@@ -61,7 +50,6 @@ const HomePage = () => {
                 활발한 소통과 피드백을 통해 개인과 공동체 발전을 촉진합니다.
               </S.SectionDescription>
             </AnimationOnScroll>
-
           </S.AboutAppsSectionInner>
         </S.AboutAppsSection>
 
