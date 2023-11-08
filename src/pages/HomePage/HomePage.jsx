@@ -11,16 +11,23 @@ import { useState, useEffect } from 'react';
 
 import './HomePage.css';
 
-const HomePage = () => {
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  const updateScroll = () => {
-    setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+const useScroll = () => {
+  const [state, setState] = useState({
+    x: 0,
+    y: 0,
+  });
+  const onScroll = () => {
+    setState({ y: window.scrollY, x: window.scrollX });
   };
-
   useEffect(() => {
-    window.addEventListener('scroll', updateScroll);
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
+  return state;
+};
+
+const HomePage = () => {
+  const { y } = useScroll();
 
   return (
     <PageLayout header={<Header />} footer={<Footer />}>
@@ -37,7 +44,7 @@ const HomePage = () => {
         </S.MainSection>
 
         <S.MessageSection>
-          <S.MessageSectionInner className={scrollPosition > 100 ? 'scroll-text' : 'scrolled-text'}>
+          <S.MessageSectionInner className={y > 2000 ? 'scroll-text' : 'scrolled-text'}>
             <S.SectionTitle>
               {'APPS는 개인과 공동체를 위한\n도전을 멈추지 않습니다.'}
             </S.SectionTitle>
@@ -46,9 +53,7 @@ const HomePage = () => {
         </S.MessageSection>
 
         <S.AboutAppsSection>
-          <S.AboutAppsSectionInner
-            className={scrollPosition > 200 ? 'scroll-text' : 'scrolled-text'}
-          >
+          <S.AboutAppsSectionInner className={y > 100 ? 'scroll-text' : 'scrolled-text'}>
             <S.SectionTitle className="anim">{'APPS 소개'}</S.SectionTitle>
             <S.SectionDescription className="anim">
               APPS는 모바일 앱&웹 프로그래밍 동아리로,
