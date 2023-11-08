@@ -1,0 +1,14 @@
+.slide-in {
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+  animation: anim 3s normal linear;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
