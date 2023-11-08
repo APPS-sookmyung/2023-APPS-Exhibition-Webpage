@@ -1,6 +1,9 @@
 import React from 'react';
 import * as S from './ProjectsSection.style';
 
+import 'animate.css/animate.min.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 const PROJECT_CATEGORY_LIST = [
   {
     id: 'app',
@@ -119,24 +122,28 @@ const ProjectsSection = () => {
           <S.ProjectCategoryList>
             {PROJECT_CATEGORY_LIST.map(({ id, title, projectList }) => (
               <S.ProjectCategoryItem key={id} id={id}>
-                <S.ProjectCategoryItemTitle>{title}</S.ProjectCategoryItemTitle>
+                <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
+                  <S.ProjectCategoryItemTitle>{title}</S.ProjectCategoryItemTitle>
+                </AnimationOnScroll>
                 {projectList.length > 0 && (
                   <S.ProjectCardList>
                     {projectList.map(({ id, name, memberNameList, imageUrl }) => (
                       <S.ProjectCardItem key={id}>
-                        <S.ProjectCategoryItemLink href={`/projects/${id}`}>
-                          <S.ProjectName>{name}</S.ProjectName>
-                          {memberNameList.length > 0 && (
-                            <S.ProjectMemberList>
-                              {memberNameList.map((memberName) => (
-                                <S.ProjectMemberItem key={memberName}>
-                                  {memberName}
-                                </S.ProjectMemberItem>
-                              ))}
-                            </S.ProjectMemberList>
-                          )}
-                          <S.ProjectImage src={imageUrl} />
-                        </S.ProjectCategoryItemLink>
+                        <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
+                          <S.ProjectCategoryItemLink href={`/projects/${id}`}>
+                            <S.ProjectName>{name}</S.ProjectName>
+                            {memberNameList.length > 0 && (
+                              <S.ProjectMemberList>
+                                {memberNameList.map((memberName) => (
+                                  <S.ProjectMemberItem key={memberName}>
+                                    {memberName}
+                                  </S.ProjectMemberItem>
+                                ))}
+                              </S.ProjectMemberList>
+                            )}
+                            <S.ProjectImage src={imageUrl} />
+                          </S.ProjectCategoryItemLink>
+                        </AnimationOnScroll>
                       </S.ProjectCardItem>
                     ))}
                   </S.ProjectCardList>
