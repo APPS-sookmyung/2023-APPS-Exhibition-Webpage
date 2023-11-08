@@ -3,8 +3,9 @@ import styled from '@emotion/styled';
 
 export const Centered = styled.div`
   display: flex;
+  /* max-width: 150px; */
   justify-content: center;
-  margin-top: 116px; 
+  margin-top: 116px;
 `;
 
 export const Project = styled.div`
@@ -16,26 +17,26 @@ export const Project = styled.div`
 
 export const ProjectName = styled.div`
   display: flex;
-  font-size: 60px;
-  font-weight: 900;
+  font-size: 48px;
+  font-weight: 800;
   margin-bottom: 30px;
 `;
 
 export const ProjectSummary = styled.div`
   display: flex;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 400;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 `;
 
 export const StyledButton = styled.button`
   background-color: ${Colors.white};
   color: black;
-  width: 181px;
-  height: 68px;
+  width: 130px;
+  height: 50px;
   border: none;
   border-radius: 10px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-right: 20px;
   text-align: center;
   display: flex;
@@ -43,7 +44,7 @@ export const StyledButton = styled.button`
   justify-content: center;
 
   a {
-    color: #333D4B;
+    color: #333d4b;
     text-decoration: none;
   }
 `;
@@ -53,27 +54,28 @@ export const Icon = styled.span`
 `;
 
 export const Text = styled.span`
-  font-size: 30px;
+  font-size: 18px;
   padding-left: 5px;
 `;
 
 export const ButtonContainer = styled.div`
   display: flex;
   flex-direction: row;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 `;
 
-export const DescriptionTitle = styled.div`
-  font-size: 40px;
-  font-weight: 800;
+export const DevDescription = styled.div``;
+
+export const DevDescriptionTitle = styled.h3`
+  font-size: 32px;
+  font-weight: 700;
 `;
 
-export const DescriptionDetail = styled.div`
-  margin-top: 30px;
-  line-height: 1.7;
-  font-size: 30px;
-  font-weight: 400;
-  margin-bottom: 70px;
+export const DevDescriptionDetail = styled.div`
+  margin-top: 20px;
+  line-height: 1.4;
+  font-size: 22px;
+  margin-bottom: 50px;
 `;
 
 export const CrownContainer = styled.div`
@@ -82,7 +84,7 @@ export const CrownContainer = styled.div`
 `;
 
 export const CircleImage = styled.div`
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-right: 20px;
   width: 115px;
   height: 115px;
@@ -109,19 +111,19 @@ export const CrownImage = styled.img`
 `;
 
 export const StackDescription = styled.div`
-  margin-top: 20px;
+  margin-top: 18px;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
 `;
 
 export const MemberDescription = styled.div`
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   color: ${Colors.grey};
 `;
 
 export const ImageForSpace = styled.div`
-  margin-top: 35px;
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   margin-bottom: 70px;
@@ -134,5 +136,5 @@ export const CircleForSpace = styled.div`
 
 export const ForSpace = styled.div`
   diplay: flex;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 `;

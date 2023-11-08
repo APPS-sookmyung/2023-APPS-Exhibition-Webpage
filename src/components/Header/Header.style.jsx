@@ -10,6 +10,7 @@ export const Header = styled.header`
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
   z-index: 10;
+  /* top: 0; 섹션 위에 고정 */
 `;
 
 export const Inner = styled.div`
@@ -39,6 +40,6 @@ export const NavItem = styled.a`
   transition: font-weight 0.1s ease;
 
   &:hover {
-    font-weight: 800;
+    font-weight: 700;
   }
 `;

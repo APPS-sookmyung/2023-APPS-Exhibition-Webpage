@@ -2,13 +2,13 @@ import styled from '@emotion/styled';
 
 export const Section = styled.section`
   position: relative;
-  padding: 165px 0 400px;
+  padding: 200px 0;
 `;
 
 export const Background = styled.div`
   display: block;
   position: absolute;
-  opacity: 0.2;
+  opacity: 0.3;
   width: 100%;
   height: 500px;
   background-position: top 50% left 50%;
@@ -64,7 +64,7 @@ export const SectionNav = styled.nav`
   display: flex;
   justify-content: space-around;
   width: 100%;
-  gap: 60px;
+  /* gap: 60px; */
   margin-bottom: 150px;
 `;
 
@@ -78,12 +78,19 @@ export const SectionNavItem = styled.a`
   padding: 14px;
   border-radius: 50px;
   background-color: #ffffff;
+  opacity: 0.7; /* 버튼의 기본 투명도 설정 */
+  transition: opacity 0.3s; /* 마우스 호버 시 투명도 전환을 부드럽게 만듭니다. */
 
   & > span {
     color: #333d4b;
     font-size: 22px;
     font-weight: 700;
     text-align: center;
+  }
+
+  /* 마우스 호버 시 투명도 조절 */
+  &:hover {
+    opacity: 1;
   }
 `;
 

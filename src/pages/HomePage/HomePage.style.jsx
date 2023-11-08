@@ -20,7 +20,8 @@ export const SectionInner = styled.div`
 export const MainSection = styled.section`
   width: 100%;
   height: 100vh;
-  background-image: url('/images/home/img-home-main-background.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('/images/home/img-home-main-background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top 50% left 50%;
@@ -80,7 +81,7 @@ export const SectionDescription = styled.p`
   font-size: 28px;
   /* font-weight: 500; */
   text-align: center;
-  line-height: 1.4;
+  line-height: 1.3;
   color: ${Colors.grey};
 `;
 

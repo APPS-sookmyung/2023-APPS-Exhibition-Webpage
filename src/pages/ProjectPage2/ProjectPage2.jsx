@@ -59,18 +59,24 @@ const ProjectPage2 = () => {
 
         <div style={{ width: '100%', borderTop: '2px solid #ffffff', margin: '50px 0' }}></div>
 
-        <S.DescriptionTitle>서비스 설명</S.DescriptionTitle>
-        <S.DescriptionDetail>
-          우리의 서비스는 <br /> 블라블라
-        </S.DescriptionDetail>
+        <S.DevDescriptionTitle>서비스 설명</S.DevDescriptionTitle>
+        <S.DevDescriptionDetail>
+          리액트는 메타에서 개발한 오픈 소스 자바스크립트 라이브러리. 프론트엔드 개발자 사이에서
+          AngularJS, Vue.js와 더불어 많은 인기를 얻고 있다. GitHub Star 수와 npm 패키지 다운로드
+          수는 React가 가장 많다. SPA을 전제로 하고 있으며, Dirty checking과 Virtual DOM을 활용하여
+          업데이트 해야하는 DOM 요소를 찾아서 해당 부분만 업데이트하기 때문에, 리렌더링이 잦은
+          동적인 모던 웹에서 엄청나게 빠른 퍼포먼스를 내는게 가능하다.
+        </S.DevDescriptionDetail>
 
-        <S.DescriptionTitle>기획의도</S.DescriptionTitle>
-        <S.DescriptionDetail>
-          우리의 기획의도는 <br /> 블라블라
-        </S.DescriptionDetail>
+        <S.DevDescriptionTitle>기획의도</S.DevDescriptionTitle>
+        <S.DevDescriptionDetail>
+          자바스크립트는 ‘웹페이지에 생동감을 불어넣기 위해’ 만들어진 프로그래밍 언어입니다.
+          자바스크립트로 작성한 프로그램을 스크립트(script) 라고 부릅니다. 스크립트는 웹페이지의
+          HTML 안에 작성할 수 있는데, 웹페이지를 불러올 때 스크립트가 자동으로 실행됩니다.
+        </S.DevDescriptionDetail>
 
-        <S.DescriptionTitle>
-          기술 스택
+        <S.DevDescriptionTitle>
+          <S.DevDescriptionTitle>기술 스택</S.DevDescriptionTitle>
           <S.ImageForSpace>
             <S.CircleImage>
               <S.CircleForSpace>
@@ -78,7 +84,6 @@ const ProjectPage2 = () => {
                 <S.StackDescription>Spring Boot</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>
-
             <S.CircleImage>
               <S.CircleForSpace>
                 <S.StackImage src="/images/stackIcon/ReactNative.png" alt="React Native" />
@@ -86,9 +91,9 @@ const ProjectPage2 = () => {
               </S.CircleForSpace>
             </S.CircleImage>
           </S.ImageForSpace>
-        </S.DescriptionTitle>
+        </S.DevDescriptionTitle>
         <S.ForSpace></S.ForSpace>
-        <S.DescriptionTitle>
+        <S.DevDescriptionTitle>
           참여한 개발자
           <S.ImageForSpace>
             <S.CircleImage>
@@ -126,7 +131,7 @@ const ProjectPage2 = () => {
               </S.CrownContainer>
             </S.CircleImage>
           </S.ImageForSpace>
-        </S.DescriptionTitle>
+        </S.DevDescriptionTitle>
         <S.ForSpace></S.ForSpace>
       </S.Project>
     </PageLayout>

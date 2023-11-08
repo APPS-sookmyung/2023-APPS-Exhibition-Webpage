@@ -31,7 +31,7 @@ export const InfoItem = styled.li`
 export const InfoTitle = styled.h3`
   color: #b0b8c1;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
 `;
 
 export const InfoContentList = styled.ul`
@@ -51,9 +51,10 @@ export const InfoContentItem = styled.li`
 export const Content = styled.span`
   color: #6b7684;
   font-size: 16px;
-  font-weight: 400;
 `;
 
 export const InfoContent = styled(Content)``;
 
-export const Copyright = styled(Content)``;
+export const Copyright = styled(Content)`
+  font-weight: bold;
+`;
