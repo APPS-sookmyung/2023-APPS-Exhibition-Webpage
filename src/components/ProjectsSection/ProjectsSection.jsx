@@ -106,7 +106,7 @@ const ProjectsSection = () => {
       <S.TopBackground />
       <S.BottomBackground />
       <S.SectionInner>
-        <S.SectionTitle>프로젝트 소개</S.SectionTitle>
+        <S.SectionTitle id="projectsSection">프로젝트 소개</S.SectionTitle>
         <S.SectionNav>
           {PROJECT_CATEGORY_LIST.map(({ id, title }) => (
             <S.SectionNavItem key={id} href={`#${id}`}>
