@@ -12,41 +12,36 @@ import { useState, useRef, useEffect } from 'react';
 import './HomePage.css';
 
 const HomePage = () => {
-  // eslint-disable-next-line no-unused-vars
-  const [isIntersecting, setIsIntersecting] = useState(false);
+  const useElementOnScreen = (options) => {
+    const containerRef = useRef(null);
+    const [inVisible, setIsVisible] = useState(false);
 
-  const ref = useRef(null);
-
-  const callbackFunction = (entries) => {
-    const [entry] = entries;
-    setIsIntersecting(entry.isIntersecting);
-  };
-
-  const options = {
-    root: null,
-    rootMargin: '100px',
-    threshold: 1.0,
-  };
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(callbackFunction, options);
-    if (ref.current) observer.observe(ref.current);
-    return () => {
-      if (ref.current) observer.unobserve(ref.current);
+    const callbackFunction = (entries) => {
+      const [entry] = entries;
+      setIsVisible(entry.isIntersecting);
     };
-  }, [ref, options]);
 
-  // useEffect(() => {
-  //   if (isIntersecting) {
-  //     ref.current.querySelectorAll('.anim').forEach((el) => {
-  //       el.classList.add('slide-in');
-  //     });
-  //   }
-  // }, [isIntersecting]);
+    useEffect(() => {
+      const observer = new IntersectionObserver(callbackFunction, options);
+      if (containerRef.current) observer.observe(containerRef.current);
 
+      return () => {
+        if (containerRef.current) observer.unobserve(containerRef.current);
+      };
+    }, [containerRef, options]);
+
+    return [containerRef, inVisible];
+  };
+
+  const [containerRef, isVisible] = useElementOnScreen({
+    root: null,
+    rootMargin: '0px',
+    threshold: 1.0,
+  });
   return (
     <PageLayout header={<Header />} footer={<Footer />}>
-      <S.Container ref={ref}>
+      <div>{isVisible ? 'visible' : 'invisible'}</div>
+      <S.Container ref={containerRef}>
         <S.MainSection>
           <S.MainSectionInner>
             <S.MainSectionTitle>
