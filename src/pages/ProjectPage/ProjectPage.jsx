@@ -96,7 +96,7 @@ const ProjectPage = () => {
         <S.ForSpace></S.ForSpace>
 
         <S.DevDescription>
-          <S.DevDescriptionTitle>참여한 개발자</S.DevDescriptionTitle>
+          <S.DevDescriptionTitle>개발자</S.DevDescriptionTitle>
           <S.ImageForSpace>
             <S.CircleImage>
               <S.CircleForSpace>
