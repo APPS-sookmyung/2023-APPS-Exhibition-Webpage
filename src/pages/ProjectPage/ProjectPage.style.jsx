@@ -57,7 +57,13 @@ export const Icon = styled.span`
 
 export const Text = styled.span`
   font-size: 18px;
-  padding-left: 5px;
+  padding-left: 8px;
+  vertical-align: center;
+`;
+
+export const IconTextWrapper = styled.span`
+  display: flex;
+  align-items: center;
 `;
 
 export const ButtonContainer = styled.div`
@@ -83,6 +89,8 @@ export const DevDescriptionDetail = styled.div`
 export const CrownContainer = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  position: relative;
 `;
 
 export const CircleImage = styled.div`
@@ -98,8 +106,17 @@ export const CircleImage = styled.div`
 `;
 
 export const StackImage = styled.img`
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+`;
+
+export const MemberImage = styled.img`
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   position: relative;
   z-index: 1;
@@ -109,6 +126,9 @@ export const CrownImage = styled.img`
   width: 40px;
   height: 30px;
   position: absolute;
+  top: -15px; /* 테두리 위에 위치하도록 조정 */
+  left: 50%; /* 가운데 정렬을 위해 조정 */
+  transform: translateX(-50%); /* left 값의 절반만큼 이동시킴으로써 가운데 정렬 */
   z-index: 2;
 `;
 
@@ -117,7 +137,6 @@ export const StackDescription = styled.div`
   margin-bottom: 6px;
   text-align: center;
   font-size: 18px;
-  /* letter-spacing: 5px; */
 `;
 
 export const MemberDescription = styled.div`
