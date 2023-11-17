@@ -100,8 +100,17 @@ export const CircleImage = styled.div`
 `;
 
 export const StackImage = styled.img`
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+`;
+
+export const MemberImage = styled.img`
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   position: relative;
   z-index: 1;
@@ -122,7 +131,6 @@ export const StackDescription = styled.div`
   margin-bottom: 6px;
   text-align: center;
   font-size: 18px;
-  /* letter-spacing: 5px; */
 `;
 
 export const MemberDescription = styled.div`
