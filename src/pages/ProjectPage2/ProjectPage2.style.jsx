@@ -3,29 +3,31 @@ import styled from '@emotion/styled';
 
 export const Centered = styled.div`
   display: flex;
-  /* max-width: 150px; */
+  /* max-width: 500px; */
   justify-content: center;
   margin-top: 116px;
 `;
 
 export const Project = styled.div`
   display: flex;
+  width: 100%;
+  max-width: 900px;
   flex-direction: column;
-  padding: 30px 250px;
+  margin: 0 auto;
+  padding: 30px;
   color: ${Colors.white};
 `;
 
 export const ProjectName = styled.div`
   display: flex;
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 30px;
 `;
 
 export const ProjectSummary = styled.div`
   display: flex;
   font-size: 22px;
-  font-weight: 400;
   margin-bottom: 30px;
 `;
 
@@ -55,7 +57,13 @@ export const Icon = styled.span`
 
 export const Text = styled.span`
   font-size: 18px;
-  padding-left: 5px;
+  padding-left: 8px;
+  vertical-align: center;
+`;
+
+export const IconTextWrapper = styled.span`
+  display: flex;
+  align-items: center;
 `;
 
 export const ButtonContainer = styled.div`
@@ -81,6 +89,8 @@ export const DevDescriptionDetail = styled.div`
 export const CrownContainer = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  position: relative;
 `;
 
 export const CircleImage = styled.div`
@@ -96,8 +106,17 @@ export const CircleImage = styled.div`
 `;
 
 export const StackImage = styled.img`
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+`;
+
+export const MemberImage = styled.img`
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   position: relative;
   z-index: 1;
@@ -107,11 +126,15 @@ export const CrownImage = styled.img`
   width: 40px;
   height: 30px;
   position: absolute;
+  top: -15px; /* 테두리 위에 위치하도록 조정 */
+  left: 50%; /* 가운데 정렬을 위해 조정 */
+  transform: translateX(-50%); /* left 값의 절반만큼 이동시킴으로써 가운데 정렬 */
   z-index: 2;
 `;
 
 export const StackDescription = styled.div`
   margin-top: 18px;
+  margin-bottom: 6px;
   text-align: center;
   font-size: 18px;
 `;
@@ -126,7 +149,7 @@ export const ImageForSpace = styled.div`
   margin-top: 20px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 `;
 
 export const CircleForSpace = styled.div`

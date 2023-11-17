@@ -57,7 +57,13 @@ export const Icon = styled.span`
 
 export const Text = styled.span`
   font-size: 18px;
-  padding-left: 5px;
+  padding-left: 8px;
+  vertical-align: center;
+`;
+
+export const IconTextWrapper = styled.span`
+  display: flex;
+  align-items: center;
 `;
 
 export const ButtonContainer = styled.div`
