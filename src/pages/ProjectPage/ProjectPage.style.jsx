@@ -83,6 +83,8 @@ export const DevDescriptionDetail = styled.div`
 export const CrownContainer = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  position: relative;
 `;
 
 export const CircleImage = styled.div`
@@ -109,6 +111,9 @@ export const CrownImage = styled.img`
   width: 40px;
   height: 30px;
   position: absolute;
+  top: -15px; /* 테두리 위에 위치하도록 조정 */
+  left: 50%; /* 가운데 정렬을 위해 조정 */
+  transform: translateX(-50%); /* left 값의 절반만큼 이동시킴으로써 가운데 정렬 */
   z-index: 2;
 `;
 
