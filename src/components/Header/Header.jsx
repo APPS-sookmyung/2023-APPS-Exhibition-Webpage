@@ -15,6 +15,11 @@ const Header = () => {
     }
   };
 
+  // GitHub 페이지로 이동
+  const handleGitHubClick = () => {
+    window.open('https://github.com/APPS-sookmyung', '_blank');
+  };
+
   return (
     <S.Header>
       <S.Inner>
@@ -22,6 +27,7 @@ const Header = () => {
         <S.Nav>
           <S.NavItem onClick={() => scrollToSection('aboutApps')}>APPS 소개</S.NavItem>
           <S.NavItem onClick={() => scrollToSection('projectsSection')}>프로젝트 소개</S.NavItem>
+          <S.NavItem onClick={handleGitHubClick}>깃허브</S.NavItem>
         </S.Nav>
       </S.Inner>
     </S.Header>

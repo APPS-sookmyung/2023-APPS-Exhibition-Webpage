@@ -32,14 +32,18 @@ export const Nav = styled.nav`
   display: flex;
   gap: 20px;
   align-items: center;
+  color: ${Colors.white};
 `;
 
 export const NavItem = styled.a`
   font-size: 15px;
   color: ${Colors.white};
-  transition: font-weight 0.1s ease;
+  transition:
+    font-weight 0.1s ease,
+    color 0.3s ease;
 
   &:hover {
     font-weight: 700;
+    color: white;
   }
 `;
