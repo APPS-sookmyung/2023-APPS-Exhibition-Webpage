@@ -9,7 +9,7 @@ const Header = () => {
       const headerHeight = 90;
       section.scrollIntoView({
         behavior: 'smooth',
-        block: 'start', // 기본속성
+        block: 'center', // 기본속성인 start -> center
         boundary: { top: headerHeight },
       });
     }
