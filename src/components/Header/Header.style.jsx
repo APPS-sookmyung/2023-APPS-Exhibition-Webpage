@@ -47,3 +47,5 @@ export const NavItem = styled.a`
     color: white;
   }
 `;
+
+export const NavDivider = styled.text``;

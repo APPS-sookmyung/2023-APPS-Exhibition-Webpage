@@ -106,10 +106,10 @@ const PROJECT_CATEGORY_LIST = [
 const ProjectsSection = () => {
   return (
     <S.Section>
-      <S.TopBackground />
+      <S.TopBackground id="projectsSection" />
       <S.BottomBackground />
       <S.SectionInner>
-        <S.SectionTitle id="projectsSection">프로젝트 소개</S.SectionTitle>
+        <S.SectionTitle>프로젝트 소개</S.SectionTitle>
         <S.SectionNav>
           {PROJECT_CATEGORY_LIST.map(({ id, title }) => (
             <S.SectionNavItem key={id} href={`#${id}`}>
