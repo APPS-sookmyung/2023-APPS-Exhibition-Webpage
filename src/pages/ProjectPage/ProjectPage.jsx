@@ -52,10 +52,34 @@ const ProjectPage = () => {
           </S.StyledButton>
 
           <S.StyledButton>
+            <Link to="/your-link-path" style={{ textDecoration: 'none' }}>
+              <S.IconTextWrapper>
+                <S.Icon>
+                  <img
+                    src="/images/stackIcon/download.png"
+                    alt="Download Icon"
+                    style={{ width: '20px', height: '20px', fill: '#333D4B' }}
+                  />
+                </S.Icon>
+                <S.Text style={{ lineHeight: '10px'}}>Download</S.Text>
+              </S.IconTextWrapper>
+            </Link>
+          </S.StyledButton>
+
+          <S.StyledButton>
             <Link to="https://github.com/APPS-sookmyung/2023-COOKIEE-client-react">
               <S.IconTextWrapper>
                 <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
-                <S.Text>Github</S.Text>
+                <S.Text>Client</S.Text>
+              </S.IconTextWrapper>
+            </Link>
+          </S.StyledButton>
+
+          <S.StyledButton>
+            <Link to="https://github.com/APPS-sookmyung/2023-COOKIEE-server">
+              <S.IconTextWrapper>
+                <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
+                <S.Text>Server</S.Text>
               </S.IconTextWrapper>
             </Link>
           </S.StyledButton>

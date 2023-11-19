@@ -95,7 +95,7 @@ export const CrownContainer = styled.div`
 
 export const CircleImage = styled.div`
   /* margin-top: 20px; */
-  margin-right: 20px;
+  margin-right: 60px;
   width: 115px;
   height: 115px;
   background-color: white;
