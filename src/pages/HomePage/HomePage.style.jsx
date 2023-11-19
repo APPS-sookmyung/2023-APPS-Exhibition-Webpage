@@ -70,7 +70,7 @@ export const SectionTitle = styled.h2`
 export const SectionSubTitle = styled.h3`
   font-size: 48px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   text-align: center;
   color: ${Colors.white};
   line-height: 1.4;
@@ -105,4 +105,5 @@ export const MemberSection = styled.section`
 
 export const MemberCardSection = styled.div`
   width: 100%;
+  margin-top: 40px;
 `;
