@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { Colors } from '../../theme';
+import { keyframes } from '@emotion/react';
 
 export const Container = styled.div`
   display: flex;
@@ -9,79 +10,68 @@ export const Container = styled.div`
   margin: 0 auto;
 `;
 
+const OriginalRolling = keyframes`
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  50.01% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+`;
+
+const CloneRolling = keyframes`
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+`;
+
 export const CardContainerOriginal1 = styled.div`
   display: flex;
   margin: 0px;
-  animation: OriginalRolling 25s linear infinite;
+  align-items: center;
 
-  @keyframes OriginalRolling {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(-100%);
-    }
-    50.01% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
+  animation: ${OriginalRolling} 25s linear infinite;
+
+  animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
 
 export const CardContainerClone1 = styled.div`
   display: flex;
   margin: 0px;
+  align-items: center;
 
-  animation: CloneRolling 25s linear infinite;
+  animation: ${CloneRolling} 25s linear infinite;
 
-  @keyframes CloneRolling {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-200%);
-    }
-  }
+  animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
 
 export const CardContainerOriginal2 = styled.div`
   display: flex;
   margin: 0px;
+  align-items: center;
 
-  animation: OriginalRolling 25s linear reverse infinite;
+  animation: ${OriginalRolling} 25s linear reverse infinite;
 
-  @keyframes OriginalRolling {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(-100%);
-    }
-    50.01% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
+  animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
 
 export const CardContainerClone2 = styled.div`
   display: flex;
   margin: 0px;
+  align-items: center;
 
-  animation: CloneRolling 25s linear reverse infinite;
+  animation: ${CloneRolling} 25s linear reverse infinite;
 
-  @keyframes CloneRolling {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-200%);
-    }
-  }
+  animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
 
 export const Card = styled.div`
@@ -89,13 +79,19 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 10px;
-  width: 230px;
+  width: 180px;
+  height: fit-content;
   /* 위 | 오른쪽 | 아래 | 왼쪽 */
   margin: 20px 20px 0px 0px;
   border-radius: 5%;
   background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
   position: relative;
   /* overflow: hidden; */
+
+  transition: width 0.5s;
+  &:hover {
+    width: 190px;
+  }
 `;
 
 export const Crown = styled.img`
@@ -112,8 +108,7 @@ export const CrownContainer = styled.div`
   z-index: 20;
   left: 50%;
   right: 50%;
-  bottom: 295px;
-  z-index: 5;
+  bottom: 90%;
 `;
 
 export const ImgConainer = styled.div`
@@ -153,8 +148,8 @@ export const Major = styled.p`
   display: flex;
   justify-content: center;
   align-content: center;
-  font-size: 15px;
-  width: 230px;
+  font-size: 0.7rem;
+  width: fit-content;
   color: ${Colors.white};
 `;
 
