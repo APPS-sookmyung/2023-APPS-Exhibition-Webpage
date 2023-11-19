@@ -37,6 +37,7 @@ const CloneRolling = keyframes`
 export const CardContainerOriginal1 = styled.div`
   display: flex;
   margin: 0px;
+  align-items: center;
 
   animation: ${OriginalRolling} 25s linear infinite;
 
@@ -46,6 +47,7 @@ export const CardContainerOriginal1 = styled.div`
 export const CardContainerClone1 = styled.div`
   display: flex;
   margin: 0px;
+  align-items: center;
 
   animation: ${CloneRolling} 25s linear infinite;
 
@@ -55,6 +57,7 @@ export const CardContainerClone1 = styled.div`
 export const CardContainerOriginal2 = styled.div`
   display: flex;
   margin: 0px;
+  align-items: center;
 
   animation: ${OriginalRolling} 25s linear reverse infinite;
 
@@ -64,6 +67,7 @@ export const CardContainerOriginal2 = styled.div`
 export const CardContainerClone2 = styled.div`
   display: flex;
   margin: 0px;
+  align-items: center;
 
   animation: ${CloneRolling} 25s linear reverse infinite;
 
@@ -75,13 +79,19 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 10px;
-  width: 230px;
+  width: 180px;
+  height: fit-content;
   /* 위 | 오른쪽 | 아래 | 왼쪽 */
   margin: 20px 20px 0px 0px;
   border-radius: 5%;
   background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
   position: relative;
   /* overflow: hidden; */
+
+  transition: width 0.5s;
+  &:hover {
+    width: 190px;
+  }
 `;
 
 export const Crown = styled.img`
@@ -98,8 +108,7 @@ export const CrownContainer = styled.div`
   z-index: 20;
   left: 50%;
   right: 50%;
-  bottom: 295px;
-  z-index: 5;
+  bottom: 90%;
 `;
 
 export const ImgConainer = styled.div`
@@ -139,8 +148,8 @@ export const Major = styled.p`
   display: flex;
   justify-content: center;
   align-content: center;
-  font-size: 15px;
-  width: 230px;
+  font-size: 0.7rem;
+  width: fit-content;
   color: ${Colors.white};
 `;
 
