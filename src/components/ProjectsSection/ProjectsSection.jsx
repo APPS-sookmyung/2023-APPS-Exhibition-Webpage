@@ -49,7 +49,7 @@ const PROJECT_CATEGORY_LIST = [
   },
   {
     id: 'new-members',
-    title: '신입부원 10기',
+    title: '신입부원',
     projectList: [
       {
         id: 6,
