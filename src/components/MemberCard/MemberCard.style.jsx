@@ -37,7 +37,10 @@ const CloneRolling = keyframes`
 export const CardContainerOriginal1 = styled.div`
   display: flex;
   margin: 0px;
+
   animation: ${OriginalRolling} 25s linear infinite;
+
+  animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
 
 export const CardContainerClone1 = styled.div`
@@ -45,6 +48,8 @@ export const CardContainerClone1 = styled.div`
   margin: 0px;
 
   animation: ${CloneRolling} 25s linear infinite;
+
+  animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
 
 export const CardContainerOriginal2 = styled.div`
@@ -52,6 +57,8 @@ export const CardContainerOriginal2 = styled.div`
   margin: 0px;
 
   animation: ${OriginalRolling} 25s linear reverse infinite;
+
+  animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
 
 export const CardContainerClone2 = styled.div`
@@ -59,6 +66,8 @@ export const CardContainerClone2 = styled.div`
   margin: 0px;
 
   animation: ${CloneRolling} 25s linear reverse infinite;
+
+  animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
 
 export const Card = styled.div`

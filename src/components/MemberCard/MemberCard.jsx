@@ -1,11 +1,18 @@
+import { useState } from 'react';
 import * as S from './MemberCard.style';
 import memberList from './MemberList';
 
 export default function MemberCard() {
+  const [isHoveredCon1, setIsHoveredCon1] = useState(false);
+  const [isHoveredCon2, setIsHoveredCon2] = useState(false);
+
   return (
     <>
-      <S.Container>
-        <S.CardContainerOriginal1>
+      <S.Container
+        onMouseEnter={() => setIsHoveredCon1(true)}
+        onMouseLeave={() => setIsHoveredCon1(false)}
+      >
+        <S.CardContainerOriginal1 isHovered={isHoveredCon1}>
           {memberList.slice(0, 11).map((member, index) => (
             <S.Card key={index}>
               <S.CrownContainer>
@@ -23,7 +30,7 @@ export default function MemberCard() {
             </S.Card>
           ))}
         </S.CardContainerOriginal1>
-        <S.CardContainerClone1>
+        <S.CardContainerClone1 isHovered={isHoveredCon1}>
           {memberList.slice(0, 11).map((member, index) => (
             <S.Card key={index}>
               <S.CrownContainer>
@@ -42,8 +49,11 @@ export default function MemberCard() {
           ))}
         </S.CardContainerClone1>
       </S.Container>
-      <S.Container>
-        <S.CardContainerOriginal2>
+      <S.Container
+        onMouseEnter={() => setIsHoveredCon2(true)}
+        onMouseLeave={() => setIsHoveredCon2(false)}
+      >
+        <S.CardContainerOriginal2 isHovered={isHoveredCon2}>
           {memberList.slice(12, 22).map((member, index) => (
             <S.Card key={index}>
               <S.CrownContainer>
@@ -61,7 +71,7 @@ export default function MemberCard() {
             </S.Card>
           ))}
         </S.CardContainerOriginal2>
-        <S.CardContainerClone2>
+        <S.CardContainerClone2 isHovered={isHoveredCon2}>
           {memberList.slice(12, 23).map((member, index) => (
             <S.Card key={index}>
               <S.CrownContainer>
