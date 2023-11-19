@@ -37,10 +37,10 @@ const HomePage = () => {
           </S.MessageSectionInner>
         </S.MessageSection>
 
-        <S.AboutAppsSection>
+        <S.AboutAppsSection id="aboutApps">
           <S.AboutAppsSectionInner>
             <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
-              <S.SectionTitle id="aboutApps">{'APPS 소개'}</S.SectionTitle>
+              <S.SectionTitle>{'APPS 소개'}</S.SectionTitle>
               <S.SectionDescription>
                 APPS는 모바일 앱&웹 프로그래밍 동아리로,
                 <br /> 기술과 아이디어를 통해 프로젝트를 진행하며
