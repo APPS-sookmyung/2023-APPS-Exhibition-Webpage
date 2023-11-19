@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
-import { HomePage, ProjectPage, ProjectPage2 } from './pages';
+import { HomePage, ProjectPage, ProjectPage2, ProjectPage3, } from './pages';
 
 const router = createBrowserRouter([
   {
@@ -13,6 +13,10 @@ const router = createBrowserRouter([
   {
     path: '/projects/2',
     element: <ProjectPage2 />
+  },
+  {
+    path: '/projects/3',
+    element: <ProjectPage3 />
   }
 ]);
 
