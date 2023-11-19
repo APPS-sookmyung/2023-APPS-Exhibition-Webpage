@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { Colors } from '../../theme';
+import { keyframes } from '@emotion/react';
 
 export const Container = styled.div`
   display: flex;
@@ -9,79 +10,55 @@ export const Container = styled.div`
   margin: 0 auto;
 `;
 
+const OriginalRolling = keyframes`
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  50.01% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+`;
+
+const CloneRolling = keyframes`
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+`;
+
 export const CardContainerOriginal1 = styled.div`
   display: flex;
   margin: 0px;
-  animation: OriginalRolling 25s linear infinite;
-
-  @keyframes OriginalRolling {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(-100%);
-    }
-    50.01% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
+  animation: ${OriginalRolling} 25s linear infinite;
 `;
 
 export const CardContainerClone1 = styled.div`
   display: flex;
   margin: 0px;
 
-  animation: CloneRolling 25s linear infinite;
-
-  @keyframes CloneRolling {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-200%);
-    }
-  }
+  animation: ${CloneRolling} 25s linear infinite;
 `;
 
 export const CardContainerOriginal2 = styled.div`
   display: flex;
   margin: 0px;
 
-  animation: OriginalRolling 25s linear reverse infinite;
-
-  @keyframes OriginalRolling {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(-100%);
-    }
-    50.01% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
+  animation: ${OriginalRolling} 25s linear reverse infinite;
 `;
 
 export const CardContainerClone2 = styled.div`
   display: flex;
   margin: 0px;
 
-  animation: CloneRolling 25s linear reverse infinite;
-
-  @keyframes CloneRolling {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-200%);
-    }
-  }
+  animation: ${CloneRolling} 25s linear reverse infinite;
 `;
 
 export const Card = styled.div`
