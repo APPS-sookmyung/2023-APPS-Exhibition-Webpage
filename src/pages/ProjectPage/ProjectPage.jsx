@@ -46,7 +46,7 @@ const ProjectPage = () => {
                     style={{ width: '20px', height: '20px', fill: '#333D4B', marginRight: '3px' }}
                   />
                 </S.Icon>
-                <S.Text style={{ lineHeight: '10px'}}>Link</S.Text>
+                <S.Text style={{ lineHeight: '10px' }}>Link</S.Text>
               </S.IconTextWrapper>
             </Link>
           </S.StyledButton>
@@ -61,7 +61,7 @@ const ProjectPage = () => {
                     style={{ width: '20px', height: '20px', fill: '#333D4B' }}
                   />
                 </S.Icon>
-                <S.Text style={{ lineHeight: '10px'}}>Download</S.Text>
+                <S.Text style={{ lineHeight: '10px' }}>Download</S.Text>
               </S.IconTextWrapper>
             </Link>
           </S.StyledButton>
@@ -87,20 +87,24 @@ const ProjectPage = () => {
 
         <div style={{ width: '100%', borderTop: '2px solid #ffffff', margin: '40px 0' }}></div>
 
-        <S.DevDescriptionTitle>서비스 설명</S.DevDescriptionTitle>
+        <S.DevDescriptionTitle>서비스 소개</S.DevDescriptionTitle>
         <S.DevDescriptionDetail>
-          리액트는 프론트엔드 개발자 사이에서 AngularJS, Vue.js와 더불어 많은 인기를 얻고 있다.
-          GitHub Star 수와 npm 패키지 다운로드 수는 React가 가장 많다. SPA을 전제로 하고 있으며,
-          Dirty checking과 Virtual DOM을 활용하여 업데이트 해야하는 DOM 요소를 찾아서 해당 부분만
-          업데이트하기 때문에, 리렌더링이 잦은 동적인 모던 웹에서 엄청나게 빠른 퍼포먼스를 내는게
-          가능하다.
+          모기의 예방법과 퇴치 방법을 검색한 사람들을 위해 ! 살충제, 모기향 등 모기 퇴치 물품을
+          구매하는 사람들을 위해 ! 다가오는 여름철, 모기로 인한 스트레스를 해소시켜주기 위한 보건
+          복지 분야 서비스입니다.
         </S.DevDescriptionDetail>
 
-        <S.DevDescriptionTitle>기획의도</S.DevDescriptionTitle>
+        <S.DevDescriptionTitle>기능 설명</S.DevDescriptionTitle>
         <S.DevDescriptionDetail>
-          자바스크립트는 ‘웹페이지에 생동감을 불어넣기 위해’ 만들어진 프로그래밍 언어입니다.
-          자바스크립트로 작성한 프로그램을 스크립트(script) 라고 부릅니다. 스크립트는 웹페이지의
-          HTML 안에 작성할 수 있는데, 웹페이지를 불러올 때 스크립트가 자동으로 실행됩니다.
+          모기 예방법과 퇴치법을 모아 한 서비스 내에서 제공하여 피해를 줄이고, 온보딩 화면, 사이렌
+          기능 등 재미요소 제공을 통해 적시에 정보를 조회하도록 돕는 서비스를 고안했습니다.
+          <br />
+          <br />- 서비스를 통해 쾌적, 관심, 주의 ,불쾌 4단계로 나누어진 모기발생 상황을 확인
+          <br /> - 모기에 대한 정보 및 예방법을 제공하는 오늘의 모기 꿀팁
+          <br /> - 퇴치법 조회 뷰에서 랜덤하게 추천된 모기 퇴치법
+          <br /> - 랭킹 뷰에서 다른 유저들이 평가한 모기 퇴치법에 대한 랭킹을 확인
+          <br />
+          <br /> 🌀🧞‍♂️ 위잉위잉과 함께 모기 스트레스없는 쾌적한 생활하시길 바랍니다 🧞‍♂️🌀
         </S.DevDescriptionDetail>
 
         <S.DevDescription>

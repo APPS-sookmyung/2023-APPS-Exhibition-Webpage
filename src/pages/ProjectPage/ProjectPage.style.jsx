@@ -82,7 +82,7 @@ export const DevDescriptionTitle = styled.h3`
 export const DevDescriptionDetail = styled.div`
   margin-top: 20px;
   line-height: 1.4;
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 50px;
 `;
 
@@ -158,6 +158,6 @@ export const CircleForSpace = styled.div`
 `;
 
 export const ForSpace = styled.div`
-  diplay: flex;
+  display: flex;
   margin-bottom: 50px;
 `;

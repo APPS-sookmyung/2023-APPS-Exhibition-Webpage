@@ -120,49 +120,48 @@ export const ProjectCardList = styled.ul`
 
 export const ProjectCardItem = styled.li`
   width: calc(50% - 15px);
+  /* max-width: 480px; */
+  /* max-height: 350px; */
 `;
 
 export const ProjectCategoryItemLink = styled.a`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  width: 100%;
-  height: 290px;
-  padding: 32px 40px;
-  background: linear-gradient(118deg, #351068 0%, #180038 100%);
+  width: 480px;
+  height: 400px;
   border-radius: 20px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  /* justify-content: space-between; */
+  /* position: relative; */
 `;
 
-export const ProjectName = styled.h4`
-  z-index: 1;
-  color: #ffffff;
-  font-size: 32px;
-  font-weight: 700;
-`;
-
-export const ProjectMemberList = styled.ul`
-  display: flex;
-  z-index: 1;
-`;
-
-export const ProjectMemberItem = styled.li`
-  color: #ffffff;
-  font-size: 18px;
-  /* font-weight: 700; */
-
-  &:not(:last-of-type) {
-    &::after {
-      content: '|';
-      margin: 0 6px;
-    }
-  }
+export const ProjectImageWrapper = styled.div`
+  width: 100%;
+  /* height: 296px; */
+  overflow: hidden;
 `;
 
 export const ProjectImage = styled.img`
-  position: absolute;
-  right: 30px;
-  bottom: 70px;
-  height: 150px;
-  z-index: 0;
+  top: auto;
+  width: 100%;
+  height: 270px;
+`;
+
+export const ProjectContentWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 22px;
+`;
+
+export const ProjectName = styled.h4`
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+`;
+
+export const ProjectSummary = styled.p`
+  color: #ffffff;
 `;
