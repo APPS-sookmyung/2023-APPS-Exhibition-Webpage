@@ -114,6 +114,7 @@ export const CrownContainer = styled.div`
 export const ImgConainer = styled.div`
   background-image: url(${(props) => props.image});
   background-size: cover;
+  background-position: center;
   border-radius: 50%;
   background-repeat: no-repeat;
   width: 100%;
