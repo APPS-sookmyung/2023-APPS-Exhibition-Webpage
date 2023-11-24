@@ -74,7 +74,7 @@ export const CardContainerClone2 = styled.div`
   animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
 
-export const Card = styled.div`
+export const Card = styled.a`
   display: flex;
   flex-direction: column;
   justify-content: center;

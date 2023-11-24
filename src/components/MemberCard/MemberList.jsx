@@ -1,4 +1,5 @@
 const memberList = [
+  // 윗 줄
   {
     memberImg: '',
     name: '하예영',
@@ -25,7 +26,7 @@ const memberList = [
     name: '황수연',
     major: 'Computer Science 20',
     position: null,
-    github: 'github.com/syhwang1231',
+    github: 'https://github.com/syhwang1231',
   },
   {
     memberImg: '',
@@ -85,6 +86,7 @@ const memberList = [
     position: '프론트엔드장',
     github: 'https://github.com/cyndii20',
   },
+  // 아래 줄
   {
     memberImg: '/images/member/김진영.png',
     name: '김진영',
