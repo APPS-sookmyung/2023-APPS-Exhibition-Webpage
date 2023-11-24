@@ -1,4 +1,29 @@
 import styled from '@emotion/styled';
+import { keyframes } from '@emotion/react';
+
+const OriginalRollingStack = keyframes`
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  50.01% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+`;
+
+const CloneRollingStack = keyframes`
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+`;
 
 export const Container = styled.div`
   display: flex;
@@ -27,11 +52,11 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 10px;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   /* 위 | 오른쪽 | 아래 | 왼쪽 */
-  margin: 20px 20px 0px 0px;
-  border-radius: 5%;
+  margin: 15px 15px 0px 0px;
+  border-radius: 10px;
   background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
   position: relative;
   overflow: hidden;
@@ -42,22 +67,7 @@ export const CardContainerOriginalStack = styled.div`
   margin: 0px;
   width: auto;
 
-  animation: OriginalRollingStack 30s linear infinite;
-
-  @keyframes OriginalRollingStack {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(-100%);
-    }
-    50.01% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
+  animation: ${OriginalRollingStack} 40s linear infinite;
 `;
 
 export const CardContainerCloneStack = styled.div`
@@ -65,14 +75,5 @@ export const CardContainerCloneStack = styled.div`
   margin: 0px;
   width: auto;
 
-  animation: CloneRollingStack 30s linear infinite;
-
-  @keyframes CloneRollingStack {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-200%);
-    }
-  }
+  animation: ${CloneRollingStack} 40s linear infinite;
 `;
