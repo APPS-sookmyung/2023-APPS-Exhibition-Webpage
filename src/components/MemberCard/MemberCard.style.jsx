@@ -139,9 +139,8 @@ export const Name = styled.p`
   display: flex;
   justify-content: center;
   align-content: center;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
-  letter-spacing: 5px;
   color: ${Colors.white};
 `;
 
