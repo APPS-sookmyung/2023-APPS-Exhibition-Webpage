@@ -74,7 +74,7 @@ export const CardContainerClone2 = styled.div`
   animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
 
-export const Card = styled.div`
+export const Card = styled.a`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,6 +114,7 @@ export const CrownContainer = styled.div`
 export const ImgConainer = styled.div`
   background-image: url(${(props) => props.image});
   background-size: cover;
+  background-position: center;
   border-radius: 50%;
   background-repeat: no-repeat;
   width: 100%;

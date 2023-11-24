@@ -13,8 +13,8 @@ export default function MemberCard() {
         onMouseLeave={() => setIsHoveredCon1(false)}
       >
         <S.CardContainerOriginal1 isHovered={isHoveredCon1}>
-          {memberList.slice(0, 11).map((member, index) => (
-            <S.Card key={index}>
+          {memberList.slice(0, 12).map((member, index) => (
+            <S.Card key={index} href={member.github}>
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
               </S.CrownContainer>
@@ -31,8 +31,8 @@ export default function MemberCard() {
           ))}
         </S.CardContainerOriginal1>
         <S.CardContainerClone1 isHovered={isHoveredCon1}>
-          {memberList.slice(0, 11).map((member, index) => (
-            <S.Card key={index}>
+          {memberList.slice(0, 12).map((member, index) => (
+            <S.Card key={index} href={member.github}>
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
               </S.CrownContainer>
@@ -54,8 +54,8 @@ export default function MemberCard() {
         onMouseLeave={() => setIsHoveredCon2(false)}
       >
         <S.CardContainerOriginal2 isHovered={isHoveredCon2}>
-          {memberList.slice(12, 22).map((member, index) => (
-            <S.Card key={index}>
+          {memberList.slice(12, 26).map((member, index) => (
+            <S.Card key={index} href={member.github}>
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
               </S.CrownContainer>
@@ -72,8 +72,8 @@ export default function MemberCard() {
           ))}
         </S.CardContainerOriginal2>
         <S.CardContainerClone2 isHovered={isHoveredCon2}>
-          {memberList.slice(12, 23).map((member, index) => (
-            <S.Card key={index}>
+          {memberList.slice(12, 26).map((member, index) => (
+            <S.Card key={index} href={member.github}>
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
               </S.CrownContainer>
