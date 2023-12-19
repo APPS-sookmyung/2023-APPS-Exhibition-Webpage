@@ -1,7 +1,7 @@
 const memberList = [
   // 윗 줄
   {
-    memberImg: '',
+    memberImg: '/images/member/하예영.png',
     name: '하예영',
     major: 'Data Science 23',
     position: null,
@@ -29,24 +29,24 @@ const memberList = [
     github: 'https://github.com/syhwang1231',
   },
   {
-    memberImg: '',
+    memberImg: '/images/member/신진영.png',
     name: '신진영',
     major: 'Computer Science 20',
     position: '부회장',
     github: 'https://github.com/Jjinyshin',
   },
   {
-    memberImg: '',
+    memberImg: '/images/member/정민주.png',
     name: '정민주',
-    major: '',
+    major: 'Computer Science 22 ',
     position: null,
     github: 'https://github.com/quothraven1122',
   },
 
   {
-    memberImg: '',
+    memberImg: '/images/member/하고은.png',
     name: '하고은',
-    major: '',
+    major: 'Computer Science 21',
     position: null,
     github: 'https://github.com/hagoeun0119',
   },
@@ -73,14 +73,14 @@ const memberList = [
   },
 
   {
-    memberImg: '',
+    memberImg: '/images/member/최민선.png',
     name: '최민선',
-    major: '',
+    major: 'Software Convergence 21',
     position: null,
     github: 'https://github.com/choiminsun24',
   },
   {
-    memberImg: '/images/member/서정연.PNG',
+    memberImg: '/images/member/서정연.png',
     name: '서정연',
     major: 'Software Convergence 21',
     position: '프론트엔드장',
@@ -109,9 +109,9 @@ const memberList = [
     github: 'https://github.com/Haileyyyyyyyy',
   },
   {
-    memberImg: '',
+    memberImg: '/images/member/윤현서.png',
     name: '윤현서',
-    major: '',
+    major: 'Data Science 23',
     position: null,
     github: 'https://github.com/gustj3104',
   },
@@ -123,9 +123,9 @@ const memberList = [
     github: 'https://github.com/choiseoyoon0330',
   },
   {
-    memberImg: '',
+    memberImg: '/images/member/문채일.png',
     name: '문채일',
-    major: '',
+    major: 'Computer Science 22',
     position: null,
     github: 'https://github.com/chae2',
   },
@@ -158,9 +158,9 @@ const memberList = [
     github: 'https://github.com/codeJiwon',
   },
   {
-    memberImg: '',
+    memberImg: '/images/member/김혜림.png',
     name: '김혜림',
-    major: '',
+    major: 'Data Science 23',
     position: null,
     github: 'https://github.com/kimhyerims',
   },
