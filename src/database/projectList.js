@@ -90,11 +90,35 @@ export const PROJECT_CATEGORY_LIST = [
         name: '새미새',
         memberNameList: ['김진영', '문채일', '정민주', '최민선'],
         imageUrl: '/images/thumbnail/img-thumbnail-sample-web-1.png',
-        githubUrl: '',
-        stack: [],
-        projectSummary: '새미새',
-        serviceIntroduction: '서비스입니다.',
-        serviceDescription: `새미새 서비스 설명`,
+        githubClientUrl: 'https://github.com/APPS-sookmyung/2023-BirdieBuddy',
+        githubServerUrl: 'https://github.com/APPS-sookmyung/2023-BirdieBuddy-server',
+        stack: ['Vanilla JS', 'Spring'],
+        projectSummary: '새 도감 사이트',
+        serviceIntroduction:
+          '한국의 탐조인들 모여라! 탐조의 즐거움이 배가 되는, 새에 미친 새람들을 위한 사이트입니다.',
+        serviceDescription: `- 도감
+        새 이름으로 검색하기
+        내가 발견한 새 특징으로 검색하기
+        새의 종 이름으로 검색하기
+        
+        - 동정
+        내가 동정 못하겠는 새 사진을 고수들에게 동정을 부탁하기
+        동정을 정확히 해주고 포인트 받기
+        
+        - 기록
+        내 탐조 여정을 기록해봐요!
+        내 탐조 여정을 확인해봐요!
+        
+        -새뉴스 (할지 말지 미정)
+        새들에 대한 뉴스를 접하기
+        새에 대해서 빠삭한 고수가 되어 봅시다.
+        
+        -배지
+        열심히 탐조활동 하라는 동기부여
+        탐조에 대한 달성과제를 완료하여 포인트를 얻기
+        
+        -마이페이지
+        모은 포인트로 내 아바타를 만들어봐요!`,
       },
     ],
   },
@@ -144,12 +168,18 @@ export const PROJECT_CATEGORY_LIST = [
       },
       {
         id: 8,
-        name: 'Diary',
+        name: '나만의 운동일지',
         memberNameList: ['윤현서'],
-        imageUrl: '/images/thumbnail/img-thumbnail-sample-web-1.png',
-        projectSummary: 'Diary',
-        serviceIntroduction: 'Diary서비스입니다.',
-        serviceDescription: `Diary 서비스 설명`,
+        imageUrl: '/images/thumbnail/img-thumbnail-sample-web-2.png',
+        githubUrl: 'https://github.com/gustj3104/2023-Diary',
+        stack: ['HTML', 'CSS', 'JavaScript'],
+        projectSummary: '운동 기록을 이모지로 한 눈에 확인해보세요',
+        serviceIntroduction:
+          '매일매일의 운동을 이모지로 기록하며 한눈에 운동 기록을 확인할 수 있습니다. 달력이 이모지로 채워나가는 것을 보며 뿌듯함과 즐거움을 느끼는 "나만의 운동일지"를 만들어나가는 서비스입니다.',
+        serviceDescription: `- 이모지, 일기 내용 기록
+        - 이모지가 반영된 달력 기능
+        - 일기를 확인할 수 있는 목차형 페이지
+        - 일기의 수정, 삭제`,
       },
       {
         id: 9,
