@@ -22,7 +22,7 @@ const HomePage = () => {
               <br />
               Exhibition 2023
             </S.MainSectionTitle>
-            <S.MainSectionSubTitle>Sookmyung Programming Club</S.MainSectionSubTitle>
+            <S.MainSectionSubTitle>Mobile & Web Programming Club</S.MainSectionSubTitle>
           </S.MainSectionInner>
         </S.MainSection>
 
