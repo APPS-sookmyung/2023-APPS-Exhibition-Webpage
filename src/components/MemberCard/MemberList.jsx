@@ -144,9 +144,9 @@ const memberList = [
     github: 'https://github.com/5jisoo',
   },
   {
-    memberImg: '',
+    memberImg: '/images/member/김수현.png',
     name: '김수현',
-    major: '',
+    major: 'Computer Science 22',
     position: null,
     github: 'https://github.com/suuxxirr',
   },
