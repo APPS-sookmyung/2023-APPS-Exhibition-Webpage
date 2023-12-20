@@ -53,7 +53,7 @@ export const SectionInner = styled.div`
 `;
 
 export const SectionTitle = styled.h2`
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   color: #ffffff;
   text-align: center;
   font-size: 60px;
@@ -76,7 +76,7 @@ export const SectionNavItem = styled.a`
   max-width: 200px;
   height: 50px;
   padding: 14px;
-  border-radius: 50px;
+  border-radius: 20px;
   background-color: #ffffff;
   opacity: 0.7; /* 버튼의 기본 투명도 설정 */
   transition: opacity 0.3s; /* 마우스 호버 시 투명도 전환을 부드럽게 만듭니다. */
@@ -105,7 +105,7 @@ export const ProjectCategoryItem = styled.li`
 `;
 
 export const ProjectCategoryItemTitle = styled.h3`
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   color: #ffffff;
   text-align: center;
   font-size: 48px;
