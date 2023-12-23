@@ -23,6 +23,7 @@ export const Inner = styled.div`
 `;
 
 export const Logo = styled.a`
+  font-family: 'Ubuntu';
   font-size: 28px;
   font-weight: 800;
   color: ${Colors.white};
