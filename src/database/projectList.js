@@ -53,13 +53,19 @@ export const PROJECT_CATEGORY_LIST = [
         name: 'CalenTime',
         memberNameList: ['김수현', '신진영', '하고은'],
         imageUrl: '/images/thumbnail/img-thumbnail-sample-app-1.png',
-        githubUrl: '',
-        stack: [],
-        projectSummary: 'CalenTime',
-        serviceIntroduction: 'CalenTime 서비스입니다.',
-        serviceDescription: `
-          CalenTime 서비스 설명
-        `,
+        githubUrl: 'https://github.com/APPS-sookmyung/2023-CalenTime',
+        stack: ['Flutter', 'SQFlite'],
+        projectSummary: '하나의 앱에서 캘린더와 시간표를 관리해요!',
+        serviceIntroduction:
+          '캘린더와 시간표를 하나의 플랫폼에서 사용하고 싶은 사람들을 위한 일정 관리 서비스입니다.',
+        serviceDescription: `📅 캘린더와 시간표를 따로 사용하는 과정이 번거로운 사람들을 위해 하나의 앱에서 효과적으로 일정 관리를 할 수 있는 앱을 만들고 있습니다.
+
+        - 시간표에서 과목, 시간, 강의실 등 학교 수업 관리
+        - 과목을 클릭하여 과목별 할 일 추가
+        - 캘린더에서 날짜별 할 일 추가
+        - 시간표에 할 일과 날짜 등록 시 캘린더 페이지에 자동 반영
+
+        CalenTime과 함께 효과적인 일정 관리를 해보세요!!`,
       },
       {
         id: 4,
@@ -70,7 +76,7 @@ export const PROJECT_CATEGORY_LIST = [
         stack: ['React.js', 'Firebase'],
         projectSummary: '출석체크 어플을 통해 손쉽게 출석 기록을 관리해보아요!',
         serviceIntroduction:
-          'Sookmyng APPS 부원들을 위한 출석 체크 앱, AppsCheck입니다. 세미나 장소에 도착해서 출석할 수 있는 기능과 함께, 나의 과거 출석 기록도 살펴볼 수 있습니다.',
+          'Sookmyung APPS 부원들을 위한 출석 체크 앱, AppsCheck입니다. 세미나 장소에 도착해서 출석할 수 있는 기능과 함께, 나의 과거 출석 기록도 살펴볼 수 있습니다.',
         serviceDescription: `동아리 부원들은 세미나 장소에 도착하여 간편한 출석체크를 수행하며, 운영진은 실시간으로 부원들의 출석 상태를 효과적으로 관리할 수 있습니다.
     
         - 세미나 일정과 장소를 사전에 확인하고, 그날의 주요 공지사항을 손쉽게 접할 수 있습니다.
