@@ -84,7 +84,7 @@ export const Card = styled.a`
   /* 위 | 오른쪽 | 아래 | 왼쪽 */
   margin: 20px 20px 0px 0px;
   border-radius: 15px;
-  background: linear-gradient(90deg, #351068 0%, #120523 90%, #180038 100%);
+  background: linear-gradient(90deg, ${Colors.purple} 0%, #120523 90%, #180038 100%);
   position: relative;
   /* overflow: hidden; */
 

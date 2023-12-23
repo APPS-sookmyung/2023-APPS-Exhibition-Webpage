@@ -1,6 +1,7 @@
 import { PageLayout, Header } from '../../components';
 import * as S from './ProjectPage.style';
 import { Link } from 'react-router-dom';
+import { Colors } from '../../theme';
 
 import YouTube from 'react-youtube';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,7 +11,7 @@ const ProjectPage = () => {
   return (
     <PageLayout
       header={<Header />}
-      background="linear-gradient(180deg, #351068 0%, #270F49 55.73%, #0D0D0D 100%)"
+      background={`linear-gradient(180deg, ${Colors.purple} 0%, #270F49 55.73%, #0D0D0D 100%)`}
     >
       <S.Centered>
         <YouTube

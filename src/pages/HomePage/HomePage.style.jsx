@@ -54,7 +54,13 @@ export const MainSectionSubTitle = styled.h2`
 
 export const MessageSection = styled.section`
   height: 716px;
-  background: linear-gradient(180deg, #351068 0%, #260b4a 33.33%, #120523 66.67%, #0d0d0d 100%);
+  background: linear-gradient(
+    180deg,
+    ${Colors.purple} 0%,
+    #260b4a 33.33%,
+    #120523 66.67%,
+    #0d0d0d 100%
+  );
 `;
 
 export const MessageSectionInner = styled(SectionInner)`
