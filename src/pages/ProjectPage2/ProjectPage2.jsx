@@ -6,8 +6,6 @@ import YouTube from 'react-youtube';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-
-
 const ProjectPage = () => {
   return (
     <PageLayout
@@ -48,7 +46,7 @@ const ProjectPage = () => {
                     style={{ width: '20px', height: '20px', fill: '#333D4B', marginRight: '3px' }}
                   />
                 </S.Icon>
-                <S.Text style={{ lineHeight: '10px'}}>Link</S.Text>
+                <S.Text style={{ lineHeight: '10px' }}>Link</S.Text>
               </S.IconTextWrapper>
             </Link>
           </S.StyledButton>
@@ -63,7 +61,7 @@ const ProjectPage = () => {
                     style={{ width: '20px', height: '20px', fill: '#333D4B' }}
                   />
                 </S.Icon>
-                <S.Text style={{ lineHeight: '10px'}}>Download</S.Text>
+                <S.Text style={{ lineHeight: '10px' }}>Download</S.Text>
               </S.IconTextWrapper>
             </Link>
           </S.StyledButton>
@@ -85,7 +83,6 @@ const ProjectPage = () => {
               </S.IconTextWrapper>
             </Link>
           </S.StyledButton>
-
         </S.ButtonContainer>
 
         <div style={{ width: '100%', borderTop: '2px solid #ffffff', margin: '40px 0' }}></div>
@@ -172,4 +169,3 @@ const ProjectPage = () => {
 };
 
 export default ProjectPage;
-
