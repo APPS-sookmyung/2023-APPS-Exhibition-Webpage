@@ -39,7 +39,7 @@ export const CardContainerOriginal1 = styled.div`
   margin: 0px;
   align-items: center;
 
-  animation: ${OriginalRolling} 47s linear infinite;
+  animation: ${OriginalRolling} 60s linear infinite;
 
   animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
@@ -49,7 +49,7 @@ export const CardContainerClone1 = styled.div`
   margin: 0px;
   align-items: center;
 
-  animation: ${CloneRolling} 47s linear infinite;
+  animation: ${CloneRolling} 60s linear infinite;
 
   animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
@@ -59,7 +59,7 @@ export const CardContainerOriginal2 = styled.div`
   margin: 0px;
   align-items: center;
 
-  animation: ${OriginalRolling} 47s linear reverse infinite;
+  animation: ${OriginalRolling} 60s linear reverse infinite;
 
   animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
@@ -69,7 +69,7 @@ export const CardContainerClone2 = styled.div`
   margin: 0px;
   align-items: center;
 
-  animation: ${CloneRolling} 47s linear reverse infinite;
+  animation: ${CloneRolling} 60s linear reverse infinite;
 
   animation-play-state: ${(props) => (props.isHovered ? 'paused' : 'running')};
 `;
