@@ -40,7 +40,7 @@ const HomePage = () => {
         <S.AboutAppsSection id="aboutApps">
           <S.AboutAppsSectionInner>
             <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
-              <S.SectionTitle>{'APPS 소개'}</S.SectionTitle>
+              <S.SectionTitle>APPS 소개</S.SectionTitle>
               <S.SectionDescription>
                 APPS는 모바일 앱&웹 프로그래밍 동아리로,
                 <br /> 기술과 아이디어를 통해 프로젝트를 진행하며
@@ -54,9 +54,9 @@ const HomePage = () => {
         </S.AboutAppsSection>
 
         <S.MemberSection>
-          <S.SectionSubTitle>{'멤버 소개'}</S.SectionSubTitle>
+          <S.SectionSubTitle>멤버 소개</S.SectionSubTitle>
           <S.SectionDescription>
-            아래의 카드를 클릭하여 멤버의 깃허브를 확인해보세요.
+            아래의 카드를 클릭하여 멤버의 <strong>Github</strong>를 확인해보세요.
           </S.SectionDescription>
           <S.MemberCardSection>
             <MemberCard />

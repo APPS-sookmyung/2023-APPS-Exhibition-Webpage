@@ -30,6 +30,11 @@ export const MainSection = styled.section`
 export const MainSectionInner = styled(SectionInner)`
   justify-content: center;
   height: 100%;
+
+  & > h1,
+  & > h2 {
+    font-family: 'Ubuntu';
+  }
 `;
 
 export const MainSectionTitle = styled.h1`
@@ -59,6 +64,7 @@ export const MessageSectionInner = styled(SectionInner)`
 `;
 
 export const SectionTitle = styled.h2`
+  margin-bottom: 20px;
   font-size: 60px;
   font-weight: 700;
   text-align: center;
@@ -79,10 +85,13 @@ export const SectionSubTitle = styled.h3`
 
 export const SectionDescription = styled.p`
   font-size: 28px;
-  /* font-weight: 500; */
   text-align: center;
-  line-height: 1.3;
+  line-height: 1.5;
   color: ${Colors.grey};
+
+  & > strong {
+    color: ${Colors.lightPurple};
+  }
 `;
 
 export const AboutAppsSection = styled.section`
