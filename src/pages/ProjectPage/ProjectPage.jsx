@@ -5,8 +5,32 @@ import { Link } from 'react-router-dom';
 import YouTube from 'react-youtube';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import React, { useEffect } from 'react';
 
 const ProjectPage = () => {
+  useEffect(() => {
+    const reviewCards = document.querySelectorAll('.review-card');
+
+    reviewCards.forEach((card, index) => {
+      const content = card.querySelector('.review-content');
+      if (content) {
+        const contentHeight = content.offsetHeight;
+        if (contentHeight > 150) {
+          card.style.minHeight = `${contentHeight + 30}px`;
+        }
+
+        if (index > 0) {
+          const prevCard = reviewCards[index - 1];
+          const prevCardHeight = prevCard.offsetHeight;
+
+          if (contentHeight < prevCardHeight) {
+            const diff = prevCardHeight - contentHeight;
+            prevCard.style.marginBottom = `${25 - diff}px`;
+          }
+        }
+      }
+    });
+  }, []);
   return (
     <PageLayout
       header={<Header />}
@@ -89,24 +113,20 @@ const ProjectPage = () => {
 
         <S.DevDescriptionTitle>서비스 소개</S.DevDescriptionTitle>
         <S.DevDescriptionDetail>
-          모기의 예방법과 퇴치 방법을 검색한 사람들을 위해 ! 살충제, 모기향 등 모기 퇴치 물품을
-          구매하는 사람들을 위해 ! 다가오는 여름철, 모기로 인한 스트레스를 해소시켜주기 위한 보건
-          복지 분야 서비스입니다.
+          Cookiee- 앱으로 여러분의 하루하루를 아름답게 기록해보세요! 
+          <br /> 사진으로 나만의 캘린더를 꾸미고, 그날 누구와 무엇을 했는지 기록하세요. 
+          <br /> 일상을 캘린더로 디자인하는 색다른 경험을 누려보세요!
         </S.DevDescriptionDetail>
 
         <S.DevDescriptionTitle>기능 설명</S.DevDescriptionTitle>
         <S.DevDescriptionDetail>
-          모기 예방법과 퇴치법을 모아 한 서비스 내에서 제공하여 피해를 줄이고, 온보딩 화면, 사이렌
-          기능 등 재미요소 제공을 통해 적시에 정보를 조회하도록 돕는 서비스를 고안했습니다.
-          <br />
-          <br />- 서비스를 통해 쾌적, 관심, 주의 ,불쾌 4단계로 나누어진 모기발생 상황을 확인
-          <br /> - 모기에 대한 정보 및 예방법을 제공하는 오늘의 모기 꿀팁
-          <br /> - 퇴치법 조회 뷰에서 랜덤하게 추천된 모기 퇴치법
-          <br /> - 랭킹 뷰에서 다른 유저들이 평가한 모기 퇴치법에 대한 랭킹을 확인
-          <br />
-          <br /> 🌀🧞‍♂️ 위잉위잉과 함께 모기 스트레스없는 쾌적한 생활하시길 바랍니다 🧞‍♂️🌀
+          🍪 캘린더로 한 달의 쿠키 모아보기
+          <br /> 하루하루의 쿠키를 모아 한 달의 일상을 캘린더로 한눈에 보여줍니다.
+          <br /><br /> 🍪 그 날의 쿠키 조각을 모아보기
+          <br /> 하루동안의 쿠키 조각들을 보면서 누구와 어떤 시간을 보냈는지 리스트할 수 있습니다.
+          <br /><br /> 🍪 카테고리 별 나의 일상 찾기
+          <br />나의 쿠키들을 카테고리 별로 정리하여 한눈에 볼 수 있습니다.
         </S.DevDescriptionDetail>
-
         <S.DevDescription>
           <S.DevDescriptionTitle>기술 스택</S.DevDescriptionTitle>
           <S.ImageForSpace>
@@ -132,7 +152,7 @@ const ProjectPage = () => {
           <S.ImageForSpace>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.MemberImage src="/images/member/kyungminseo.png" />
+                <S.MemberImage src="/images/member/경민서.png" />
                 <S.StackDescription>경민서</S.StackDescription>
                 <S.MemberDescription>Front-end</S.MemberDescription>
               </S.CircleForSpace>
@@ -140,7 +160,7 @@ const ProjectPage = () => {
 
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.MemberImage src="/images/member/yoonseohee.jpg" />
+                <S.MemberImage src="/images/member/윤서희.png" />
                 <S.StackDescription>윤서희</S.StackDescription>
                 <S.MemberDescription>Front-end</S.MemberDescription>
               </S.CircleForSpace>
@@ -148,7 +168,7 @@ const ProjectPage = () => {
 
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.MemberImage src="/images/member/yoonseohee.jpg" />
+                <S.MemberImage src="/images/member/황수연.png" />
                 <S.StackDescription>황수연</S.StackDescription>
                 <S.MemberDescription>Back-end</S.MemberDescription>
               </S.CircleForSpace>
@@ -158,7 +178,7 @@ const ProjectPage = () => {
               <S.CrownContainer>
                 <S.CrownImage src="/images/member/crown.png" alt="Crown" />
                 <S.CircleForSpace>
-                  <S.MemberImage src="/images/member/joyoungseo.png" />
+                  <S.MemberImage src="/images/member/조영서.png" />
                   <S.StackDescription>조영서</S.StackDescription>
                   <S.MemberDescription>Back-end</S.MemberDescription>
                 </S.CircleForSpace>
@@ -167,6 +187,36 @@ const ProjectPage = () => {
           </S.ImageForSpace>
         </S.DevDescription>
         <S.ForSpace></S.ForSpace>
+
+        <S.ReviewTitle>팀 회고</S.ReviewTitle>
+        <S.ReviewContainer>
+          <S.ReviewCard className='review-card'>
+            <div>
+              <span style={{ fontSize: '20px', fontWeight: 'bold' }}>경민서 / Frontend</span><br /><br />
+              <span style={{ lineHeight: '1.5', height: 'auto'}}>반갑습니다 반갑습니다 반갑습니다</span>
+            </div>
+          </S.ReviewCard>
+          <S.ReviewCard className='review-card'>
+            <div>
+              <span style={{ fontSize: '20px', fontWeight: 'bold' }}>윤서희 / Frontend </span><br /><br />
+              <span style={{ lineHeight: '1.5', height: 'auto'}}>기획부터 개발까지 정신없이 달려온 소중한 경험이었습니다 처음 접하는 프론트엔드라, 
+              어려운 점도 많았고 개발이 더딘 부분도 있었는데 팀원들에게 조언을 구하고 소통을 계속 하면서 성공적으로 프로젝트를 마무리할 수 있었다고 
+              생각해요! 1년이라는 시간동안 정말 열심히 개발한 쿠키팀, 그리고 앱스 모든 부원들 넘 고생 많았어요! 다들 사랑합니다</span>
+            </div>
+          </S.ReviewCard>
+          <S.ReviewCard className='review-card'>
+            <div>
+              <span style={{ fontSize: '20px', fontWeight: 'bold' }}>조영서 / Backend </span><br /><br />
+              <span style={{ lineHeight: '1.5' }}></span>
+            </div>
+          </S.ReviewCard>
+          <S.ReviewCard>
+            <div>
+              <span style={{ fontSize: '20px', fontWeight: 'bold' }}>황수연 / Backend</span><br /><br />
+              <span style={{ lineHeight: '1.5' }}></span>
+            </div>
+          </S.ReviewCard>
+        </S.ReviewContainer>
       </S.Project>
     </PageLayout>
   );

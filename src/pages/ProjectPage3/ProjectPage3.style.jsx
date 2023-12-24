@@ -82,7 +82,7 @@ export const DevDescriptionTitle = styled.h3`
 export const DevDescriptionDetail = styled.div`
   margin-top: 20px;
   line-height: 1.4;
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 50px;
 `;
 
@@ -95,7 +95,7 @@ export const CrownContainer = styled.div`
 
 export const CircleImage = styled.div`
   /* margin-top: 20px; */
-  margin-right: 20px;
+  margin-right: 60px;
   width: 115px;
   height: 115px;
   background-color: white;
@@ -158,6 +158,30 @@ export const CircleForSpace = styled.div`
 `;
 
 export const ForSpace = styled.div`
-  diplay: flex;
+  display: flex;
   margin-bottom: 50px;
+`;
+
+export const ReviewTitle = styled.div`
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+`;
+
+export const ReviewContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px;
+`;
+
+export const ReviewCard = styled.div`
+  display: flex;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 15px;
+`;
+
+export const ReviewName = styled.div`
+  font-size: 18px;
+  margin-bottom: 10px;
 `;

@@ -1,5 +1,5 @@
 import { PageLayout, Header } from '../../components';
-import * as S from './ProjectPage3.style';
+import * as S from './ProjectPage4.style';
 import { Link } from 'react-router-dom';
 
 import YouTube from 'react-youtube';
@@ -34,7 +34,7 @@ const ProjectPage = () => {
       </S.Centered>
 
       <S.Project>
-        <S.ProjectName>CalenTime</S.ProjectName>
+        <S.ProjectName>APPS Check</S.ProjectName>
         <S.ProjectSummary>출석체크 어플을 통해 손쉽게 출석 기록을 관리해보아요!</S.ProjectSummary>
 
         <S.ButtonContainer>
@@ -92,8 +92,8 @@ const ProjectPage = () => {
 
         <S.DevDescriptionTitle>서비스 설명</S.DevDescriptionTitle>
         <S.DevDescriptionDetail>
-        Sookmyng APPS 부원들을 위한 출석 체크 앱, AppsCheck입니다. 
-        세미나 장소에 도착해서 출석할 수 있는 기능과 함께, 나의 과거 출석 기록도 살펴볼 수 있습니다.
+          Sookmyng APPS 부원들을 위한 출석 체크 앱, AppsCheck입니다. 
+          <br />세미나 장소에 도착해서 출석할 수 있는 기능과 함께, 나의 과거 출석 기록도 살펴볼 수 있습니다.
         </S.DevDescriptionDetail>
 
         <S.DevDescriptionTitle>기획의도</S.DevDescriptionTitle>
@@ -114,7 +114,7 @@ const ProjectPage = () => {
           <S.ImageForSpace>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/stackIcon/SpringBoot.png" alt="Firebase" />
+                <S.StackImage src="/images/stackIcon/firebase.png" alt="Firebase" />
                 <S.StackDescription>Firebase</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>

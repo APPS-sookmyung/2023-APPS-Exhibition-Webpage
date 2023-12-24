@@ -1,5 +1,5 @@
 import { PageLayout, Header } from '../../components';
-import * as S from './ProjectPage3.style';
+import * as S from './ProjectPage5.style';
 import { Link } from 'react-router-dom';
 
 import YouTube from 'react-youtube';
@@ -34,8 +34,8 @@ const ProjectPage = () => {
       </S.Centered>
 
       <S.Project>
-        <S.ProjectName>CalenTime</S.ProjectName>
-        <S.ProjectSummary>출석체크 어플을 통해 손쉽게 출석 기록을 관리해보아요!</S.ProjectSummary>
+        <S.ProjectName>새미새</S.ProjectName>
+        <S.ProjectSummary>새 도감 사이트</S.ProjectSummary>
 
         <S.ButtonContainer>
           <S.StyledButton>
@@ -69,7 +69,7 @@ const ProjectPage = () => {
           </S.StyledButton>
 
           <S.StyledButton>
-            <Link to="https://github.com/APPS-sookmyung/2023-AppsCheck">
+            <Link to="https://github.com/APPS-sookmyung/2023-POCHAK-ios">
               <S.IconTextWrapper>
                 <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
                 <S.Text>Client</S.Text>
@@ -78,7 +78,7 @@ const ProjectPage = () => {
           </S.StyledButton>
 
           <S.StyledButton>
-            <Link to="https://github.com/APPS-sookmyung/2023-AppsCheck-server">
+            <Link to="https://github.com/APPS-sookmyung/2023-POCHAK-server">
               <S.IconTextWrapper>
                 <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
                 <S.Text>Server</S.Text>
@@ -92,21 +92,34 @@ const ProjectPage = () => {
 
         <S.DevDescriptionTitle>서비스 설명</S.DevDescriptionTitle>
         <S.DevDescriptionDetail>
-        Sookmyng APPS 부원들을 위한 출석 체크 앱, AppsCheck입니다. 
-        세미나 장소에 도착해서 출석할 수 있는 기능과 함께, 나의 과거 출석 기록도 살펴볼 수 있습니다.
+          한국의 탐조인들 모여라! 탐조의 즐거움이 배가 되는, 새에 미친 새람들을 위한 사이트입니다.
         </S.DevDescriptionDetail>
 
         <S.DevDescriptionTitle>기획의도</S.DevDescriptionTitle>
         <S.DevDescriptionDetail>
-          동아리 부원들은 세미나 장소에 도착하여 간편한 출석체크를 수행하며, 운영진은 실시간으로 부원들의 출석 상태를 효과적으로 관리할 수 있습니다.
+          - 도감
+          <br /> 새 이름으로 검색하기
+          <br /> 내가 발견한 새 특징으로 검색하기
+          <br /> 새의 종 이름으로 검색하기
           <br /><br />
-          - 세미나 일정과 장소를 사전에 확인하고, 그날의 주요 공지사항을 손쉽게 접할 수 있습니다.
-          <br />
-          - 출석이 불가한 경우, 동아리 부원들은 해당 사유를 작성하고 표시할 수 있습니다.
-          <br />
-          - 동아리 운영진은 출석 시간을 실시간으로 받아보며, 부원별 출석 통계자료를 간편하게 확인할 수 있습니다.
+          - 동정
+          <br /> 내가 동정 못하겠는 새 사진을 고수들에게 동정을 부탁하기
+          <br /> 동정을 정확히 해주고 포인트 받기
           <br /><br />
-          출석체크☑️ 간편하게 해보아요😁
+          - 기록
+          <br /> 내 탐조 여정을 기록해봐요!
+          <br /> 내 탐조 여정을 확인해봐요!
+          <br /><br />
+          -새뉴스 (할지 말지 미정)
+          <br /> 새들에 대한 뉴스를 접하기
+          <br /> 새에 대해서 빠삭한 고수가 되어 봅시다.
+          <br /><br />
+          -배지
+          <br /> 열심히 탐조활동 하라는 동기부여
+          <br /> 탐조에 대한 달성과제를 완료하여 포인트를 얻기
+          <br /><br />
+          -마이페이지
+          <br /> 모은 포인트로 내 아바타를 만들어봐요!
         </S.DevDescriptionDetail>
 
         <S.DevDescription>
@@ -114,15 +127,15 @@ const ProjectPage = () => {
           <S.ImageForSpace>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/stackIcon/SpringBoot.png" alt="Firebase" />
-                <S.StackDescription>Firebase</S.StackDescription>
+                <S.StackImage src="/images/stackIcon/SpringBoot.png" alt="Spring Boot" />
+                <S.StackDescription>Spring Boot</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>
 
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/stackIcon/React.png" alt="React" />
-                <S.StackDescription>React</S.StackDescription>
+                <S.StackImage src="/images/stackIcon/VanillaJS.png" alt="Vanilla JS" />
+                <S.StackDescription>Vanilla JS</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>
           </S.ImageForSpace>
@@ -133,35 +146,41 @@ const ProjectPage = () => {
           <S.DevDescriptionTitle>개발자</S.DevDescriptionTitle>
           <S.ImageForSpace>
             <S.CircleImage>
-              <S.CircleForSpace>
-                <S.MemberImage src="/images/member/류미성.png" />
-                <S.StackDescription>류미성</S.StackDescription>
-                <S.MemberDescription>Front-end</S.MemberDescription>
-              </S.CircleForSpace>
-            </S.CircleImage>
-
-            <S.CircleImage>
-              <S.CircleForSpace>
-                <S.MemberImage src="/images/member/신진영.png" />
-                <S.StackDescription>신진영</S.StackDescription>
-                <S.MemberDescription>Front-end</S.MemberDescription>
-              </S.CircleForSpace>
-            </S.CircleImage>
-
-            <S.CircleImage>
               <S.CrownContainer>
                 <S.CrownImage src="/images/member/crown.png" alt="Crown" />
                 <S.CircleForSpace>
-                  <S.MemberImage src="/images/member/이채은.png" />
-                  <S.StackDescription>이채은</S.StackDescription>
+                  <S.MemberImage src="/images/member/정민주.png" />
+                  <S.StackDescription>정민주</S.StackDescription>
                   <S.MemberDescription>Front-end</S.MemberDescription>
                 </S.CircleForSpace>
               </S.CrownContainer>
             </S.CircleImage>
 
+            <S.CircleImage>
+              <S.CircleForSpace>
+                <S.MemberImage src="/images/member/김진영.png" />
+                <S.StackDescription>김진영</S.StackDescription>
+                <S.MemberDescription>Back-end</S.MemberDescription>
+              </S.CircleForSpace>
+            </S.CircleImage>
+
+            <S.CircleImage>
+              <S.CircleForSpace>
+                <S.MemberImage src="/images/member/문채일.png" />
+                <S.StackDescription>문채일</S.StackDescription>
+                <S.MemberDescription>Back-end</S.MemberDescription>
+              </S.CircleForSpace>
+            </S.CircleImage>
+            
+            <S.CircleImage>
+              <S.CircleForSpace>
+                <S.MemberImage src="/images/member/최민선.png" />
+                <S.StackDescription>최민선</S.StackDescription>
+                <S.MemberDescription>Back-end</S.MemberDescription>
+              </S.CircleForSpace>
+            </S.CircleImage>
           </S.ImageForSpace>
         </S.DevDescription>
-        <S.ForSpace></S.ForSpace>
       </S.Project>
     </PageLayout>
   );
