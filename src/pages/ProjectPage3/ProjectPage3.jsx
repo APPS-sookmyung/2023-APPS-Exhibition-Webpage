@@ -43,21 +43,6 @@ const ProjectPage = () => {
               <S.IconTextWrapper>
                 <S.Icon>
                   <img
-                    src="/images/stackIcon/link.png"
-                    alt="Link Icon"
-                    style={{ width: '20px', height: '20px', fill: '#333D4B', marginRight: '3px' }}
-                  />
-                </S.Icon>
-                <S.Text style={{ lineHeight: '10px'}}>Link</S.Text>
-              </S.IconTextWrapper>
-            </Link>
-          </S.StyledButton>
-
-          <S.StyledButton>
-            <Link to="/your-link-path" style={{ textDecoration: 'none' }}>
-              <S.IconTextWrapper>
-                <S.Icon>
-                  <img
                     src="/images/stackIcon/download.png"
                     alt="Download Icon"
                     style={{ width: '20px', height: '20px', fill: '#333D4B' }}
@@ -114,15 +99,15 @@ const ProjectPage = () => {
           <S.ImageForSpace>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/stackIcon/SpringBoot.png" alt="Firebase" />
-                <S.StackDescription>Firebase</S.StackDescription>
+                <S.StackImage src="/images/stackIcon/Flutter.png" alt="Flutter" />
+                <S.StackDescription>Flutter</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>
 
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/stackIcon/React.png" alt="React" />
-                <S.StackDescription>React</S.StackDescription>
+                <S.StackImage src="/images/stackIcon/SQFlite.jpg" alt="SQFlite" />
+                <S.StackDescription>SQFlite</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>
           </S.ImageForSpace>
@@ -133,11 +118,14 @@ const ProjectPage = () => {
           <S.DevDescriptionTitle>개발자</S.DevDescriptionTitle>
           <S.ImageForSpace>
             <S.CircleImage>
-              <S.CircleForSpace>
-                <S.MemberImage src="/images/member/류미성.png" />
-                <S.StackDescription>류미성</S.StackDescription>
-                <S.MemberDescription>Front-end</S.MemberDescription>
-              </S.CircleForSpace>
+              <S.CrownContainer>
+                <S.CrownImage src="/images/member/crown.png" alt="Crown" />
+                <S.CircleForSpace>
+                  <S.MemberImage src="/images/member/김수현.png" />
+                  <S.StackDescription>김수현</S.StackDescription>
+                  <S.MemberDescription>Front-end</S.MemberDescription>
+                </S.CircleForSpace>
+              </S.CrownContainer>
             </S.CircleImage>
 
             <S.CircleImage>
@@ -149,14 +137,11 @@ const ProjectPage = () => {
             </S.CircleImage>
 
             <S.CircleImage>
-              <S.CrownContainer>
-                <S.CrownImage src="/images/member/crown.png" alt="Crown" />
-                <S.CircleForSpace>
-                  <S.MemberImage src="/images/member/이채은.png" />
-                  <S.StackDescription>이채은</S.StackDescription>
-                  <S.MemberDescription>Front-end</S.MemberDescription>
-                </S.CircleForSpace>
-              </S.CrownContainer>
+              <S.CircleForSpace>
+                <S.MemberImage src="/images/member/하고은.png" />
+                <S.StackDescription>하고은</S.StackDescription>
+                <S.MemberDescription>Front-end</S.MemberDescription>
+              </S.CircleForSpace>
             </S.CircleImage>
 
           </S.ImageForSpace>

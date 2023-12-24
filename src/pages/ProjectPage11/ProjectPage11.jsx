@@ -52,7 +52,7 @@ const ProjectPage = () => {
             </Link>
           </S.StyledButton>
           <S.StyledButton>
-            <Link to="https://github.com/APPS-sookmyung/2023-web-project-photoshopt">
+            <Link to="https://github.com/APPS-sookmyung/2023-web-project-photoshop">
               <S.IconTextWrapper>
                 <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
                 <S.Text>Client</S.Text>
@@ -81,19 +81,19 @@ const ProjectPage = () => {
           <S.ImageForSpace>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/stackIcon/HTML.png" alt="React Native" />
+                <S.StackImage src="/images/stackIcon/HTML.png" alt="HTML" />
                 <S.StackDescription>HTML</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/stackIcon/CSS.png" alt="React Native" />
+                <S.StackImage src="/images/stackIcon/CSS.png" alt="CSS" />
                 <S.StackDescription>CSS</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/stackIcon/JavaScript.png" alt="React Native" />
+                <S.StackImage src="/images/stackIcon/JavaScript.png" alt="JavaScript" />
                 <S.StackDescription>JavaScript</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>
