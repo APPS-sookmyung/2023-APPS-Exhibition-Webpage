@@ -32,8 +32,8 @@ const ProjectPage = () => {
       </S.Centered>
 
       <S.Project>
-        <S.ProjectName>Cookiee-</S.ProjectName>
-        <S.ProjectSummary>하루하루의 쿠키를 모아보세요!</S.ProjectSummary>
+        <S.ProjectName>POCHAK</S.ProjectName>
+        <S.ProjectSummary>당신의 순간을 포착하세요!</S.ProjectSummary>
 
         <S.ButtonContainer>
           <S.StyledButton>
@@ -67,7 +67,7 @@ const ProjectPage = () => {
           </S.StyledButton>
 
           <S.StyledButton>
-            <Link to="https://github.com/APPS-sookmyung/2023-COOKIEE-client-react">
+            <Link to="https://github.com/APPS-sookmyung/2023-POCHAK-ios">
               <S.IconTextWrapper>
                 <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
                 <S.Text>Client</S.Text>
@@ -76,7 +76,7 @@ const ProjectPage = () => {
           </S.StyledButton>
 
           <S.StyledButton>
-            <Link to="https://github.com/APPS-sookmyung/2023-COOKIEE-server">
+            <Link to="https://github.com/APPS-sookmyung/2023-POCHAK-server">
               <S.IconTextWrapper>
                 <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
                 <S.Text>Server</S.Text>
@@ -89,18 +89,23 @@ const ProjectPage = () => {
 
         <S.DevDescriptionTitle>서비스 설명</S.DevDescriptionTitle>
         <S.DevDescriptionDetail>
-          리액트는 프론트엔드 개발자 사이에서 AngularJS, Vue.js와 더불어 많은 인기를 얻고 있다.
-          GitHub Star 수와 npm 패키지 다운로드 수는 React가 가장 많다. SPA을 전제로 하고 있으며,
-          Dirty checking과 Virtual DOM을 활용하여 업데이트 해야하는 DOM 요소를 찾아서 해당 부분만
-          업데이트하기 때문에, 리렌더링이 잦은 동적인 모던 웹에서 엄청나게 빠른 퍼포먼스를 내는게
-          가능하다.
+          Pochak은 사용자가 직접 사진을 올리는 것이 아니라, 친구들이 사용자를 중심으로 촬영한 사진을 통해 자연스럽게 일상을 기록하고 
+          공유하는 특별한 소셜 미디어 플랫폼입니다. 다양한 시각에서의 일상을 통해 사용자들에게 새로운 경험을 제공합니다.
         </S.DevDescriptionDetail>
 
         <S.DevDescriptionTitle>기획의도</S.DevDescriptionTitle>
         <S.DevDescriptionDetail>
-          자바스크립트는 ‘웹페이지에 생동감을 불어넣기 위해’ 만들어진 프로그래밍 언어입니다.
-          자바스크립트로 작성한 프로그램을 스크립트(script) 라고 부릅니다. 스크립트는 웹페이지의
-          HTML 안에 작성할 수 있는데, 웹페이지를 불러올 때 스크립트가 자동으로 실행됩니다.
+          📸 친구들의 시선으로 기록되다:
+          <br />
+          Pochak은 다른 사용자들이 당신의 일상을 기록하도록 하는 독특한 서비스입니다. 당신은 자신의 카메라를 통해 아름다운 순간들을 기록하지 않아도, 친구들이나 팔로워들이 당신을 찍은 사진을 피드에 올려 공유할 수 있습니다.
+          <br /><br />
+          🔄 상호 작용과 공유:
+          <br />
+          Pochak은 사용자들이 서로의 순간에 참여하고 상호 작용할 수 있도록 하는 기능을 강조합니다. 댓글, 좋아요, 그리고 공유를 통해 순간들을 더 특별하게 만들어보세요!
+          <br /><br />
+          🌟 프로필의 다양성:
+          <br />
+          당신의 Pochak 프로필은 다른 사람들이 기록한 당신의 순간들을 보여줍니다. 여러 시각으로부터의 사진들이 모여 하나의 아름다운 이야기를 만들어냅니다
         </S.DevDescriptionDetail>
 
         <S.DevDescription>
@@ -115,8 +120,8 @@ const ProjectPage = () => {
 
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/stackIcon/React.png" alt="React Native" />
-                <S.StackDescription>React Native</S.StackDescription>
+                <S.StackImage src="/images/stackIcon/swift.png" alt="React Native" />
+                <S.StackDescription>swift</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>
           </S.ImageForSpace>
@@ -128,39 +133,58 @@ const ProjectPage = () => {
           <S.ImageForSpace>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.MemberImage src="/images/member/kyungminseo.png" />
-                <S.StackDescription>경민서</S.StackDescription>
+                <S.MemberImage src="/images/member/서정연.png" />
+                <S.StackDescription>서정연</S.StackDescription>
                 <S.MemberDescription>Front-end</S.MemberDescription>
               </S.CircleForSpace>
             </S.CircleImage>
 
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.MemberImage src="/images/member/yoonseohee.jpg" />
-                <S.StackDescription>윤서희</S.StackDescription>
+                <S.MemberImage src="/images/member/장나리.png" />
+                <S.StackDescription>장나리</S.StackDescription>
                 <S.MemberDescription>Front-end</S.MemberDescription>
               </S.CircleForSpace>
             </S.CircleImage>
 
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.MemberImage src="/images/member/yoonseohee.jpg" />
+                <S.MemberImage src="/images/member/황수연.png" />
                 <S.StackDescription>황수연</S.StackDescription>
-                <S.MemberDescription>Back-end</S.MemberDescription>
+                <S.MemberDescription>Front-end</S.MemberDescription>
               </S.CircleForSpace>
             </S.CircleImage>
-
             <S.CircleImage>
               <S.CrownContainer>
                 <S.CrownImage src="/images/member/crown.png" alt="Crown" />
                 <S.CircleForSpace>
-                  <S.MemberImage src="/images/member/joyoungseo.png" />
-                  <S.StackDescription>조영서</S.StackDescription>
+                  <S.MemberImage src="/images/member/김다연.png" />
+                  <S.StackDescription>김다연</S.StackDescription>
                   <S.MemberDescription>Back-end</S.MemberDescription>
                 </S.CircleForSpace>
               </S.CrownContainer>
             </S.CircleImage>
           </S.ImageForSpace>
+
+          <S.ForSpace />
+
+          <S.ImageForSpace>
+            <S.CircleImage>
+              <S.CircleForSpace>
+                <S.MemberImage src="/images/member/오지수.png" />
+                <S.StackDescription>오지수</S.StackDescription>
+                <S.MemberDescription>Back-end</S.MemberDescription>
+              </S.CircleForSpace>
+            </S.CircleImage>
+            <S.CircleImage>
+              <S.CircleForSpace>
+                <S.MemberImage src="/images/member/하고은.png" />
+                <S.StackDescription>하고은</S.StackDescription>
+                <S.MemberDescription>Back-end</S.MemberDescription>
+              </S.CircleForSpace>
+            </S.CircleImage>
+          </S.ImageForSpace>
+
         </S.DevDescription>
         <S.ForSpace></S.ForSpace>
       </S.Project>
