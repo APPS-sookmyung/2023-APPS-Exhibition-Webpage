@@ -94,19 +94,19 @@ const ProjectPage = () => {
           <S.ImageForSpace>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/stackIcon/HTML.png" alt="React Native" />
+                <S.StackImage src="/images/stackIcon/HTML.png" alt="HTML" />
                 <S.StackDescription>HTML</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/stackIcon/CSS.png" alt="React Native" />
+                <S.StackImage src="/images/stackIcon/CSS.png" alt="CSS" />
                 <S.StackDescription>CSS</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>
             <S.CircleImage>
               <S.CircleForSpace>
-                <S.StackImage src="/images/stackIcon/JavaScript.png" alt="React Native" />
+                <S.StackImage src="/images/stackIcon/JavaScript.png" alt="JavaScript" />
                 <S.StackDescription>JavaScript</S.StackDescription>
               </S.CircleForSpace>
             </S.CircleImage>

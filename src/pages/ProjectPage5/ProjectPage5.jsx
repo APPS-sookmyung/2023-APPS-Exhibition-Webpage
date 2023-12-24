@@ -54,22 +54,7 @@ const ProjectPage = () => {
           </S.StyledButton>
 
           <S.StyledButton>
-            <Link to="/your-link-path" style={{ textDecoration: 'none' }}>
-              <S.IconTextWrapper>
-                <S.Icon>
-                  <img
-                    src="/images/stackIcon/download.png"
-                    alt="Download Icon"
-                    style={{ width: '20px', height: '20px', fill: '#333D4B' }}
-                  />
-                </S.Icon>
-                <S.Text style={{ lineHeight: '10px'}}>Download</S.Text>
-              </S.IconTextWrapper>
-            </Link>
-          </S.StyledButton>
-
-          <S.StyledButton>
-            <Link to="https://github.com/APPS-sookmyung/2023-POCHAK-ios">
+            <Link to="https://github.com/APPS-sookmyung/2023-BirdieBuddy">
               <S.IconTextWrapper>
                 <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
                 <S.Text>Client</S.Text>
@@ -78,7 +63,7 @@ const ProjectPage = () => {
           </S.StyledButton>
 
           <S.StyledButton>
-            <Link to="https://github.com/APPS-sookmyung/2023-POCHAK-server">
+            <Link to="https://github.com/APPS-sookmyung/2023-BirdieBuddy-server">
               <S.IconTextWrapper>
                 <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
                 <S.Text>Server</S.Text>
@@ -181,6 +166,48 @@ const ProjectPage = () => {
             </S.CircleImage>
           </S.ImageForSpace>
         </S.DevDescription>
+        <S.ForSpace></S.ForSpace>
+        <S.ReviewTitle>팀 회고</S.ReviewTitle>
+        <S.ReviewContainer>
+          <S.twoContainer>
+            <S.ReviewCard>
+              <div>
+                <span style={{ fontSize: '20px', fontWeight: 'bold' }}>정민주 / Frontend, 팀장</span><br /><br />
+                <span style={{ lineHeight: '1.5'}}>처음 html 배울 때 그날 배운 개념 바로바로 실험 해보려고 만든 미니 프로젝트가 이렇게 커질 줄은 
+                꿈에도 몰랐네요. 막판으로 이것저것 만들다가 어쩌다가 맨 처음에 만든 최초 페이지를 다시 한번 봤는데 와.... 뜯어 고치고 싶은 게 한 두 
+                가지가 아니더라고요. 그 만큼 html css js 실력이 어느 정도 늘었다는 소리겠죠? 🤔
+                내가 프런트 작업에 집중할 수 있게 도와준 백앤드 친구들아 도와줘서 고맙다~ 내가 프런트 공부 더 해 올 터이니 너도 나도 강해져서 다음 프로젝트에서 만나자!
+                (그렇다고 이 프로젝트 바로 놓으면 안된다 우리 추가로 넣어야 하는 기능 엄청 많아😥)</span>
+              </div>
+            </S.ReviewCard>
+            <S.ReviewCard>
+              <div>
+                <span style={{ fontSize: '20px', fontWeight: 'bold' }}>김진영 / Backend </span><br /><br />
+                <span style={{ lineHeight: '1.5'}}>좋은 경험이었습니다.(임시)</span>
+              </div>
+            </S.ReviewCard>
+          </S.twoContainer>
+          <S.twoContainer>
+            <S.ReviewCard>
+              <div>
+                <span style={{ fontSize: '20px', fontWeight: 'bold' }}>문채일 / Backend</span><br /><br />
+                <span style={{ lineHeight: '1.5' }}>웹 개발 프로젝트에서 백엔드 기획과 개발 업무는 처음 해봤는데, 인텔리제이랑 스프링, 
+                데이터베이스 다루는 데 많이 서툰 저를 같은 팀원들이 잘 이끌어줬습니다! 모두에게 고맙다는 말을 전하고 싶네요. 프로젝트 주제가 새여서 
+                그런지, 평생 관심을 가져보지 않았던 새에 대한 흥미를 느끼게 되어서 신기하기도 합니다🪽🪽. 많이 바빴지만, 많은 도전이 있던 해였고, 
+                여러 가지 경험을 하면서 큰 보폭의 성장을 이뤘다고 느껴지는 한 해였습니다! 언젠가 저희가 개발한 새미새 프로젝트를 출시해서 많은 한국 
+                사람들이 해외 새 사이트인 ebird와 같이 우리나라의 새를 탐조하는 것에 대해 관심을 가지는 계기가 되었으면 좋겠습니다.🐦🐦내년에는 제 
+                개발 능력이 더더욱 업그레이드되길 소망하고 🕊️🕊️ 프로젝트 무사히 마치고 모두 새처럼 날개를 달고 훨훨 날아오르시길 기원합니다.</span>
+              </div>
+            </S.ReviewCard>
+            <S.ReviewCard>
+              <div>
+                <span style={{ fontSize: '20px', fontWeight: 'bold' }}>최민선 / Backend </span><br /><br />
+                <span style={{ lineHeight: '1.5'}}>스프링 공부에 많은 도움이 되었습니다. 혼자 했으면 유니티로 줄행랑쳤을 것 같은데 
+                팀원이랑 같이 하면서 꾸역꾸역하니까 스프링도 공부하게 된 것 같네요. 우리 새미새팀 사랑해❤️❤️</span>
+              </div>
+            </S.ReviewCard>
+          </S.twoContainer>
+        </S.ReviewContainer>
       </S.Project>
     </PageLayout>
   );
