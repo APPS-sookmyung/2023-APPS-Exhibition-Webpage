@@ -84,17 +84,10 @@ export const DevDescriptionDetail = styled.div`
   line-height: 1.4;
   font-size: 18px;
   margin-bottom: 50px;
-`;
-
-export const CrownContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
+  white-space: pre-wrap; // \n을 인지하고 줄 바꿈 실행
 `;
 
 export const CircleImage = styled.div`
-  /* margin-top: 20px; */
   margin-right: 60px;
   width: 115px;
   height: 115px;
@@ -103,6 +96,7 @@ export const CircleImage = styled.div`
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: row;
+  flex-shrink: 0; // 간격이 좁아졌을때 원의 형태가 변형되는 것을 방지
 `;
 
 export const StackImage = styled.img`
@@ -153,6 +147,7 @@ export const ImageForSpace = styled.div`
 `;
 
 export const CircleForSpace = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
 `;
@@ -174,9 +169,10 @@ export const ReviewContainer = styled.div`
   gap: 25px;
 `;
 
-export const twoContainer = styled.div``;
-
 export const ReviewCard = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   border: 1px solid white;
   border-radius: 10px;
   padding: 15px;
