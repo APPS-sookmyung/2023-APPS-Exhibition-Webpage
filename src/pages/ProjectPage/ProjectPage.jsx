@@ -112,7 +112,6 @@ const ProjectPage = () => {
 
         <S.DevDescription>
           <S.DevDescriptionTitle>개발자</S.DevDescriptionTitle>
-
           <S.ImageForSpace>
             {projectData.memberList.map(({ id, name, role, job, imageUrl }) => (
               <S.CircleImage key={id}>
@@ -128,16 +127,18 @@ const ProjectPage = () => {
         </S.DevDescription>
         <S.ForSpace></S.ForSpace>
 
-        <S.ReviewTitle>팀 회고</S.ReviewTitle>
         <S.ReviewContainer>
-          {projectData.memberList.map(({ id, name, job, retrospect }) => (
-            <S.ReviewCard key={id}>
-              <h3 style={{ fontSize: '20px', fontWeight: 'bold' }}>
-                {name} / {job}
-              </h3>
-              <span style={{ lineHeight: '1.5' }}>{retrospect}</span>
-            </S.ReviewCard>
-          ))}
+          <S.ReviewTitle>회 고</S.ReviewTitle>
+          <S.ReviewBox>
+            {projectData.memberList.map(({ id, name, job, retrospect }) => (
+              <S.ReviewCard key={id}>
+                <S.ReviewCardTitle>
+                  {name} / {job}
+                </S.ReviewCardTitle>
+                <S.ReviewCardContent>{retrospect}</S.ReviewCardContent>
+              </S.ReviewCard>
+            ))}
+          </S.ReviewBox>
         </S.ReviewContainer>
       </S.Project>
     </PageLayout>
