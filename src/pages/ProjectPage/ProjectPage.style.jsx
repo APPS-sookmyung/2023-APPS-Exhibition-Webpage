@@ -164,9 +164,9 @@ export const ReviewTitle = styled.div`
 `;
 
 export const ReviewContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 두 개의 열로 설정 */
-  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 `;
 
 export const ReviewCard = styled.div`
@@ -176,6 +176,5 @@ export const ReviewCard = styled.div`
   border: 1px solid white;
   border-radius: 10px;
   padding: 15px;
-  margin-bottom: 25px;
   height: auto;
 `;
