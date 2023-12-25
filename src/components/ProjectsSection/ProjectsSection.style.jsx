@@ -137,8 +137,6 @@ export const ProjectCategoryItemLink = styled.a`
   border-radius: 20px;
   border: 1px solid #fff;
   overflow: hidden;
-  /* justify-content: space-between; */
-  /* position: relative; */
 `;
 
 export const ProjectImageWrapper = styled.div`
