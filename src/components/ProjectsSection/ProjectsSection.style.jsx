@@ -120,8 +120,13 @@ export const ProjectCardList = styled.ul`
 
 export const ProjectCardItem = styled.li`
   width: calc(50% - 15px);
-  /* max-width: 480px; */
-  /* max-height: 350px; */
+
+  &:hover {
+    & .projectCard__image {
+      transform: scale(1.1);
+      transition: transform 0.2s ease;
+    }
+  }
 `;
 
 export const ProjectCategoryItemLink = styled.a`
