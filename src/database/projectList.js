@@ -57,15 +57,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'Spring Boot',
-        imageUrl: '/images/stackIcon/SpringBoot.png',
+        imageUrl: '/images/techStack/springboot.png',
       },
       {
         name: 'AWS',
-        imageUrl: '/images/stackIcon/AWS.png',
+        imageUrl: '/images/techStack/aws.png',
       },
       {
         name: 'MySQL',
-        imageUrl: '/images/stackIcon/MySQL.png',
+        imageUrl: '/images/techStack/mysql.png',
       },
     ],
   },
@@ -143,11 +143,11 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'Spring Boot',
-        imageUrl: '/images/stackIcon/SpringBoot.png',
+        imageUrl: '/images/techStack/springboot.png',
       },
       {
         name: 'Swift',
-        imageUrl: '/images/stackIcon/Swift.png',
+        imageUrl: '/images/techStack/Swift.png',
       },
     ],
   },
@@ -196,11 +196,11 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'Spring Boot',
-        imageUrl: '/images/stackIcon/SpringBoot.png',
+        imageUrl: '/images/techStack/springboot.png',
       },
       {
         name: 'Swift',
-        imageUrl: '/images/stackIcon/Swift.png',
+        imageUrl: '/images/techStack/Swift.png',
       },
     ],
   },
@@ -252,11 +252,11 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'React',
-        imageUrl: '/images/stackIcon/React.png',
+        imageUrl: '/images/techStack/react.png',
       },
       {
         name: 'Firebase',
-        imageUrl: '/images/stackIcon/Firebase.png',
+        imageUrl: '/images/techStack/Firebase.png',
       },
     ],
   },
@@ -301,7 +301,7 @@ export const PROJECT_LIST = [
         job: 'Front-end',
         imageUrl: '/images/member/정민주.png',
         retrospect:
-          '처음 html 배울 때 그날 배운 개념 바로바로 실험 해보려고 만든 미니 프로젝트가 이렇게 커질 줄은 꿈에도 몰랐네요. 막판으로 이것저것 만들다가 어쩌다가 맨 처음에 만든 최초 페이지를 다시 한번 봤는데 와.... 뜯어 고치고 싶은 게 한 두 가지가 아니더라고요. 그 만큼 html css js 실력이 어느 정도 늘었다는 소리겠죠? 🤔\n내가 프런트 작업에 집중할 수 있게 도와준 백앤드 친구들아 도와줘서 고맙다~ 내가 프런트 공부 더 해 올 터이니 너도 나도 강해져서 다음 프로젝트에서 만나자!\n(그렇다고 이 프로젝트 바로 놓으면 안된다 우리 추가로 넣어야 하는 기능 엄청 많아😥)',
+          '처음 HTML 배울 때 그날 배운 개념 바로바로 실험 해보려고 만든 미니 프로젝트가 이렇게 커질 줄은 꿈에도 몰랐네요. 막판으로 이것저것 만들다가 어쩌다가 맨 처음에 만든 최초 페이지를 다시 한번 봤는데 와.... 뜯어 고치고 싶은 게 한 두 가지가 아니더라고요. 그 만큼 HTML css js 실력이 어느 정도 늘었다는 소리겠죠? 🤔\n내가 프런트 작업에 집중할 수 있게 도와준 백앤드 친구들아 도와줘서 고맙다~ 내가 프런트 공부 더 해 올 터이니 너도 나도 강해져서 다음 프로젝트에서 만나자!\n(그렇다고 이 프로젝트 바로 놓으면 안된다 우리 추가로 넣어야 하는 기능 엄청 많아😥)',
       },
       {
         id: 4,
@@ -316,11 +316,11 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'Vanilla JS',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
       {
         name: 'Spring',
-        imageUrl: '/images/stackIcon/Spring.png',
+        imageUrl: '/images/techStack/springboot.png',
       },
     ],
   },
@@ -354,7 +354,7 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'React',
-        imageUrl: '/images/stackIcon/React.png',
+        imageUrl: '/images/techStack/react.png',
       },
     ],
   },
@@ -388,15 +388,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
@@ -430,15 +430,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
@@ -472,15 +472,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
@@ -514,7 +514,7 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'React',
-        imageUrl: '/images/stackIcon/React.png',
+        imageUrl: '/images/techStack/react.png',
       },
     ],
   },
@@ -546,15 +546,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
@@ -588,15 +588,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
@@ -630,15 +630,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
@@ -672,7 +672,7 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'React',
-        imageUrl: '/images/stackIcon/React.png',
+        imageUrl: '/images/techStack/react.png',
       },
     ],
   },
@@ -706,15 +706,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
