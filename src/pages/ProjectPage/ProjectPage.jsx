@@ -53,7 +53,7 @@ const ProjectPage = () => {
                 <S.IconTextWrapper>
                   <S.Icon>
                     <img
-                      src="/images/stackIcon/download.png"
+                      src="/images/buttonIcon/download.png"
                       alt="Download Icon"
                       style={{ width: '20px', height: '20px', fill: '#333D4B' }}
                     />
