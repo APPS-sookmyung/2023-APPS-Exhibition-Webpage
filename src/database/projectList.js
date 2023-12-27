@@ -95,7 +95,7 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/서정연.png',
-        retrospect: '넣기',
+        retrospect: '저의 첫 앱 개발 프로젝트였던 Pochak! iOS 개발의 매력은 깔끔한 UI가 한 몫한다고 생각했었는데 이번 프로젝트에서 디자인팀과 함께 협업을 하게 되면서 그 매력을 배로 느끼면서 즐겁게 개발할 수 있었어요. 재능 넘치는 친구들과 함께 프로젝트에 애정을 가지고 개발하다보니 정말 많이 배우고 성장할 수 있었습니다!✨ 포착이 앱스토어에 배포되는 날까지 더 열심히 개발하겠습니다~🏃🏻‍♀',
       },
       {
         id: 3,
@@ -523,7 +523,7 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/이해림.png',
-        retrospect: '넣기',
+        retrospect: '여름방학부터 시작하여 제가 관심 있는 포토샵 웹페이지를 제작하였습니다. HTML과 JS를 이용하여 사진 편집 기능을 구현하고 게시판 기능까지 삽입하여 여러 사용자가 소통할 수 있도록 하였습니다. 물론 끝맺음이 상당히 아쉽지만 좋은 경험이었고 저는 이 프로젝트가 긴 시간이 걸리더라도 완성하고 싶습니다. 그래서 나중이라도 더 발전된 모습으로 배포하고 이 순간을 저의 성장의 뜻깊은 발디딤이라고 기억하고 추억하겠습니다.',
       },
     ],
     techStackList: [
