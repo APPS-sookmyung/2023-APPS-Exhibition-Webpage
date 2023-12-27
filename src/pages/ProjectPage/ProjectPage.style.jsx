@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 
 export const Centered = styled.div`
   display: flex;
-  /* max-width: 500px; */
   justify-content: center;
   margin-top: 116px;
 `;
@@ -20,25 +19,24 @@ export const Project = styled.div`
 
 export const ProjectName = styled.div`
   display: flex;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 `;
 
 export const ProjectSummary = styled.div`
   display: flex;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 30px;
 `;
 
 export const StyledButton = styled.button`
   background-color: ${Colors.white};
   color: black;
-  width: 130px;
-  height: 50px;
+  width: 120px;
+  height: 40px;
   border: none;
   border-radius: 10px;
-  /* margin-top: 20px; */
   margin-right: 20px;
   text-align: center;
   display: flex;
@@ -69,28 +67,29 @@ export const IconTextWrapper = styled.span`
 export const ButtonContainer = styled.div`
   display: flex;
   flex-direction: row;
-  /* margin-bottom: 20px; */
 `;
 
 export const DevDescription = styled.div``;
 
 export const DevDescriptionTitle = styled.h3`
-  font-size: 32px;
+  margin: 10px 0px;
+  font-size: 30px;
   font-weight: 700;
+  letter-spacing: 0.06em;
 `;
 
 export const DevDescriptionDetail = styled.div`
-  margin-top: 20px;
+  margin-top: 10px;
   line-height: 1.4;
-  font-size: 18px;
-  margin-bottom: 50px;
+  font-size: 20px;
+  margin-bottom: 40px;
   white-space: pre-wrap; // \n을 인지하고 줄 바꿈 실행
 `;
 
 export const CircleImage = styled.div`
-  margin-right: 60px;
-  width: 115px;
-  height: 115px;
+  margin-right: 36px;
+  width: 100px;
+  height: 100px;
   background-color: white;
   border-radius: 50%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -154,7 +153,11 @@ export const CircleForSpace = styled.div`
 
 export const ForSpace = styled.div`
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+`;
+
+export const ReviewContainer = styled.div`
+  margin-top: 30px;
 `;
 
 export const ReviewTitle = styled.div`
@@ -163,7 +166,7 @@ export const ReviewTitle = styled.div`
   margin-bottom: 20px;
 `;
 
-export const ReviewContainer = styled.div`
+export const ReviewBox = styled.div`
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -177,4 +180,13 @@ export const ReviewCard = styled.div`
   border-radius: 10px;
   padding: 15px;
   height: auto;
+`;
+
+export const ReviewCardTitle = styled.h3`
+  font-size: 20px;
+  font-weight: bold;
+`;
+
+export const ReviewCardContent = styled.span`
+  line-height: 1.5;
 `;
