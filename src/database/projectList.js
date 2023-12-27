@@ -33,8 +33,7 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/윤서희.png',
-        retrospect:
-          '기획부터 개발까지 정신없이 달려온 소중한 경험이었어요! 처음 접하는 프론트엔드라, 어려운 점도 많았고 개발이 더딘 부분도 있었는데 팀원들에게 조언을 구하고 소통을 계속 하면서 성공적으로 프로젝트를 마무리할 수 있었다고 생각해요! 1년이라는 시간동안 정말 열심히 개발한 쿠키팀, 그리고 앱스 모든 부원들 넘 고생 많았어요! 쿠키팀은 최고의 팀원들이었어요~~!!! 내가 만든 쿠키~🍪❤️',
+        retrospect: '기획부터 개발까지 정신없이 달려온 소중한 경험이었어요! 처음 접하는 프론트엔드라, 어려운 점도 많았고 개발이 더딘 부분도 있었는데 팀원들에게 조언을 구하고 소통을 계속 하면서 성공적으로 프로젝트를 마무리할 수 있었다고 생각해요! 1년이라는 시간동안 정말 열심히 개발한 쿠키팀, 그리고 앱스 모든 부원들 넘 고생 많았어요! 쿠키팀은 최고의 팀원들이었어요~~!!! 내가 만든 쿠키~🍪❤️',
       },
       {
         id: 3,
@@ -42,7 +41,7 @@ export const PROJECT_LIST = [
         role: 'LEADER',
         job: 'Back-end',
         imageUrl: '/images/member/조영서.png',
-        retrospect: '좋은 경험이었습니다.(임시)',
+        retrospect: '제가 오랜 시간 생각했던 아이디어를 제가 APPS 부원들과 함께 실현시킬 수 있어서 행복했던 1년이었습니다. 아이디어를 구체화시키고 실현시키는 과정에서 같은 Cookiee 팀원들에게 많은 것들을 배우고 좋은 아이디어들을 접해볼 수 있었습니다. 길다면 긴 1년이라는 시간동안 프로젝트에 꾸준히, 성실히 참여해준 Cookiee 팀원들에게 고맙다는 말을 전하고 싶습니다. 1년동안 우리는 꾸준히 성장해왔고 서로에게 많은 점을 배웠다고 생각합니다. 특히 BE 파트너 수연이와 처음으로 백엔드 프로젝트를 진행하느라 많은 고난과 역경이 있었지만 하나하나 헤쳐나가는 과정에서 Spring과 서버에 대해 많은 것들을 배울 수 있었습니다.(지수에게도 고맙다는 말을 전합니다.) 웹페이지 전시회는 이제 오픈되지만, 3월에 있을 대면 전시회에서는 더 많은 기능과 서버 안정화를 이루고 싶습니다. 모두들 기대해주세요! 감사합니다.🍪',
       },
       {
         id: 4,
@@ -50,22 +49,17 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Back-end',
         imageUrl: '/images/member/황수연.png',
-        retrospect:
-          '백엔드는 완전 처음이었는데, 백엔드의 중요성을 정말 많이 느꼈습니다. 생각보다 백에서 처리하고 고려해줘야 할 사항이 엄청 많더라고요.. 너무너무 힘들었고 지금도 아주 힘들지만 같이 고생하는 백엔드 팀원이 있어서 그래도 한시름 놓을 수 있었습니다. 또 팀원들 모두 본인이 맡은 분야는 처음이라, 정말 아주 밑바닥부터 프로젝트를 시작해나갔어요. 그래도 다른 팀원들이 열심히 하는 모습을 보며 자극도 받고 저도 더 열심히 해서 진도나갈 수 있는 동기가 되었습니다! 이렇게 풀스택을 해보는 경험을 통해 시야를 더 넓힐 수 있어서 좋았습니다!',
+        retrospect: '백엔드는 완전 처음이었는데, 백엔드의 중요성을 정말 많이 느꼈습니다. 생각보다 백에서 처리하고 고려해줘야 할 사항이 엄청 많더라고요.. 너무너무 힘들었고 지금도 아주 힘들지만 같이 고생하는 백엔드 팀원이 있어서 그래도 한시름 놓을 수 있었습니다. 또 팀원들 모두 본인이 맡은 분야는 처음이라, 정말 아주 밑바닥부터 프로젝트를 시작해나갔어요. 그래도 다른 팀원들이 열심히 하는 모습을 보며 자극도 받고 저도 더 열심히 해서 진도나갈 수 있는 동기가 되었습니다! 이렇게 풀스택을 해보는 경험을 통해 시야를 더 넓힐 수 있어서 좋았습니다!',
       },
     ],
     techStackList: [
       {
         name: 'Spring Boot',
-        imageUrl: '/images/techStack/springboot.png',
+        imageUrl: '/images/stackIcon/SpringBoot.png',
       },
       {
-        name: 'AWS',
-        imageUrl: '/images/techStack/aws.png',
-      },
-      {
-        name: 'MySQL',
-        imageUrl: '/images/techStack/mysql.png',
+        name: 'React Native',
+        imageUrl: '/images/stackIcon/React.png',
       },
     ],
   },
@@ -110,7 +104,7 @@ export const PROJECT_LIST = [
         job: 'Back-end',
         imageUrl: '/images/member/오지수.png',
         retrospect:
-          'DynamoDB를 처음 사용해 보았는데 정말 쉽지 않은 도전이었어요🥲 원테이블 설계에 도전하고, AWS SDK, Spring Data Dynamodb를 사용하며 쿼리 하나 날리는 법까지 찾아봤던 과정은 시간은 비록 오래걸렸을지라도 서버팀원들의 성장에 큰 도움이 되었을 것 같아요! 앞으로 출시를 위해 다시 MySQL로 마이그레이션하자는 결정이 났지만 지금까지의 노력이 뒷받침되어 더 좋은 서비스를 출시할 수 있게 되리라 믿습니다!! 끊임없는 도전의 시간에 함께해준 우리 포착 팀원분들 너무 고마워요🫶🏻',
+          'DynamoDB를 처음 사용해 보았는데 정말 쉽지 않은 도전이었어요🥲 원테이블 설계에 도전하고, AWS SDK, Spring Data Dynamodb를 사용하며 쿼리 하나 날리는 법까지 찾아봤던 과정은 시간은 비록 오래 걸렸을지라도 서버 팀원들의 성장에 큰 도움이 되었을 것 같아요! 앞으로 출시를 위해 다시 MySQL로 마이그레이션 하자는 결정이 났지만 지금까지의 노력이 뒷받침되어 더 좋은 서비스를 출시할 수 있게 되리라 믿습니다!! 끊임없는 도전의 시간에 함께해준 우리 포착 팀원분들 너무 고마워요🫶🏻📸',
       },
       {
         id: 4,
@@ -128,7 +122,7 @@ export const PROJECT_LIST = [
         job: 'Back-end',
         imageUrl: '/images/member/하고은.png',
         retrospect:
-          ' 다양한 기술을 사용해서 개발을 해볼 수 있는 기회였습니다. 좋은 팀원분들과 함께 프로젝트를 구상하고, 개발을 하면서 정말 많은 것을 배우고, 성장할 수 있었던 점이 가장 좋았던 것 같아요. 프로젝트를 하며 아낌없는 칭찬과 응원을 해주었던 팀원들이 있어서 든든했습니다. 즐겁게 개발했던 기억을 가지고 앞으로도 열심히 개발해보겠습니다!! 😊',
+          '다양한 기술을 사용해서 개발을 해볼 수 있는 기회였습니다. 좋은 팀원분들과 함께 프로젝트를 구상하고, 개발을 하면서 정말 많은 것을 배우고, 성장할 수 있었던 점이 가장 좋았던 것 같아요. 프로젝트를 하며 아낌없는 칭찬과 응원을 해주었던 팀원들이 있어서 든든했습니다. 즐겁게 개발했던 기억을 가지고 앞으로도 열심히 개발해보겠습니다!! 😊',
       },
       {
         id: 6,
@@ -143,11 +137,11 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'Spring Boot',
-        imageUrl: '/images/techStack/springboot.png',
+        imageUrl: '/images/stackIcon/SpringBoot.png',
       },
       {
         name: 'Swift',
-        imageUrl: '/images/techStack/Swift.png',
+        imageUrl: '/images/stackIcon/Swift.png',
       },
     ],
   },
@@ -196,11 +190,11 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'Spring Boot',
-        imageUrl: '/images/techStack/springboot.png',
+        imageUrl: '/images/stackIcon/SpringBoot.png',
       },
       {
         name: 'Swift',
-        imageUrl: '/images/techStack/Swift.png',
+        imageUrl: '/images/stackIcon/Swift.png',
       },
     ],
   },
@@ -227,8 +221,7 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/류미성.png',
-        retrospect:
-          '이번 프로젝트를 통해 유쾌한 팀원들을 만나 협업하는 방법도 배우고, 즐겁게 개발 할 수 있었습니다.  팀원들과 소통을 통해 서비스에 대한 아이디어를 나누고 머리 맞대어 고민하는 시간도 있었습니다. 또 서로의 부족한 부분을 채워가면서 개발에 참여하게 되어 즐거웠습니다.\n이번 프로젝트에서 얻은 경험과 팀원들과의 소중한 협업 경험을 잊지 못 할 것 같습니다💗',
+        retrospect: '이번 프로젝트를 통해 유쾌한 팀원들을 만나 협업하는 방법도 배우고, 즐겁게 개발 할 수 있었습니다. 팀원들과 소통을 통해 서비스에 대한 아이디어를 나누고 머리 맞대어 고민하는 시간도 있었습니다. 또 서로의 부족한 부분을 채워가면서 개발에 참여하게 되어 즐거웠습니다. 이번 프로젝트에서 얻은 경험과 팀원들과의 소중한 협업 경험을 잊지 못 할 것 같습니다💗',
       },
       {
         id: 2,
@@ -236,8 +229,7 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/신진영.png',
-        retrospect:
-          '첫 기획안을 제시한게 저였지만 개인적인 일정 조정이 어려워서 프로젝트에 제대로 참여하지 못한 것이 아쉽습니다. 하지만 앱스체크 마무리를 위해 겨울방학 일정을 조정해놨기 때문에 책임감을 가지고 개발해서 내년 앱스에서는 출석체크할때 꼭 이 앱을 사용해볼 수 있길 바라요 :) 저를 배려해주고 열심히 참여해준 채은이와 미성언니에게 너무 고맙다는 말을 꼭 남기고 싶습니다! 수고 많았고 감사해요💝',
+        retrospect: '첫 기획안을 제시한게 저였지만 개인적인 일정 조정이 어려워서 프로젝트에 제대로 참여하지 못한 것이 아쉽습니다. 하지만 앱스체크 마무리를 위해 겨울방학 일정을 조정해놨기 때문에 책임감을 가지고 개발해서 내년 앱스에서는 출석체크할때 꼭 이 앱을 사용해볼 수 있길 바라요 :) 저를 배려해주고 열심히 참여해준 채은이와 미성언니에게 너무 고맙다는 말을 꼭 남기고 싶습니다! 수고 많았고 감사해요💝',
       },
       {
         id: 3,
@@ -245,18 +237,17 @@ export const PROJECT_LIST = [
         role: 'LEADER',
         job: 'Front-end',
         imageUrl: '/images/member/이채은.png',
-        retrospect:
-          '개인 프로젝트도 유익했지만, 아무래도 가장 재밌었던 건 다같이 하는 프로젝트였던 것 같습니다. 저는 이미 기획과 디자인이 마무리된 이후 투입되었습니다. 디자인과 기획에 시간을 쏟지 않고 오로지 개발에만 집중할 수 있었다는 점이 좋았던 것 같습니다. 또한, 함께 개발하는 과정에서 여러 컨벤션들을 지키면서 개발을 하는 경험을 해볼 수 있어서 매우 유익했습니다.\nAppsCheck 는 실제로 Apps 동아리 내에서 사용하고자 만든 앱입니다. 실제로 내년 2024년에는 해당 앱을 사용해서 출석체크를 진행했으면 하는 바람이 있습니다.\n팀원들과 함께 즐거운 시간을 보내며 성장할 수 있어서 정말 기쁩니다. 감사합니다.',
+        retrospect: '개인 프로젝트도 유익했지만, 아무래도 가장 재밌었던 건 다같이 하는 프로젝트였던 것 같습니다. 저는 이미 기획과 디자인이 마무리된 이후 투입되었습니다. 디자인과 기획에 시간을 쏟지 않고 오로지 개발에만 집중할 수 있었다는 점이 좋았던 것 같습니다. 또한, 함께 개발하는 과정에서 여러 컨벤션들을 지키면서 개발을 하는 경험을 해볼 수 있어서 매우 유익했습니다. AppsCheck 는 실제로 Apps 동아리 내에서 사용하고자 만든 앱입니다. 실제로 내년 2024년에는 해당 앱을 사용해서 출석체크를 진행했으면 하는 바람이 있습니다. 팀원들과 함께 즐거운 시간을 보내며 성장할 수 있어서 정말 기쁩니다. 감사합니다.',
       },
     ],
     techStackList: [
       {
         name: 'React',
-        imageUrl: '/images/techStack/react.png',
+        imageUrl: '/images/stackIcon/React.png',
       },
       {
         name: 'Firebase',
-        imageUrl: '/images/techStack/Firebase.png',
+        imageUrl: '/images/stackIcon/Firebase.png',
       },
     ],
   },
@@ -283,7 +274,7 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Back-end',
         imageUrl: '/images/member/김진영.png',
-        retrospect: '넣기',
+        retrospect: '같이 탐조라는 취미활동을 가진 지인과 함께 초기 아이디어를 구상하고, 팀원들과 함께 구체화하여 웹개발 프로젝트를 진행할 수 있어 뜻깊은 경험이었습니다. 관심깊었던 스프링 프레임워크를 사용하여 정말 알찬 개발 경험을 할 수 있었던 것 같습니다! 팀원분들 모두 잘 협력해주시고 막히는 부분들은 서로 도와가면서 개발했던 점이 가장 기억에 남네요😊 모두 고생 많으셨습니다!',
       },
       {
         id: 2,
@@ -291,8 +282,7 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Back-end',
         imageUrl: '/images/member/문채일.png',
-        retrospect:
-          '웹 개발 프로젝트에서 백엔드 기획과 개발 업무는 처음 해봤는데, 인텔리제이랑 스프링, 데이터베이스 다루는 데 많이 서툰 저를 같은 팀원들이 잘 이끌어줬습니다! 모두에게 고맙다는 말을 전하고 싶네요. 프로젝트 주제가 새여서 그런지, 평생 관심을 가져보지 않았던 새에 대한 흥미를 느끼게 되어서 신기하기도 합니다🪽🪽. 많이 바빴지만, 많은 도전이 있던 해였고, 여러 가지 경험을 하면서 큰 보폭의 성장을 이뤘다고 느껴지는 한 해였습니다! 언젠가 저희가 개발한 새미새 프로젝트를 출시해서 많은 한국 사람들이 해외 새 사이트인 ebird와 같이 우리나라의 새를 탐조하는 것에 대해 관심을 가지는 계기가 되었으면 좋겠습니다.🐦🐦내년에는 제 개발 능력이 더더욱 업그레이드되길 소망하고 🕊️🕊️ 프로젝트 무사히 마치고 모두 새처럼 날개를 달고 훨훨 날아오르시길 기원합니다.',
+        retrospect: '웹 개발 프로젝트에서 백엔드 기획과 개발 업무는 처음 해봤는데, 인텔리제이랑 스프링, 데이터베이스 다루는 데 많이 서툰 저를 같은 팀원들이 잘 이끌어줬습니다! 모두에게 고맙다는 말을 전하고 싶네요. 프로젝트 주제가 새여서 그런지, 평생 관심을 가져보지 않았던 새에 대한 흥미를 느끼게 되어서 신기하기도 합니다🪽🪽. 많이 바빴지만, 많은 도전이 있던 해였고, 여러 가지 경험을 하면서 큰 보폭의 성장을 이뤘다고 느껴지는 한 해였습니다! 언젠가 저희가 개발한 새미새 프로젝트를 출시해서 많은 한국 사람들이 해외 새 사이트인 ebird와 같이 우리나라의 새를 탐조하는 것에 대해 관심을 가지는 계기가 되었으면 좋겠습니다.🐦🐦내년에는 제 개발 능력이 더더욱 업그레이드되길 소망하고 🕊️🕊️ 프로젝트 무사히 마치고 모두 새처럼 날개를 달고 훨훨 날아오르시길 기원합니다.',
       },
       {
         id: 3,
@@ -300,8 +290,7 @@ export const PROJECT_LIST = [
         role: 'LEADER',
         job: 'Front-end',
         imageUrl: '/images/member/정민주.png',
-        retrospect:
-          '처음 HTML 배울 때 그날 배운 개념 바로바로 실험 해보려고 만든 미니 프로젝트가 이렇게 커질 줄은 꿈에도 몰랐네요. 막판으로 이것저것 만들다가 어쩌다가 맨 처음에 만든 최초 페이지를 다시 한번 봤는데 와.... 뜯어 고치고 싶은 게 한 두 가지가 아니더라고요. 그 만큼 HTML css js 실력이 어느 정도 늘었다는 소리겠죠? 🤔\n내가 프런트 작업에 집중할 수 있게 도와준 백앤드 친구들아 도와줘서 고맙다~ 내가 프런트 공부 더 해 올 터이니 너도 나도 강해져서 다음 프로젝트에서 만나자!\n(그렇다고 이 프로젝트 바로 놓으면 안된다 우리 추가로 넣어야 하는 기능 엄청 많아😥)',
+        retrospect: '처음 html 배울 때 그날 배운 개념 바로바로 실험 해보려고 만든 미니 프로젝트가 이렇게 커질 줄은 꿈에도 몰랐네요. 막판으로 이것저것 만들다가 어쩌다가 맨 처음에 만든 최초 페이지를 다시 한번 봤는데 와.... 뜯어 고치고 싶은 게 한 두 가지가 아니더라고요. 그 만큼 html css js 실력이 어느 정도 늘었다는 소리겠죠? 🤔 내가 프런트 작업에 집중할 수 있게 도와준 백앤드 친구들아 도와줘서 고맙다~ 내가 프런트 공부 더 해 올 터이니 너도 나도 강해져서 다음 프로젝트에서 만나자! (그렇다고 이 프로젝트 바로 놓으면 안된다 우리 추가로 넣어야 하는 기능 엄청 많아😥)',
       },
       {
         id: 4,
@@ -309,18 +298,17 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Back-end',
         imageUrl: '/images/member/최민선.png',
-        retrospect:
-          '스프링 공부에 많은 도움이 되었습니다. 혼자 했으면 유니티로 줄행랑쳤을 것 같은데 팀원이랑 같이 하면서 꾸역꾸역하니까 스프링도 공부하게 된 것 같네요. 우리 새미새팀 사랑해❤️❤️',
+        retrospect: '스프링 공부에 많은 도움이 되었습니다. 혼자 했으면 유니티로 줄행랑쳤을 것 같은데 팀원이랑 같이 하면서 꾸역꾸역하니까 스프링도 공부하게 된 것 같네요. 우리 새미새팀 사랑해❤️❤️',
       },
     ],
     techStackList: [
       {
         name: 'Vanilla JS',
-        imageUrl: '/images/techStack/javascript.png',
+        imageUrl: '/images/stackIcon/JavaScript.png',
       },
       {
         name: 'Spring',
-        imageUrl: '/images/techStack/springboot.png',
+        imageUrl: '/images/stackIcon/SpringBoot.png',
       },
     ],
   },
@@ -347,14 +335,13 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/경민서.png',
-        retrospect:
-          '1학기에 운영진분들과 함께 배웠던 웹 지식들을 프로젝트에 바로 쓸 수 있어서 좋았습니다 😊 제가 그동안 생활하면서 학과 홈페이지에 더 다양한 내용들이 있으면 좋겠다구 부족하게 느꼈던 부분들을 실제로 고쳐볼 수 있는 기회였던 점에서 의미 있는 프로젝트였습니다! 첫 웹 프로젝트였던 만큼 중간에 완전히 새로 시작하면서 시행착오도 많았던 것 만큼 좋은 경험이 되었습니다 😇',
+        retrospect: '1학기에 운영진분들과 함께 배웠던 웹 지식들을 프로젝트에 바로 쓸 수 있어서 좋았습니다 😊 제가 그동안 생활하면서 학과 홈페이지에 더 다양한 내용들이 있으면 좋겠다구 부족하게 느꼈던 부분들을 실제로 고쳐볼 수 있는 기회였던 점에서 의미 있는 프로젝트였습니다! 첫 웹 프로젝트였던 만큼 중간에 완전히 새로 시작하면서 시행착오도 많았던 것 만큼 좋은 경험이 되었습니다 😇',
       },
     ],
     techStackList: [
       {
         name: 'React',
-        imageUrl: '/images/techStack/react.png',
+        imageUrl: '/images/stackIcon/React.png',
       },
     ],
   },
@@ -381,22 +368,21 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/류미성.png',
-        retrospect:
-          '첫 개인 프로젝트를 마무리하고 나니, 뿌듯한 마음이 가장 큰 것 같습니다. 이 프로젝트를 통해 기획부터 개발까지의 과정을 경험하면서 많은 것을 배울 수 있었습니다. 여러 레퍼런스를 찾아보며 내가 제공할 서비스의 좋은 UI/UX가 과연 무엇일지, 어떻게 하면 더 나은 방향으로 개선할 수 있을지 등에 대해 많은 고민을 하였습니다. 개발 과정에서는 해결되지 않은 부분이 있어 몇 일을 몰입해서 해결하려고 노력한 날 들도 있었는데, 이 과정에서도 많이 성장할 수 있었습니다.\n\n이 프로젝트를 통해 스스로 얼마나 발전하고 성장했는지를 몸소 느낄 수 있었고, 앞으로의 프로젝트에서도 이번 경험을 살려 더 나은 결과물을 만들어 나가고 싶습니다😁',
+        retrospect: '첫 개인 프로젝트를 마무리하고 나니, 뿌듯한 마음이 가장 큰 것 같습니다. 이 프로젝트를 통해 기획부터 개발까지의 과정을 경험하면서 많은 것을 배울 수 있었습니다. 여러 레퍼런스를 찾아보며 내가 제공할 서비스의 좋은 UI/UX가 과연 무엇일지, 어떻게 하면 더 나은 방향으로 개선할 수 있을지 등에 대해 많은 고민을 하였습니다. 개발 과정에서는 해결되지 않은 부분이 있어 몇 일을 몰입해서 해결하려고 노력한 날 들도 있었는데, 이 과정에서도 많이 성장할 수 있었습니다. 이 프로젝트를 통해 스스로 얼마나 발전하고 성장했는지를 몸소 느낄 수 있었고, 앞으로의 프로젝트에서도 이번 경험을 살려 더 나은 결과물을 만들어 나가고 싶습니다😁',
       },
     ],
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/techStack/html.png',
+        imageUrl: '/images/stackIcon/HTML.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/techStack/css.png',
+        imageUrl: '/images/stackIcon/CSS.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/techStack/javascript.png',
+        imageUrl: '/images/stackIcon/JavaScript.png',
       },
     ],
   },
@@ -423,22 +409,21 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/윤현서.png',
-        retrospect:
-          'APPS를 통해 웹 프로그래밍 공부를 처음 시작하고, 프로젝트까지 도전해보는 소중한 경험이었습니다! 첫 프로젝트였던 만큼 어려움도 많았지만, 그 어려움을 스스로 극복해보며 많이 공부하고, 성장할 수 있었습니다. 이를 계기로 앞으로 진행하게 될 프로젝트에서는 더욱 좋은 결과를 만들어내는 개발자가 되고 싶습니다! 저의 첫 도전에 많은 도움과 조언을 주셨던 운영진분들 너무 감사합니다.💕',
+        retrospect: 'APPS를 통해 웹 프로그래밍 공부를 처음 시작하고, 프로젝트까지 도전해보는 소중한 경험이었습니다! 첫 프로젝트였던 만큼 어려움도 많았지만, 그 어려움을 스스로 극복해보며 많이 공부하고, 성장할 수 있었습니다. 이를 계기로 앞으로 진행하게 될 프로젝트에서는 더욱 좋은 결과를 만들어내는 개발자가 되고 싶습니다! 저의 첫 도전에 많은 도움과 조언을 주셨던 운영진분들 너무 감사합니다.💕',
       },
     ],
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/techStack/html.png',
+        imageUrl: '/images/stackIcon/HTML.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/techStack/css.png',
+        imageUrl: '/images/stackIcon/CSS.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/techStack/javascript.png',
+        imageUrl: '/images/stackIcon/JavaScript.png',
       },
     ],
   },
@@ -465,22 +450,21 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/이지은.png',
-        retrospect:
-          '웹의 다양한 기능을 경험해볼 수 있는 소중한 시간이었습니다. 웹의 디자인이 마음에 들지 않을 때, 원하는 기능을 구현하는 방법을 찾기 힘들 때 등 힘들었던 시간들도 있었지만 나만의 프로젝트를 하나 완성했다는 뿌듯함이 가장 기억에 남는 것 같습니다! 다음에는 다양한 팀원들과 더 완성도 있는 팀 프로젝트를 진행해보고 싶습니다!😄',
+        retrospect: '웹의 다양한 기능을 경험해볼 수 있는 소중한 시간이었습니다. 웹의 디자인이 마음에 들지 않을 때, 원하는 기능을 구현하는 방법을 찾기 힘들 때 등 힘들었던 시간들도 있었지만 나만의 프로젝트를 하나 완성했다는 뿌듯함이 가장 기억에 남는 것 같습니다! 다음에는 다양한 팀원들과 더 완성도 있는 팀 프로젝트를 진행해보고 싶습니다!😄',
       },
     ],
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/techStack/html.png',
+        imageUrl: '/images/stackIcon/HTML.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/techStack/css.png',
+        imageUrl: '/images/stackIcon/CSS.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/techStack/javascript.png',
+        imageUrl: '/images/stackIcon/JavaScript.png',
       },
     ],
   },
@@ -507,14 +491,13 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/이채은.png',
-        retrospect:
-          '기획과 디자인, 그리고 개발까지 모두 혼자 해야했던 개인 프로젝트여서 힘들었던 만큼 많은 걸 배울 수 있어서 좋았습니다. 앞으로 다양한 직군들과 커뮤니케이션을 할때에도 해당 프로젝트를 하면서 배운 것들을 잘 이용해볼 수 있을 것 같습니다. 또한, 혼자 개발을 하는 습관도 기를 수 있었다는 점에서 정말 유익했던 것 같습니다.\n또한, react 로 개발을 하고 앱으로 전환하려고 하니 조금 까다롭더라고요. 안드로이드를 배우고 싶다는 생각도 하게 되었던 것 같습니다.\n여러가지로 너무 즐거웠습니다. 감사합니다.',
+        retrospect: '기획과 디자인, 그리고 개발까지 모두 혼자 해야했던 개인 프로젝트여서 힘들었던 만큼 많은 걸 배울 수 있어서 좋았습니다. 앞으로 다양한 직군들과 커뮤니케이션을 할때에도 해당 프로젝트를 하면서 배운 것들을 잘 이용해볼 수 있을 것 같습니다. 또한, 혼자 개발을 하는 습관도 기를 수 있었다는 점에서 정말 유익했던 것 같습니다. 또한, react 로 개발을 하고 앱으로 전환하려고 하니 조금 까다롭더라고요. 안드로이드를 배우고 싶다는 생각도 하게 되었던 것 같습니다. 여러가지로 너무 즐거웠습니다. 감사합니다.',
       },
     ],
     techStackList: [
       {
         name: 'React',
-        imageUrl: '/images/techStack/react.png',
+        imageUrl: '/images/stackIcon/React.png',
       },
     ],
   },
@@ -546,15 +529,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/techStack/html.png',
+        imageUrl: '/images/stackIcon/HTML.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/techStack/css.png',
+        imageUrl: '/images/stackIcon/CSS.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/techStack/javascript.png',
+        imageUrl: '/images/stackIcon/JavaScript.png',
       },
     ],
   },
@@ -581,22 +564,21 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/정서연.png',
-        retrospect:
-          'Frame"은 정말 기획부터 개발까지 혼자 했던 첫 프로젝트입니다. 처음 하다 보니 당연히 어려움도 많았죠. 머릿속에 막연하게 존재하는 것을 개발로 눈으로 볼 수 있게 하는 작업은 절대 쉽지 않아 가끔은 PPT 만드는 것처럼 옮기고 싶다는 생각까지 했어요. 기획했던 모든 기능을 다 실현하지는 못했지만, 내 아이디어를 통해서 그럴듯한 결과물을 산출했다는 것에 저는 큰 의의를 두고 이 경험을 오래 기억할 것 같아요. 이 기억이 앞으로 하는 일에 힘이 되길 바라면서요. 처음 진행한 프로젝트! 다음엔 팀 프로젝트로 더욱 좋은 서비스를 제공할 수 있도록 노력하여 돌아오겠습니다~!',
+        retrospect: '"Frame"은 정말 기획부터 개발까지 혼자 했던 첫 프로젝트입니다. 처음 하다 보니 당연히 어려움도 많았죠. 머릿속에 막연하게 존재하는 것을 개발로 눈으로 볼 수 있게 하는 작업은 절대 쉽지 않아 가끔은 PPT 만드는 것처럼 옮기고 싶다는 생각까지 했어요. 기획했던 모든 기능을 다 실현하지는 못했지만, 내 아이디어를 통해서 그럴듯한 결과물을 산출했다는 것에 저는 큰 의의를 두고 이 경험을 오래 기억할 것 같아요. 이 기억이 앞으로 하는 일에 힘이 되길 바라면서요. 처음 진행한 프로젝트! 다음엔 팀 프로젝트로 더욱 좋은 서비스를 제공할 수 있도록 노력하여 돌아오겠습니다~!',
       },
     ],
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/techStack/html.png',
+        imageUrl: '/images/stackIcon/HTML.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/techStack/css.png',
+        imageUrl: '/images/stackIcon/CSS.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/techStack/javascript.png',
+        imageUrl: '/images/stackIcon/JavaScript.png',
       },
     ],
   },
@@ -623,22 +605,21 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/정지원.png',
-        retrospect:
-          '독서동아리의 부회장을 했었는데, 상 깊게 읽었던 구절과 서평을 기록하며 언제든 찾아볼 수 있는 웹사이트가 있으면 좋겠다고 생각해서 Livre 웹을 기획하게 됐습니다. 동아리의 분위기와 특성을 생각하며 색감을 정하고, JS를 이용해서 간단한 애니메이션을 구현한 게 재밌었고 기억에 남습니다.\n앱 개발을 주로 했어서 웹 개발은 이번이 처음이었는데, 모르는 부분이나 필요한 부분을 스스로 찾고 공부하며 APPS 부원들의 적극적인 피드백도 받아서 만족스러운 결과물을 낼 수 있었습니다:)',
+        retrospect: '독서동아리의 부회장을 했었는데, 상 깊게 읽었던 구절과 서평을 기록하며 언제든 찾아볼 수 있는 웹사이트가 있으면 좋겠다고 생각해서 Livre 웹을 기획하게 됐습니다. 동아리의 분위기와 특성을 생각하며 색감을 정하고, JS를 이용해서 간단한 애니메이션을 구현한 게 재밌었고 기억에 남습니다. 앱 개발을 주로 했어서 웹 개발은 이번이 처음이었는데, 모르는 부분이나 필요한 부분을 스스로 찾고 공부하며 APPS 부원들의 적극적인 피드백도 받아서 만족스러운 결과물을 낼 수 있었습니다:)',
       },
     ],
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/techStack/html.png',
+        imageUrl: '/images/stackIcon/HTML.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/techStack/css.png',
+        imageUrl: '/images/stackIcon/CSS.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/techStack/javascript.png',
+        imageUrl: '/images/stackIcon/JavaScript.png',
       },
     ],
   },
@@ -665,14 +646,13 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/주아정.png',
-        retrospect:
-          '리액트를 배우기만 했지, 쓸 기회가 없었는데 이번 프로젝트를 통해 리액트를 실제로 사용해봐서 좋았어요! 확실히 실제로 프로젝트하면서 몸으로 익히는 것과 강의를 통해 따라치는 것은 다르다는 걸 느꼈습니다. 여러 일정이 겹쳐 프로젝트 기간이 짧아 다양한 기능과 애니메이션을 구현하지 못해 아쉬웠어요. 추후에 꼭 프로젝트 디벨롭을 진행해보겠습니다... 백엔드도 구현하는 것이 저의 최종 목표! 타 프로젝트를 참고하며 열심히 공부할 수 있어 좋았습니다. 더 멋진 개발자가 되도록 노력하겠습니다!',
+        retrospect: '리액트를 배우기만 했지, 쓸 기회가 없었는데 이번 프로젝트를 통해 리액트를 실제로 사용해봐서 좋았어요! 확실히 실제로 프로젝트하면서 몸으로 익히는 것과 강의를 통해 따라치는 것은 다르다는 걸 느꼈습니다. 여러 일정이 겹쳐 프로젝트 기간이 짧아 다양한 기능과 애니메이션을 구현하지 못해 아쉬웠어요. 추후에 꼭 프로젝트 디벨롭을 진행해보겠습니다... 백엔드도 구현하는 것이 저의 최종 목표! 타 프로젝트를 참고하며 열심히 공부할 수 있어 좋았습니다. 더 멋진 개발자가 되도록 노력하겠습니다!',
       },
     ],
     techStackList: [
       {
         name: 'React',
-        imageUrl: '/images/techStack/react.png',
+        imageUrl: '/images/stackIcon/React.png',
       },
     ],
   },
@@ -699,22 +679,21 @@ export const PROJECT_LIST = [
         role: 'MEMBER',
         job: 'Front-end',
         imageUrl: '/images/member/최서윤.png',
-        retrospect:
-          '상상만 하던 웹페이지를 직접 만들어볼 수 있는 유익한 시간이었습니다. 혼자 구성과 디자인을 설계, 고민해보면서 얻은게 많은 것 같아요. 앞으로도 앱스에서 다양한 프로젝트를 통해 좋은 경험 쌓고 싶습니다!',
+        retrospect: '상상만 하던 웹페이지를 직접 만들어볼 수 있는 유익한 시간이었습니다. 혼자 구성과 디자인을 설계, 고민해보면서 얻은게 많은 것 같아요. 앞으로도 앱스에서 다양한 프로젝트를 통해 좋은 경험 쌓고 싶습니다!',
       },
     ],
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/techStack/html.png',
+        imageUrl: '/images/stackIcon/HTML.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/techStack/css.png',
+        imageUrl: '/images/stackIcon/CSS.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/techStack/javascript.png',
+        imageUrl: '/images/stackIcon/JavaScript.png',
       },
     ],
   },
