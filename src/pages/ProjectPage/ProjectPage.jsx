@@ -89,6 +89,29 @@ const ProjectPage = () => {
 
         <div style={{ width: '100%', borderTop: '2px solid #ffffff', margin: '40px 0' }}></div>
 
+        {/* POCHAK 이미지 */}
+        {projectData.id == 2 && (
+          <S.PochakImgContainer>
+            <img
+              style={{ marginBottom: 15 }}
+              src={'/images/thumbnail/pochak/HOME.png'}
+              alt="pochak_home"
+            />
+            <img
+              style={{ marginBottom: 15 }}
+              src={'/images/thumbnail/pochak/PROFILE.png'}
+              alt="pochak_profile"
+            />
+            <img
+              style={{ marginBottom: 15 }}
+              src={'/images/thumbnail/pochak/SEARCH&ADD&ALARM.png'}
+              alt="pochak_search"
+            />
+
+            <div style={{ width: '100%', borderTop: '2px solid #ffffff', margin: '40px 0' }}></div>
+          </S.PochakImgContainer>
+        )}
+
         <S.DevDescriptionTitle>서비스 소개</S.DevDescriptionTitle>
         <S.DevDescriptionDetail>{projectData.introduction}</S.DevDescriptionDetail>
 

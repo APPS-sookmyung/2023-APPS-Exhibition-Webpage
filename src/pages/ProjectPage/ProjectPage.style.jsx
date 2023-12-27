@@ -190,3 +190,12 @@ export const ReviewCardTitle = styled.h3`
 export const ReviewCardContent = styled.span`
   line-height: 1.5;
 `;
+
+// POCHAK 이미지
+
+export const PochakImgContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+`;
