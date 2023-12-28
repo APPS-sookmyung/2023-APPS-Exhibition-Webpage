@@ -6,8 +6,9 @@ export const PROJECT_LIST = [
     name: 'Cookiee-',
     category: PROJECT_CATEGORIES.APP,
     imageUrl: '/images/thumbnail/img-thumbnail-1.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'kBy6s-egpMo',
     downloadLinkUrl: null,
+    webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-COOKIEE-client-react',
       serverUrl: 'https://github.com/APPS-sookmyung/2023-COOKIEE-server',
@@ -58,11 +59,11 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'Spring Boot',
-        imageUrl: '/images/stackIcon/SpringBoot.png',
+        imageUrl: '/images/techStack/springboot.png',
       },
       {
         name: 'React Native',
-        imageUrl: '/images/stackIcon/React.png',
+        imageUrl: '/images/techStack/react.png',
       },
     ],
   },
@@ -71,8 +72,9 @@ export const PROJECT_LIST = [
     name: 'POCHAK',
     category: PROJECT_CATEGORIES.APP,
     imageUrl: '/images/thumbnail/img-thumbnail-2.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'w1iIRwRci_I',
     downloadLinkUrl: null,
+    webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-POCHAK-ios',
       serverUrl: 'https://github.com/APPS-sookmyung/2023-POCHAK-server',
@@ -141,11 +143,11 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'Spring Boot',
-        imageUrl: '/images/stackIcon/SpringBoot.png',
+        imageUrl: '/images/techStack/springboot.png',
       },
       {
         name: 'Swift',
-        imageUrl: '/images/stackIcon/Swift.png',
+        imageUrl: '/images/techStack/swift.png',
       },
     ],
   },
@@ -154,8 +156,9 @@ export const PROJECT_LIST = [
     name: 'CalenTime',
     category: PROJECT_CATEGORIES.APP,
     imageUrl: '/images/thumbnail/img-thumbnail-3.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: '6VISSmcgKBY',
     downloadLinkUrl: null,
+    webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-CalenTime',
       serverUrl: null,
@@ -194,11 +197,11 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'Spring Boot',
-        imageUrl: '/images/stackIcon/SpringBoot.png',
+        imageUrl: '/images/techStack/springboot.png',
       },
       {
         name: 'Swift',
-        imageUrl: '/images/stackIcon/Swift.png',
+        imageUrl: '/images/techStack/swift.png',
       },
     ],
   },
@@ -209,6 +212,7 @@ export const PROJECT_LIST = [
     imageUrl: '/images/thumbnail/img-thumbnail-4.png',
     youtubeVideoId: '28qM1WwLsRo',
     downloadLinkUrl: null,
+    webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-AppsCheck',
       serverUrl: null,
@@ -250,11 +254,11 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'React',
-        imageUrl: '/images/stackIcon/React.png',
+        imageUrl: '/images/techStack/react.png',
       },
       {
         name: 'Firebase',
-        imageUrl: '/images/stackIcon/Firebase.png',
+        imageUrl: '/images/techStack/firebase.png',
       },
     ],
   },
@@ -263,8 +267,9 @@ export const PROJECT_LIST = [
     name: '새미새',
     category: PROJECT_CATEGORIES.WEB,
     imageUrl: '/images/thumbnail/img-thumbnail-5.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'I0p1C07SrjQ',
     downloadLinkUrl: null,
+    webpageLinkUrl: 'https://apps-sookmyung.github.io/2023-BirdieBuddy/',
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-BirdieBuddy',
       serverUrl: 'https://github.com/APPS-sookmyung/2023-BirdieBuddy-server',
@@ -273,7 +278,7 @@ export const PROJECT_LIST = [
     introduction:
       '한국의 탐조인들 모여라! 탐조의 즐거움이 배가 되는, 새에 미친 새람들을 위한 사이트입니다.',
     description:
-      '- 도감\n새 이름으로 검색하기\n내가 발견한 새 특징으로 검색하기\n새의 종 이름으로 검색하기\n\n- 동정\n내가 동정 못하겠는 새 사진을 고수들에게 동정을 부탁하기\n동정을 정확히 해주고 포인트 받기 \n\n- 기록 \n내 탐조 여정을 기록해봐요! \n내 탐조 여정을 확인해봐요!\n\n -새뉴스 (할지 말지 미정)\n새들에 대한 뉴스를 접하기 \n새에 대해서 빠삭한 고수가 되어 봅시다.\n\n-배지\n열심히 탐조활동 하라는 동기부여\n탐조에 대한 달성과제를 완료하여 포인트를 얻기\n\n-마이페이지\n모은 포인트로 내 아바타를 만들어봐요!',
+      '- 도감\n새 이름으로 검색하기\n내가 발견한 새 특징으로 검색하기\n새의 종 이름으로 검색하기\n\n- 동정\n내가 동정 못하겠는 새 사진을 고수들에게 동정을 부탁하기\n동정을 정확히 해주고 포인트 받기 \n\n- 기록 \n내 탐조 여정을 기록해봐요! \n내 탐조 여정을 확인해봐요!\n\n - 새뉴스\n새들에 대한 뉴스를 접하기 \n새에 대해서 빠삭한 고수가 되어 봅시다.\n\n- 배지\n열심히 탐조활동 하라는 동기부여\n탐조에 대한 달성과제를 완료하여 포인트를 얻기\n\n- 마이페이지\n모은 포인트로 내 아바타를 만들어봐요!',
     memberList: [
       {
         id: 1,
@@ -315,11 +320,11 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'Vanilla JS',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
       {
         name: 'Spring',
-        imageUrl: '/images/stackIcon/SpringBoot.png',
+        imageUrl: '/images/techStack/springboot.png',
       },
     ],
   },
@@ -330,6 +335,7 @@ export const PROJECT_LIST = [
     imageUrl: '/images/thumbnail/img-thumbnail-6.png',
     youtubeVideoId: 'KZv26cax0JI',
     downloadLinkUrl: null,
+    webpageLinkUrl: 'https://2023-smsw-web-project-client.vercel.app/',
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-SMSW-Web-Project-client',
       serverUrl: null,
@@ -353,7 +359,7 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'React',
-        imageUrl: '/images/stackIcon/React.png',
+        imageUrl: '/images/techStack/react.png',
       },
     ],
   },
@@ -362,8 +368,9 @@ export const PROJECT_LIST = [
     name: 'DevInsight',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-7.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: '4Woys_q06vY',
     downloadLinkUrl: null,
+    webpageLinkUrl: 'https://2023-dev-insight.vercel.app/',
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-DevInsight',
       serverUrl: null,
@@ -387,15 +394,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
@@ -406,6 +413,7 @@ export const PROJECT_LIST = [
     imageUrl: '/images/thumbnail/img-thumbnail-8.png',
     youtubeVideoId: 'H0Gd2euCQ0U',
     downloadLinkUrl: null,
+    webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-SMSW-Web-Project-client',
       serverUrl: null,
@@ -429,15 +437,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
@@ -448,6 +456,7 @@ export const PROJECT_LIST = [
     imageUrl: '/images/thumbnail/img-thumbnail-9.png',
     youtubeVideoId: 'jAc52rCUx-k',
     downloadLinkUrl: null,
+    webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/ljinny/2023-basket',
       serverUrl: null,
@@ -471,15 +480,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
@@ -490,6 +499,7 @@ export const PROJECT_LIST = [
     imageUrl: '/images/thumbnail/img-thumbnail-10.png',
     youtubeVideoId: 'Q0Gk_Ajkhmo',
     downloadLinkUrl: null,
+    webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-EzEat',
       serverUrl: null,
@@ -513,7 +523,7 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'React',
-        imageUrl: '/images/stackIcon/React.png',
+        imageUrl: '/images/techStack/react.png',
       },
     ],
   },
@@ -522,8 +532,9 @@ export const PROJECT_LIST = [
     name: 'Photoshop_HR',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-11.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'X3UdlKpiqEk',
     downloadLinkUrl: null,
+    webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-SMSW-Web-Project-client',
       serverUrl: null,
@@ -546,15 +557,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
@@ -563,8 +574,9 @@ export const PROJECT_LIST = [
     name: 'Frame',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-12.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'nFRPFIcP-mw',
     downloadLinkUrl: null,
+    webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/seoy-54/2023-Frame',
       serverUrl: null,
@@ -588,15 +600,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
@@ -605,8 +617,9 @@ export const PROJECT_LIST = [
     name: 'Livre',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-13.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'BR2tBkDYk4Q',
     downloadLinkUrl: null,
+    webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-Livre',
       serverUrl: null,
@@ -615,7 +628,7 @@ export const PROJECT_LIST = [
     introduction:
       '독서동아리 부원들과 인상 깊은 책의 구절과 서평을 쓰며 소통할 수 있는 독서동아리 웹 서비스입니다. 다른 부원들의 글에 댓글과 이모지를 남길 수 있고, 공지사항과 사진들을 올리거나 확인 할 수 있습니다.',
     description:
-      '제가 만들었던 독서동아리에서 서평을 쓰고 피드백하는 것을 카톡방에서 진행했었는데, 웹 페이지로 만들면 더 효율적일 것 같아 이 서비스를 고안했습니다.\n- 인상 깊었던 구절과 그것에 대한 서평을 작성할 수 있는 공간 제공 \n - 서평에 대해 코멘트나 이모지를 달 수 있는 기능\n- 정기모임을 공지할 수 있는 공지화면\n- 정기모임에서의 사진을 올릴 수 있는 갤러리\n- mt, 신입부원 모집 일정과 같은 이벤트 알림 화면\n- 각 기수의 활동을 볼 수 있는 메뉴바\n\n바쁜 현대사회 속에서 Livre를 통해 독서와 함께 서로의 생각을 나누고 교양을 쌓길 바랍니다',
+      '제가 만들었던 독서동아리에서 서평을 쓰고 피드백하는 것을 카톡방에서 진행했었는데, 웹 페이지로 만들면 더 효율적일 것 같아 이 서비스를 고안했습니다.\n\n- 인상 깊었던 구절과 그것에 대한 서평을 작성할 수 있는 공간 제공 \n- 서평에 대해 코멘트나 이모지를 달 수 있는 기능\n- 정기모임을 공지할 수 있는 공지화면\n- 정기모임에서의 사진을 올릴 수 있는 갤러리\n- mt, 신입부원 모집 일정과 같은 이벤트 알림 화면\n- 각 기수의 활동을 볼 수 있는 메뉴바\n\n바쁜 현대사회 속에서 Livre를 통해 독서와 함께 서로의 생각을 나누고 교양을 쌓길 바랍니다',
     memberList: [
       {
         id: 1,
@@ -630,15 +643,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
@@ -647,8 +660,9 @@ export const PROJECT_LIST = [
     name: 'Colog',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-14.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'BqSKfPj93rg',
     downloadLinkUrl: null,
+    webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-Colog',
       serverUrl: null,
@@ -657,7 +671,7 @@ export const PROJECT_LIST = [
     introduction:
       '프로그래머만의 뿌듯함을 느끼고 싶으신가요? 나만의 코딩 기록 서비스, 코록은 타이머, 뽀모도로 등 집중을 위한 최적의 환경을 제공하고 월 별 통계를 통해 성취감을 극대화합니다. 코딩 시간, 기술 블로그 업로드 등 코딩 기록을 한 곳에 모아 보세요!',
     description:
-      '타이머, 뽀모도로 등 집중할 수 있는 환경을 제공하고 스스로 얼마만큼 코딩했는지 눈으로 쉽게 확인할 수 있도록 했습니다. 또한, 기술 블로그 업로드, Git 커밋 등 코딩과 관련된 공부를 객관적인 지표로 나타냅니다.\n\n - 스스로 얼마나 공부했는지 체크할 수 있는 타이머 기능 제공\n - 정해진 시간 내 최대 효율을 끌어올릴 수 있는 뽀모도로 기능 제공\n - 월 별 통계 및 일 별 통계 기능을 통한 객관적 지표 확인\n- 투두 리스트로 오늘의 할 일 체크',
+      '타이머, 뽀모도로 등 집중할 수 있는 환경을 제공하고 스스로 얼마만큼 코딩했는지 눈으로 쉽게 확인할 수 있도록 했습니다. 또한, 기술 블로그 업로드, Git 커밋 등 코딩과 관련된 공부를 객관적인 지표로 나타냅니다.\n\n- 스스로 얼마나 공부했는지 체크할 수 있는 타이머 기능 제공\n- 정해진 시간 내 최대 효율을 끌어올릴 수 있는 뽀모도로 기능 제공\n- 월 별 통계 및 일 별 통계 기능을 통한 객관적 지표 확인\n- 투두 리스트로 오늘의 할 일 체크',
     memberList: [
       {
         id: 1,
@@ -672,7 +686,7 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'React',
-        imageUrl: '/images/stackIcon/React.png',
+        imageUrl: '/images/techStack/react.png',
       },
     ],
   },
@@ -681,8 +695,9 @@ export const PROJECT_LIST = [
     name: 'SNAPIX',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-15.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'JWndRrDB40E',
     downloadLinkUrl: null,
+    webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-SNAPIX',
       serverUrl: null,
@@ -691,7 +706,7 @@ export const PROJECT_LIST = [
     introduction:
       'SNAPIX는 사진 작가를 위한 온라인 플랫폼입니다. 사진에 관한 모든 것을 얻어가세요!',
     description:
-      '사진에 관한 다양한 아이디어와 레퍼런스를 제공하는 서비스를 고안했습니다.\n\n-원본 사진의 비율을 자르지 않고 업로드 할 수 있는 Gallery\n -사진 작가들과 소통할 수 있는 PicTalk\n-사진 관련 정보를 얻을 수 있는 Magazine\n\n순간을 영원하게, SNAPIX.',
+      '사진에 관한 다양한 아이디어와 레퍼런스를 제공하는 서비스를 고안했습니다.\n\n- 원본 사진의 비율을 자르지 않고 업로드 할 수 있는 Gallery\n- 사진 작가들과 소통할 수 있는 PicTalk\n- 사진 관련 정보를 얻을 수 있는 Magazine\n\n순간을 영원하게, SNAPIX.',
     memberList: [
       {
         id: 1,
@@ -706,15 +721,15 @@ export const PROJECT_LIST = [
     techStackList: [
       {
         name: 'HTML',
-        imageUrl: '/images/stackIcon/HTML.png',
+        imageUrl: '/images/techStack/html.png',
       },
       {
         name: 'CSS',
-        imageUrl: '/images/stackIcon/CSS.png',
+        imageUrl: '/images/techStack/css.png',
       },
       {
         name: 'JavaScript',
-        imageUrl: '/images/stackIcon/JavaScript.png',
+        imageUrl: '/images/techStack/javascript.png',
       },
     ],
   },
