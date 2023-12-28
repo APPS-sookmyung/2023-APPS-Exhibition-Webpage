@@ -21,7 +21,13 @@ export default function MemberCard() {
       >
         <S.CardContainerOriginal1 isHovered={isHoveredCon1}>
           {memberList.slice(0, 12).map((member, index) => (
-            <S.Card key={index} href={member.github} target="_blank" rel="noopner noreferrer">
+            <S.Card
+              key={index}
+              href={member.github}
+              onClick={() => handleCardClick(member.name)}
+              target="_blank"
+              rel="noopner noreferrer"
+            >
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
               </S.CrownContainer>
@@ -41,7 +47,13 @@ export default function MemberCard() {
         </S.CardContainerOriginal1>
         <S.CardContainerClone1 isHovered={isHoveredCon1}>
           {memberList.slice(0, 12).map((member, index) => (
-            <S.Card key={index} href={member.github} onClick={() => handleCardClick(member.name)}>
+            <S.Card
+              key={index}
+              href={member.github}
+              onClick={() => handleCardClick(member.name)}
+              target="_blank"
+              rel="noopner noreferrer"
+            >
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
               </S.CrownContainer>
@@ -66,7 +78,13 @@ export default function MemberCard() {
       >
         <S.CardContainerOriginal2 isHovered={isHoveredCon2}>
           {memberList.slice(12, 26).map((member, index) => (
-            <S.Card key={index} href={member.github}>
+            <S.Card
+              key={index}
+              href={member.github}
+              onClick={() => handleCardClick(member.name)}
+              target="_blank"
+              rel="noopner noreferrer"
+            >
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
               </S.CrownContainer>
@@ -86,7 +104,13 @@ export default function MemberCard() {
         </S.CardContainerOriginal2>
         <S.CardContainerClone2 isHovered={isHoveredCon2}>
           {memberList.slice(12, 26).map((member, index) => (
-            <S.Card key={index} href={member.github}>
+            <S.Card
+              key={index}
+              href={member.github}
+              onClick={() => handleCardClick(member.name)}
+              target="_blank"
+              rel="noopner noreferrer"
+            >
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
               </S.CrownContainer>
