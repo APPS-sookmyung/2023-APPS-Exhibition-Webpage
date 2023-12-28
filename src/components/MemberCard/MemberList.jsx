@@ -167,7 +167,7 @@ const memberList = [
   {
     memberImg: '/images/member/류미성.png',
     name: '류미성',
-    major: 'Computer Scinece 21',
+    major: 'Computer Science 21',
     position: null,
     github: 'https://github.com/misung-dev',
   },
