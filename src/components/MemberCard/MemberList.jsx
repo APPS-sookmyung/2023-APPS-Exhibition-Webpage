@@ -80,7 +80,7 @@ const memberList = [
     github: 'https://github.com/choiminsun24',
   },
   {
-    memberImg: '/images/member/서정연2.png',
+    memberImg: '/images/member/서정연.png',
     name: '서정연',
     major: 'Software Convergence 21',
     position: '프론트엔드장',
