@@ -6,7 +6,7 @@ export const PROJECT_LIST = [
     name: 'Cookiee-',
     category: PROJECT_CATEGORIES.APP,
     imageUrl: '/images/thumbnail/img-thumbnail-1.png',
-    youtubeVideoId: 'kBy6s-egpMo',
+    youtubeVideoId: '8AoxG-zcm-E',
     downloadLinkUrl: null,
     webpageLinkUrl: null,
     githubUrls: {
