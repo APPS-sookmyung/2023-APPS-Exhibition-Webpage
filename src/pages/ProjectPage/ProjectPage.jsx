@@ -66,6 +66,17 @@ const ProjectPage = () => {
 
           {projectData.githubUrls.clientUrl !== null && (
             <S.StyledButton>
+              <Link to={projectData.webpageLinkUrl} target="_blank" rel="noopner noreferrer">
+                <S.IconTextWrapper>
+                  <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
+                  <S.Text>Link</S.Text>
+                </S.IconTextWrapper>
+              </Link>
+            </S.StyledButton>
+          )}
+
+          {projectData.githubUrls.clientUrl !== null && (
+            <S.StyledButton>
               <Link to={projectData.githubUrls.clientUrl} target="_blank" rel="noopner noreferrer">
                 <S.IconTextWrapper>
                   <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#333D4B' }} />
