@@ -2,7 +2,7 @@
 import mixpanel from 'mixpanel-browser';
 
 mixpanel.init(process.env.REACT_APP_MIXPANEL_TOKEN, {
-  debug: process.meta.env.REACT_APP_ENV !== 'production',
+  debug: process.env.REACT_APP_ENV !== 'production',
 });
 
 const defaultOptions = {
