@@ -192,7 +192,7 @@ export const PROJECT_LIST = [
   },
   {
     id: 4,
-    name: 'Apps Check',
+    name: 'AppsCheck',
     category: PROJECT_CATEGORIES.APP,
     imageUrl: '/images/thumbnail/img-thumbnail-4.png',
     youtubeVideoId: 'ls-ILlutl-8',
