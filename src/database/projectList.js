@@ -328,7 +328,7 @@ export const PROJECT_LIST = [
     name: 'Sookmyung Software!',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-6.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'KZv26cax0JI',
     downloadLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-SMSW-Web-Project-client',
@@ -404,7 +404,7 @@ export const PROJECT_LIST = [
     name: '나만의 운동일지',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-8.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'H0Gd2euCQ0U',
     downloadLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-SMSW-Web-Project-client',
@@ -446,7 +446,7 @@ export const PROJECT_LIST = [
     name: 'Basket',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-9.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'jAc52rCUx-k',
     downloadLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/ljinny/2023-basket',
@@ -488,7 +488,7 @@ export const PROJECT_LIST = [
     name: 'EzEat',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-10.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'Q0Gk_Ajkhmo',
     downloadLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-EzEat',

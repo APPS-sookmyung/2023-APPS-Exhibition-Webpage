@@ -39,7 +39,7 @@ export const MainSectionInner = styled(SectionInner)`
 
 export const MainSectionTitle = styled.h1`
   font-size: 100px;
-  font-weight: 900;
+  font-weight: 800;
   text-align: center;
   line-height: normal;
   color: ${Colors.white};
