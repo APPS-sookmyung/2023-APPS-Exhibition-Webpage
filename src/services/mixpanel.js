@@ -6,7 +6,7 @@ mixpanel.init(process.env.REACT_APP_MIXPANEL_TOKEN, {
 });
 
 const defaultOptions = {
-  environment: process.meta.env.REACT_APP_ENV,
+  environment: process.env.REACT_APP_ENV,
 };
 
 export const sendViewPageEvent = (eventName, { options } = {}) => {
