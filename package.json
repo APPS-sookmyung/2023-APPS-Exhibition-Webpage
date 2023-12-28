@@ -14,6 +14,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "dotenv-webpack": "^8.0.1",
     "font-awesome": "^4.7.0",
     "framer-motion": "^10.16.4",
     "mixpanel-browser": "^2.48.1",
@@ -59,7 +61,6 @@
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.11.0",
-    "dotenv": "^16.3.1",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
