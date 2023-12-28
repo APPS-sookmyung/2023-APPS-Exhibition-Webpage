@@ -175,23 +175,8 @@ export const PROJECT_LIST = [
         role: 'LEADER',
         job: 'Front-end',
         imageUrl: '/images/member/김수현.png',
-        retrospect: '넣기',
-      },
-      {
-        id: 2,
-        name: '신진영',
-        role: 'MEMBER',
-        job: 'Front-end',
-        imageUrl: '/images/member/신진영.png',
-        retrospect: '넣기',
-      },
-      {
-        id: 3,
-        name: '하고은',
-        role: 'MEMBER',
-        job: 'Front-end',
-        imageUrl: '/images/member/하고은.png',
-        retrospect: '좋은 경험이었습니다.(임시)',
+        retrospect:
+          '플러터 스터디원들과 함께 한 학기 동안 같이 공부하고 실제로 개발을 해 볼 수 있는 기회가 생겨서 좋았습니다. 앱 개발은 처음이었는데 팀원 언니들 덕분에 노션에 계획도 체계적으로 세우고, 피그마도 처음으로 사용해 보아서 좋은 경험이 되었다고 생각합니다!',
       },
     ],
     techStackList: [

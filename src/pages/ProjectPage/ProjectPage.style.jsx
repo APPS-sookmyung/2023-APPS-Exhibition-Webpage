@@ -1,47 +1,77 @@
+import { Link } from 'react-router-dom';
 import { Colors } from '../../theme';
 import styled from '@emotion/styled';
+import { BREAKPOINTS } from '../../styles';
 
-export const Centered = styled.div`
+export const Inner = styled.div`
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 20px 20px;
+`;
+
+export const YouTubeWrap = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 116px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 8px;
+
+  & > .projectPage__youTube {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
 `;
 
 export const Project = styled.div`
   display: flex;
-  width: 100%;
-  max-width: 900px;
   flex-direction: column;
-  margin: 0 auto;
-  padding: 30px;
-  color: ${Colors.white};
+  width: 100%;
 `;
 
-export const ProjectName = styled.div`
+export const ProjectName = styled.h1`
   display: flex;
-  font-size: 40px;
-  font-weight: 700;
   margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: ${Colors.white};
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    margin-bottom: 18px;
+    font-size: 42px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    margin-bottom: 14px;
+    font-size: 30px;
+  }
 `;
 
-export const ProjectSummary = styled.div`
+export const ProjectSummary = styled.p`
   display: flex;
-  font-size: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: ${Colors.white};
+
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
 `;
 
-export const StyledButton = styled.button`
-  background-color: ${Colors.white};
-  color: black;
-  width: 120px;
-  height: 40px;
-  border: none;
-  border-radius: 10px;
-  margin-right: 20px;
-  text-align: center;
+export const StyledLink = styled(Link)`
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  padding: 11px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: ${Colors.white};
+  text-align: center;
+  color: black;
 
   a {
     color: #333d4b;
@@ -49,54 +79,75 @@ export const StyledButton = styled.button`
   }
 `;
 
-export const Icon = styled.span`
-  font-size: 30px;
-`;
+export const Icon = styled.span``;
 
 export const Text = styled.span`
-  font-size: 18px;
-  padding-left: 8px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333d4b;
   vertical-align: center;
 `;
 
 export const IconTextWrapper = styled.span`
   display: flex;
   align-items: center;
+
+  & > .button_icon {
+    font-size: 18px;
+    color: '#333D4B';
+  }
 `;
 
 export const ButtonContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  gap: 12px;
+  flex-wrap: wrap;
 `;
 
 export const DevDescription = styled.div``;
 
-export const DevDescriptionTitle = styled.h3`
-  margin: 10px 0px;
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
+export const SectionTitle = styled.h2`
+  font-size: 28px;
+  font-weight: 600;
+  color: ${Colors.white};
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    font-size: 26px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    font-size: 24px;
+  }
 `;
 
-export const DevDescriptionDetail = styled.div`
-  margin-top: 10px;
-  line-height: 1.4;
-  font-size: 20px;
-  margin-bottom: 40px;
-  white-space: pre-wrap; // \n을 인지하고 줄 바꿈 실행
+export const SectionDescription = styled.p`
+  line-height: 1.6;
+  font-size: 18px;
+  white-space: pre-wrap;
+  color: ${Colors.lightGrey};
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    font-size: 16px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    font-size: 14px;
+  }
 `;
 
-export const CircleImage = styled.div`
-  margin-right: 36px;
-  width: 100px;
-  height: 100px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+export const CircleBox = styled.div`
   display: flex;
-  flex-direction: row;
-  flex-shrink: 0; // 간격이 좁아졌을때 원의 형태가 변형되는 것을 방지
+  flex-direction: column;
+  flex-shrink: 0;
+  gap: 18px;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    gap: 16px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    gap: 14px;
+  }
 `;
+export const MemberInfo = styled.div``;
 
 export const StackImage = styled.img`
   width: 100%;
@@ -116,39 +167,67 @@ export const MemberImage = styled.img`
 `;
 
 export const CrownImage = styled.img`
-  width: 40px;
-  height: 30px;
+  width: 36px;
   position: absolute;
-  top: -15px; /* 테두리 위에 위치하도록 조정 */
-  left: 50%; /* 가운데 정렬을 위해 조정 */
-  transform: translateX(-50%); /* left 값의 절반만큼 이동시킴으로써 가운데 정렬 */
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 2;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    width: 32x;
+    top: -16px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    width: 26px;
+    top: -14px;
+  }
 `;
 
-export const StackDescription = styled.div`
-  margin-top: 18px;
-  margin-bottom: 6px;
+export const CircleBoxName = styled.h3`
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size: 18px;
+  color: ${Colors.lightGrey};
+  font-weight: 500;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    font-size: 16px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    font-size: 14px;
+  }
 `;
 
-export const MemberDescription = styled.div`
+export const MemberDescription = styled.span`
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
   text-align: center;
   font-size: 18px;
   color: ${Colors.grey};
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    font-size: 14px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    font-size: 12px;
+  }
 `;
 
 export const ImageForSpace = styled.div`
-  margin-top: 20px;
   display: flex;
-  flex-direction: row;
-  margin-bottom: 50px;
-`;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 32px;
 
-export const CircleForSpace = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: column;
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    gap: 24px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    gap: 20px;
+  }
 `;
 
 export const ForSpace = styled.div`
@@ -175,20 +254,45 @@ export const ReviewBox = styled.div`
 export const ReviewCard = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 16px;
+  padding: 20px;
   border: 1px solid white;
-  border-radius: 10px;
-  padding: 15px;
-  height: auto;
+  border-radius: 8px;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    gap: 14px;
+    padding: 18px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    gap: 12px;
+    padding: 16px;
+  }
 `;
 
 export const ReviewCardTitle = styled.h3`
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
+  color: ${Colors.white};
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    font-size: 18px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    font-size: 16px;
+  }
 `;
 
-export const ReviewCardContent = styled.span`
-  line-height: 1.5;
+export const ReviewCardContent = styled.p`
+  font-size: 18px;
+  line-height: 1.6;
+  color: ${Colors.lightGrey};
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    font-size: 16px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    font-size: 14px;
+  }
 `;
 
 // POCHAK 이미지
@@ -197,5 +301,60 @@ export const PochakImgContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 12px;
   width: 100%;
+
+  & > img {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+  }
+`;
+
+export const SectionGroup = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    gap: 40px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    gap: 32px;
+  }
+`;
+
+export const Section = styled.section`
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 100%;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    gap: 20px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    gap: 18px;
+  }
+`;
+
+export const CircleImageWrap = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    width: 74px;
+    height: 74px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    width: 64px;
+    height: 64px;
+  }
 `;

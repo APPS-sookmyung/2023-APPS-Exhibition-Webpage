@@ -4,13 +4,13 @@ import { Colors } from '../../theme';
 export const Header = styled.header`
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   height: 58px;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
   z-index: 10;
-  /* top: 0; 섹션 위에 고정 */
 `;
 
 export const Inner = styled.div`
