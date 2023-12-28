@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { keyframes } from '@emotion/react';
 import { Colors } from '../../theme';
+import { BREAKPOINTS } from '../../styles';
 
 const OriginalRollingStack = keyframes`
   0% {
@@ -28,7 +29,6 @@ const CloneRollingStack = keyframes`
 
 export const Container = styled.div`
   display: flex;
-  /* width: calc(130px * 9); */
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
@@ -55,12 +55,22 @@ export const Card = styled.div`
   padding: 10px;
   width: 90px;
   height: 90px;
-  /* 위 | 오른쪽 | 아래 | 왼쪽 */
-  margin: 15px 15px 0px 0px;
+  margin: 20px 20px 0px 0px;
   border-radius: 10px;
   background: linear-gradient(90deg, ${Colors.purple} 0%, #120523 90%, #180038 100%);
   position: relative;
   overflow: hidden;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    width: 81px;
+    height: 81px;
+    margin: 18px 18x 0px 0px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    width: 81px;
+    height: 81px;
+    margin: 14px 14px 0px 0px;
+  }
 `;
 
 export const CardContainerOriginalStack = styled.div`

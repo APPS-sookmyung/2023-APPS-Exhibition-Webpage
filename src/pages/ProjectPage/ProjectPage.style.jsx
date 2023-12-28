@@ -7,7 +7,14 @@ export const Inner = styled.div`
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 32px 20px 20px;
+  padding: 90px 20px 20px;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    padding: 82px 20px 20px;
+  }
+  @media (max-width:${BREAKPOINTS[0]}px) {                                                                    KPOINTS[0]}px) {
+    padding: 74px 20px 20px;
+  }
 `;
 
 export const YouTubeWrap = styled.div`

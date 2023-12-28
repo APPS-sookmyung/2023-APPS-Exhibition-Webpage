@@ -172,7 +172,7 @@ export const PROJECT_LIST = [
       {
         id: 1,
         name: '김수현',
-        role: 'LEADER',
+        role: null,
         job: 'Front-end',
         imageUrl: '/images/member/김수현.png',
         retrospect:

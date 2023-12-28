@@ -1,4 +1,6 @@
 import styled from '@emotion/styled';
+import { Colors } from '../../theme';
+import { BREAKPOINTS } from '../../styles';
 
 export const Section = styled.section`
   position: relative;
@@ -53,18 +55,30 @@ export const SectionInner = styled.div`
 `;
 
 export const SectionTitle = styled.h2`
-  margin-bottom: 80px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 60px;
+  margin-bottom: 20px;
+  font-size: 52px;
   font-weight: 700;
+  text-align: center;
+  line-height: 1.3;
+  color: ${Colors.white};
+  white-space: pre-wrap;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    margin-bottom: 18px;
+    font-size: 48px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    margin-bottom: 14px;
+    font-size: 32px;
+  }
 `;
 
 export const SectionNav = styled.nav`
   display: flex;
   justify-content: space-around;
   width: 100%;
-  /* gap: 60px; */
+  flex-wrap: wrap;
+  gap: 8px;
   margin-bottom: 150px;
 `;
 
@@ -74,12 +88,18 @@ export const SectionNavItem = styled.a`
   align-items: center;
   width: 100%;
   max-width: 200px;
-  height: 50px;
   padding: 14px;
   border-radius: 20px;
   background-color: #ffffff;
   opacity: 0.7; /* 버튼의 기본 투명도 설정 */
   transition: opacity 0.3s; /* 마우스 호버 시 투명도 전환을 부드럽게 만듭니다. */
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    font-size: 20px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    font-size: 18px;
+  }
 
   & > span {
     color: #333d4b;
@@ -105,21 +125,41 @@ export const ProjectCategoryItem = styled.li`
 `;
 
 export const ProjectCategoryItemTitle = styled.h3`
-  margin-bottom: 50px;
-  color: #ffffff;
-  text-align: center;
+  margin-bottom: 20px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.3;
+  color: ${Colors.white};
+  white-space: pre-wrap;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    margin-bottom: 18px;
+    font-size: 42px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    margin-bottom: 14px;
+    font-size: 28px;
+  }
 `;
 
 export const ProjectCardList = styled.ul`
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    gap: 26px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 28px;
+    gap: 18px;
+  }
 `;
 
 export const ProjectCardItem = styled.li`
-  width: calc(50% - 15px);
+  width: 100%;
 
   &:hover {
     & .projectCard__image {
@@ -132,8 +172,7 @@ export const ProjectCardItem = styled.li`
 export const ProjectCategoryItemLink = styled.a`
   display: flex;
   flex-direction: column;
-  width: 480px;
-  height: 400px;
+  width: 100%;
   border-radius: 20px;
   border: 1px solid #fff;
   overflow: hidden;
@@ -141,30 +180,51 @@ export const ProjectCategoryItemLink = styled.a`
 
 export const ProjectImageWrapper = styled.div`
   width: 100%;
-  /* height: 296px; */
   overflow: hidden;
 `;
 
 export const ProjectImage = styled.img`
-  top: auto;
   width: 100%;
-  height: 270px;
 `;
 
 export const ProjectContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 22px;
+  padding: 20px;
+  background-color: #140b24;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    padding: 14px;
+  }
 `;
 
 export const ProjectName = styled.h4`
+  margin-bottom: 20px;
   color: #ffffff;
   font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
 `;
 
 export const ProjectSummary = styled.p`
-  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.3;
+  color: ${Colors.lightGrey};
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    font-size: 16px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    font-size: 14px;
+  }
 `;

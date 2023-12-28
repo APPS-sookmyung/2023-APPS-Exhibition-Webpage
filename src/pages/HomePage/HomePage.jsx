@@ -54,7 +54,7 @@ const HomePage = () => {
         </S.AboutAppsSection>
 
         <S.MemberSection>
-          <S.SectionSubTitle>멤버 소개</S.SectionSubTitle>
+          <S.SectionTitle>멤버 소개</S.SectionTitle>
           <S.SectionDescription>
             아래의 카드를 클릭하여 멤버의 <strong>Github</strong>를 확인해보세요.
           </S.SectionDescription>

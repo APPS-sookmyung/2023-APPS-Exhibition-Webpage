@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { Colors } from '../../theme';
 import { keyframes } from '@emotion/react';
+import { BREAKPOINTS } from '../../styles';
 
 export const Container = styled.div`
   display: flex;
@@ -78,19 +79,36 @@ export const Card = styled.a`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
+  padding: 14px;
   width: 180px;
-  height: fit-content;
-  /* 위 | 오른쪽 | 아래 | 왼쪽 */
+  aspect-ratio: 18 / 26;
   margin: 20px 20px 0px 0px;
   border-radius: 15px;
   background: linear-gradient(90deg, ${Colors.purple} 0%, #120523 90%, #180038 100%);
   position: relative;
-  /* overflow: hidden; */
-
   transition: width 0.5s;
+
   &:hover {
-    width: 190px;
+    width: calc(180px * 1.2);
+  }
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    width: 162px;
+    margin: 18px 18px 0px 0px;
+    padding: 12px;
+
+    &:hover {
+      width: calc(162px * 1.2);
+    }
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    width: 126px;
+    margin: 14px 14px 0px 0px;
+    padding: 10px;
+
+    &:hover {
+      width: calc(126px * 1.2);
+    }
   }
 `;
 
@@ -111,7 +129,7 @@ export const CrownContainer = styled.div`
   bottom: 90%;
 `;
 
-export const ImgConainer = styled.div`
+export const ImgContainer = styled.div`
   background-image: url(${(props) => props.image});
   background-size: cover;
   background-position: center;
@@ -123,16 +141,22 @@ export const ImgConainer = styled.div`
   padding-bottom: 100%;
   position: relative;
   background-color: ${Colors.black};
-  margin: 12px;
   display: flex;
   align-self: center;
   justify-self: center;
+  margin-bottom: 16px;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    font-size: 14px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    font-size: 12px;
+  }
 `;
 
 export const InfoInner = styled.div`
   display: flex;
   justify-content: center;
-  margin: 7px;
 `;
 
 export const Name = styled.p`
@@ -140,17 +164,31 @@ export const Name = styled.p`
   justify-content: center;
   align-content: center;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   color: ${Colors.white};
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    font-size: 20px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    font-size: 16px;
+  }
 `;
 
 export const Major = styled.p`
   display: flex;
   justify-content: center;
   align-content: center;
-  font-size: 0.7rem;
-  width: fit-content;
-  color: ${Colors.white};
+  font-size: 218px;
+  text-align: center;
+  color: ${Colors.lightGrey};
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    font-size: 16px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    font-size: 12px;
+  }
 `;
 
 export const Position = styled.p`
@@ -163,4 +201,17 @@ export const Position = styled.p`
   font-size: 13px;
   padding: 5px;
   color: ${Colors.white};
+`;
+
+export const MemberInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    gap: 6px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    gap: 4px;
+  }
 `;
