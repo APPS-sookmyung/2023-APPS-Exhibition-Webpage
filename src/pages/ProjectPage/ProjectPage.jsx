@@ -6,6 +6,7 @@ import { Colors } from '../../theme';
 import YouTube from 'react-youtube';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 import { PROJECT_LIST } from '../../database';
 
@@ -68,7 +69,7 @@ const ProjectPage = () => {
                 rel="noopner noreferrer"
               >
                 <S.IconTextWrapper>
-                  <FontAwesomeIcon icon={faGithub} className="button__icon" />
+                  <FontAwesomeIcon icon={faLink} className="button__icon" />
                   <S.Text>Link</S.Text>
                 </S.IconTextWrapper>
               </S.StyledLink>
