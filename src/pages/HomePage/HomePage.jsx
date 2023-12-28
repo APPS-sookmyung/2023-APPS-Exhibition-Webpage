@@ -8,10 +8,17 @@ import {
 } from '../../components';
 import * as S from './HomePage.style';
 
+import { sendViewPageEvent } from '../../services';
+import { useEffect } from 'react';
+
 import 'animate.css/animate.min.css';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const HomePage = () => {
+  useEffect(() => {
+    sendViewPageEvent('HOME_PAGE');
+  }, []);
+
   return (
     <PageLayout header={<Header />} footer={<Footer />}>
       <S.Container>

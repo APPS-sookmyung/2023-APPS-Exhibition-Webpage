@@ -9,10 +9,24 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 import { PROJECT_LIST } from '../../database';
+import { useEffect } from 'react';
+import { sendViewPageEvent, sendClickEvent } from '../../services';
 
 const ProjectPage = () => {
   const { projectId } = useParams();
   const projectData = PROJECT_LIST.find(({ id }) => id === Number(projectId));
+
+  const handleLinkButtonClick = (category) => {
+    sendClickEvent('CLICK_LINK_BUTTON_IN_PROJECT_PAGE', {
+      category,
+    });
+  };
+
+  useEffect(() => {
+    sendViewPageEvent('PROJECT_PAGE', {
+      projectId,
+    });
+  }, []);
 
   return (
     <PageLayout
@@ -49,6 +63,7 @@ const ProjectPage = () => {
                 style={{ textDecoration: 'none' }}
                 target="_blank"
                 rel="noopner noreferrer"
+                onClick={() => handleLinkButtonClick('DOWNLOAD')}
               >
                 <S.IconTextWrapper>
                   <S.Icon>
@@ -67,6 +82,7 @@ const ProjectPage = () => {
                 to={projectData.webpageLinkUrl}
                 target="_blank"
                 rel="noopner noreferrer"
+                onClick={() => handleLinkButtonClick('WEB_PAGE')}
               >
                 <S.IconTextWrapper>
                   <FontAwesomeIcon icon={faLink} className="button__icon" />
@@ -79,6 +95,7 @@ const ProjectPage = () => {
                 to={projectData.githubUrls.clientUrl}
                 target="_blank"
                 rel="noopner noreferrer"
+                onClick={() => handleLinkButtonClick('GITHUB_CLIENT')}
               >
                 <S.IconTextWrapper>
                   <FontAwesomeIcon icon={faGithub} className="button__icon" />
@@ -91,6 +108,7 @@ const ProjectPage = () => {
                 to={projectData.githubUrls.serverUrl}
                 target="_blank"
                 rel="noopner noreferrer"
+                onClick={() => handleLinkButtonClick('GITHUB_SERVER')}
               >
                 <S.IconTextWrapper>
                   <FontAwesomeIcon icon={faGithub} className="button__icon" />
