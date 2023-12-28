@@ -55,8 +55,8 @@ const Header = () => {
           >
             프로젝트 소개
           </S.NavItem>
-          <S.NavDivider>|</S.NavDivider>
-          <S.NavItem onClick={handleGitHubClick}>Github</S.NavItem>
+          <S.NavDivider />
+          <S.NavItem onClick={handleGitHubClick}>GitHub</S.NavItem>
         </S.Nav>
       </S.Inner>
     </S.Header>

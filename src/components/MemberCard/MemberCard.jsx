@@ -18,15 +18,17 @@ export default function MemberCard() {
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
               </S.CrownContainer>
-              <S.ImgConainer style={{ position: 'relative', zIndex: 10 }} image={member.memberImg}>
+              <S.ImgContainer style={{ position: 'relative', zIndex: 10 }} image={member.memberImg}>
                 {member.position !== null && <S.Position>{member.position}</S.Position>}
-              </S.ImgConainer>
-              <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
-                <S.Name>{member.name}</S.Name>
-              </S.InfoInner>
-              <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
-                <S.Major>{member.major}</S.Major>
-              </S.InfoInner>
+              </S.ImgContainer>
+              <S.MemberInfo>
+                <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
+                  <S.Name>{member.name}</S.Name>
+                </S.InfoInner>
+                <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
+                  <S.Major>{member.major}</S.Major>
+                </S.InfoInner>
+              </S.MemberInfo>
             </S.Card>
           ))}
         </S.CardContainerOriginal1>
@@ -36,15 +38,17 @@ export default function MemberCard() {
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
               </S.CrownContainer>
-              <S.ImgConainer style={{ position: 'relative', zIndex: 10 }} image={member.memberImg}>
+              <S.ImgContainer style={{ position: 'relative', zIndex: 10 }} image={member.memberImg}>
                 {member.position !== null && <S.Position>{member.position}</S.Position>}
-              </S.ImgConainer>
-              <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
-                <S.Name>{member.name}</S.Name>
-              </S.InfoInner>
-              <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
-                <S.Major>{member.major}</S.Major>
-              </S.InfoInner>
+              </S.ImgContainer>
+              <S.MemberInfo>
+                <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
+                  <S.Name>{member.name}</S.Name>
+                </S.InfoInner>
+                <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
+                  <S.Major>{member.major}</S.Major>
+                </S.InfoInner>
+              </S.MemberInfo>
             </S.Card>
           ))}
         </S.CardContainerClone1>
@@ -59,15 +63,17 @@ export default function MemberCard() {
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
               </S.CrownContainer>
-              <S.ImgConainer style={{ position: 'relative', zIndex: 10 }} image={member.memberImg}>
+              <S.ImgContainer style={{ position: 'relative', zIndex: 10 }} image={member.memberImg}>
                 {member.position !== null && <S.Position>{member.position}</S.Position>}
-              </S.ImgConainer>
-              <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
-                <S.Name>{member.name}</S.Name>
-              </S.InfoInner>
-              <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
-                <S.Major>{member.major}</S.Major>
-              </S.InfoInner>
+              </S.ImgContainer>
+              <S.MemberInfo>
+                <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
+                  <S.Name>{member.name}</S.Name>
+                </S.InfoInner>
+                <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
+                  <S.Major>{member.major}</S.Major>
+                </S.InfoInner>
+              </S.MemberInfo>
             </S.Card>
           ))}
         </S.CardContainerOriginal2>
@@ -77,15 +83,17 @@ export default function MemberCard() {
               <S.CrownContainer>
                 {member.position !== null && <S.Crown src="/images/member/crown.png" alt="test" />}
               </S.CrownContainer>
-              <S.ImgConainer style={{ position: 'relative', zIndex: 10 }} image={member.memberImg}>
+              <S.ImgContainer style={{ position: 'relative', zIndex: 10 }} image={member.memberImg}>
                 {member.position !== null && <S.Position>{member.position}</S.Position>}
-              </S.ImgConainer>
-              <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
-                <S.Name>{member.name}</S.Name>
-              </S.InfoInner>
-              <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
-                <S.Major>{member.major}</S.Major>
-              </S.InfoInner>
+              </S.ImgContainer>
+              <S.MemberInfo>
+                <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
+                  <S.Name>{member.name}</S.Name>
+                </S.InfoInner>
+                <S.InfoInner style={{ position: 'relative', zIndex: 10 }}>
+                  <S.Major>{member.major}</S.Major>
+                </S.InfoInner>
+              </S.MemberInfo>
             </S.Card>
           ))}
         </S.CardContainerClone2>
