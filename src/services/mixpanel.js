@@ -9,7 +9,7 @@ const defaultOptions = {
   environment: process.env.REACT_APP_ENV,
 };
 
-export const sendViewPageEvent = (eventName, { options } = {}) => {
+export const sendViewPageEvent = (eventName, { ...options } = {}) => {
   mixpanel.track(eventName, {
     type: 'ViewPageEvent',
     ...defaultOptions,
@@ -17,7 +17,7 @@ export const sendViewPageEvent = (eventName, { options } = {}) => {
   });
 };
 
-export const sendClickEvent = (eventName, { options } = {}) => {
+export const sendClickEvent = (eventName, { ...options } = {}) => {
   mixpanel.track(eventName, {
     type: 'ClickEvent',
     ...defaultOptions,
