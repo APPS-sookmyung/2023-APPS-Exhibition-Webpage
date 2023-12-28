@@ -147,10 +147,10 @@ export const ImgContainer = styled.div`
   margin-bottom: 16px;
 
   @media (max-width: ${BREAKPOINTS[1]}px) {
-    font-size: 14px;
+    margin-bottom: 14px;
   }
   @media (max-width: ${BREAKPOINTS[0]}px) {
-    font-size: 12px;
+    margin-bottom: 12px;
   }
 `;
 
@@ -179,7 +179,7 @@ export const Major = styled.p`
   display: flex;
   justify-content: center;
   align-content: center;
-  font-size: 218px;
+  font-size: 18px;
   text-align: center;
   color: ${Colors.lightGrey};
 

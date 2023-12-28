@@ -77,9 +77,17 @@ export const SectionNav = styled.nav`
   display: flex;
   justify-content: space-around;
   width: 100%;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 150px;
+  gap: 40px;
+  margin-bottom: 120px;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    gap: 32px;
+    margin-bottom: 80px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    gap: 12px;
+    margin-bottom: 40px;
+  }
 `;
 
 export const SectionNavItem = styled.a`
@@ -87,24 +95,16 @@ export const SectionNavItem = styled.a`
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 200px;
-  padding: 14px;
+  padding: 14px 40px;
   border-radius: 20px;
   background-color: #ffffff;
   opacity: 0.7; /* 버튼의 기본 투명도 설정 */
   transition: opacity 0.3s; /* 마우스 호버 시 투명도 전환을 부드럽게 만듭니다. */
 
-  @media (max-width: ${BREAKPOINTS[1]}px) {
-    font-size: 20px;
-  }
-  @media (max-width: ${BREAKPOINTS[0]}px) {
-    font-size: 18px;
-  }
-
   & > span {
     color: #333d4b;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
   }
 
@@ -112,12 +112,36 @@ export const SectionNavItem = styled.a`
   &:hover {
     opacity: 1;
   }
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    gap: 26px;
+    padding: 12px 36px;
+
+    & > span {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    gap: 18px;
+    padding: 8px 10px;
+
+    & > span {
+      font-size: 16px;
+    }
+  }
 `;
 
 export const ProjectCategoryList = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 120px;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    gap: 96px;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    gap: 60px;
+  }
 `;
 
 export const ProjectCategoryItem = styled.li`
@@ -146,14 +170,13 @@ export const ProjectCategoryItemTitle = styled.h3`
 export const ProjectCardList = styled.ul`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 28px;
+  gap: 30px;
 
   @media (max-width: ${BREAKPOINTS[1]}px) {
     gap: 26px;
   }
   @media (max-width: ${BREAKPOINTS[0]}px) {
     grid-template-columns: repeat(1, 1fr);
-    gap: 28px;
     gap: 18px;
   }
 `;

@@ -16,7 +16,7 @@ export const Header = styled.header`
   @media (max-width: ${BREAKPOINTS[1]}px) {
     height: 54px;
   }
-  @media (max-width:${BREAKPOINTS[0]}px) {                                                                    KPOINTS[0]}px) {
+  @media (max-width: ${BREAKPOINTS[0]}px) {
     height: 50px;
   }
 `;
@@ -55,13 +55,13 @@ export const Nav = styled.nav`
     gap: 18px;
   }
   @media (max-width: ${BREAKPOINTS[0]}px) {
-    gap: 10px;
+    gap: 12px;
   }
 `;
 
 export const NavItem = styled.a`
   font-size: 16px;
-  color: ${Colors.lightgrey};
+  color: ${Colors.lightGrey};
   transition:
     font-weight 0.2s ease,
     color 0.2s ease;
@@ -79,15 +79,16 @@ export const NavItem = styled.a`
   }
 `;
 
-export const NavDivider = styled.hr`
-display: flex;
-width: 1px;
-height:18px%
-background-color: ${Colors.white};
+export const NavDivider = styled.div`
+  display: flex;
+  width: 1px;
+  height: 18px;
+  background-color: ${Colors.lightGrey};
 
-@media (max-width: ${BREAKPOINTS[1]}px) {
-  height: 16px;
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    height: 16px;
   }
   @media (max-width: ${BREAKPOINTS[0]}px) {
     height: 14px;
-  }`;
+  }
+`;

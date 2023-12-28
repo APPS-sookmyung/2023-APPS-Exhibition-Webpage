@@ -69,7 +69,6 @@ export const MainSectionSubTitle = styled.h2`
 `;
 
 export const MessageSection = styled.section`
-  height: 716px;
   background: linear-gradient(
     180deg,
     ${Colors.purple} 0%,
@@ -77,6 +76,15 @@ export const MessageSection = styled.section`
     #120523 66.67%,
     #0d0d0d 100%
   );
+
+  padding: 200px 0;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    padding: 160px 0;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    padding: 80px 0;
+  }
 `;
 
 export const MessageSectionInner = styled(SectionInner)`
@@ -107,7 +115,6 @@ export const SectionTitle = styled.h2`
 export const SectionSubTitle = styled.h3`
   font-size: 48px;
   font-weight: 700;
-  margin-bottom: 10px;
   text-align: center;
   color: ${Colors.white};
   line-height: 1.3;
@@ -141,8 +148,15 @@ export const SectionDescription = styled.p`
 `;
 
 export const AboutAppsSection = styled.section`
-  height: 716px;
+  margin: 200px 0;
   background: ${Colors.black};
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+    margin: 160px 0;
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    margin: 80px 0;
+  }
 `;
 
 export const AboutAppsSectionInner = styled(SectionInner)`
@@ -152,11 +166,12 @@ export const AboutAppsSectionInner = styled(SectionInner)`
 `;
 
 export const MemberSection = styled.section`
-  padding: 0 20px;
-  height: 1000px;
-  background: ${Colors.black};
-  width: 100%;
   position: relative;
+  width: 100%;
+  height: fit-content;
+  padding: 0 20px;
+  margin: 40px 0;
+  background: ${Colors.black};
 `;
 
 export const MemberCardSection = styled.div`

@@ -64,11 +64,11 @@ export const Card = styled.div`
   @media (max-width: ${BREAKPOINTS[1]}px) {
     width: 81px;
     height: 81px;
-    margin: 18px 18x 0px 0px;
+    margin: 18px 18px 0px 0px;
   }
   @media (max-width: ${BREAKPOINTS[0]}px) {
-    width: 81px;
-    height: 81px;
+    width: 63px;
+    height: 63px;
     margin: 14px 14px 0px 0px;
   }
 `;

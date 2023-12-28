@@ -195,7 +195,7 @@ export const PROJECT_LIST = [
     name: 'APPS Check',
     category: PROJECT_CATEGORIES.APP,
     imageUrl: '/images/thumbnail/img-thumbnail-4.png',
-    youtubeVideoId: '28qM1WwLsRo',
+    youtubeVideoId: 'IM8yy-Ev9RI',
     downloadLinkUrl: null,
     webpageLinkUrl: null,
     githubUrls: {

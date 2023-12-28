@@ -12,7 +12,7 @@ export const Inner = styled.div`
   @media (max-width: ${BREAKPOINTS[1]}px) {
     padding: 82px 20px 20px;
   }
-  @media (max-width:${BREAKPOINTS[0]}px) {                                                                    KPOINTS[0]}px) {
+  @media (max-width: ${BREAKPOINTS[0]}px) {
     padding: 74px 20px 20px;
   }
 `;
@@ -154,6 +154,7 @@ export const CircleBox = styled.div`
     gap: 14px;
   }
 `;
+
 export const MemberInfo = styled.div``;
 
 export const StackImage = styled.img`
@@ -174,20 +175,20 @@ export const MemberImage = styled.img`
 `;
 
 export const CrownImage = styled.img`
-  width: 36px;
   position: absolute;
   top: -18px;
   left: 50%;
-  transform: translateX(-50%);
   z-index: 2;
+  width: 36px;
+  transform: translateX(-50%);
 
   @media (max-width: ${BREAKPOINTS[1]}px) {
-    width: 32x;
     top: -16px;
+    width: 32px;
   }
   @media (max-width: ${BREAKPOINTS[0]}px) {
-    width: 26px;
     top: -14px;
+    width: 26px;
   }
 `;
 
@@ -196,8 +197,8 @@ export const CircleBoxName = styled.h3`
   justify-content: center;
   text-align: center;
   font-size: 18px;
-  color: ${Colors.lightGrey};
   font-weight: 500;
+  color: ${Colors.lightGrey};
 
   @media (max-width: ${BREAKPOINTS[1]}px) {
     font-size: 16px;
@@ -212,7 +213,7 @@ export const MemberDescription = styled.span`
   justify-content: center;
   margin-top: 4px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   color: ${Colors.grey};
 
   @media (max-width: ${BREAKPOINTS[1]}px) {
