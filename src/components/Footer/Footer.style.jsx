@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { BREAKPOINTS } from '../../styles';
 
 export const Footer = styled.footer`
   display: flex;
@@ -36,6 +37,12 @@ export const InfoTitle = styled.h3`
 
 export const InfoContentList = styled.ul`
   display: flex;
+
+  @media (max-width: ${BREAKPOINTS[1]}px) {
+  }
+  @media (max-width: ${BREAKPOINTS[0]}px) {
+    flex-direction: column;
+  }
 `;
 
 export const InfoContentItem = styled.li`

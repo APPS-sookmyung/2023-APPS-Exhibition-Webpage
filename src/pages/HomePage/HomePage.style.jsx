@@ -103,7 +103,7 @@ export const SectionTitle = styled.h2`
   }
   @media (max-width: ${BREAKPOINTS[0]}px) {
     margin-bottom: 14px;
-    font-size: 32px;
+    font-size: 30px;
   }
 `;
 

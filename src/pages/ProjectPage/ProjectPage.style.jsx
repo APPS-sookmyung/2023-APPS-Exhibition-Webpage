@@ -133,6 +133,7 @@ export const SectionDescription = styled.p`
   font-size: 18px;
   white-space: pre-wrap;
   color: ${Colors.lightGrey};
+  word-break: keep-all;
 
   @media (max-width: ${BREAKPOINTS[1]}px) {
     font-size: 16px;
@@ -295,6 +296,7 @@ export const ReviewCardContent = styled.p`
   font-size: 18px;
   line-height: 1.6;
   color: ${Colors.lightGrey};
+  word-break: keep-all;
 
   @media (max-width: ${BREAKPOINTS[1]}px) {
     font-size: 16px;
