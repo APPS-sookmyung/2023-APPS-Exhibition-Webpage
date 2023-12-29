@@ -31,11 +31,6 @@ export const MainSection = styled.section`
 export const MainSectionInner = styled(SectionInner)`
   justify-content: center;
   height: 100%;
-
-  & > h1,
-  & > h2 {
-    font-family: 'Ubuntu';
-  }
 `;
 
 export const MainSectionTitle = styled.h1`
@@ -119,6 +114,7 @@ export const SectionSubTitle = styled.h3`
   color: ${Colors.white};
   line-height: 1.3;
   white-space: pre-wrap;
+  word-break: break-all;
 
   @media (max-width: ${BREAKPOINTS[1]}px) {
     font-size: 32px;
@@ -134,6 +130,7 @@ export const SectionDescription = styled.p`
   text-align: center;
   line-height: 1.3;
   color: ${Colors.grey};
+  word-break: keep-all;
 
   & > strong {
     color: ${Colors.lightPurple};
