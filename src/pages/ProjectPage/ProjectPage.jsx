@@ -1,4 +1,4 @@
-import { PageLayout, Header } from '../../components';
+import { PageLayout, Header, Footer } from '../../components';
 import * as S from './ProjectPage.style';
 import { useParams } from 'react-router-dom';
 import { Colors } from '../../theme';
@@ -31,6 +31,7 @@ const ProjectPage = () => {
   return (
     <PageLayout
       header={<Header />}
+      footer={<Footer />}
       background={`linear-gradient(180deg, ${Colors.purple} 0%, #270F49 55.73%, #0D0D0D 100%)`}
     >
       <S.Inner>
