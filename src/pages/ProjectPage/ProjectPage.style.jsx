@@ -7,6 +7,7 @@ export const Inner = styled.div`
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
+  margin-bottom: 200px;
   padding: 90px 20px 20px;
 
   @media (max-width: ${BREAKPOINTS[1]}px) {
