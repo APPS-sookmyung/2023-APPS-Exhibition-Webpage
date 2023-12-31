@@ -81,7 +81,7 @@ export const Card = styled.a`
   justify-content: center;
   padding: 14px;
   width: 180px;
-  aspect-ratio: 18 / 26;
+  aspect-ratio: 18 / 24;
   margin: 20px 20px 0px 0px;
   border-radius: 15px;
   background: linear-gradient(90deg, ${Colors.purple} 0%, #120523 90%, #180038 100%);
@@ -179,15 +179,15 @@ export const Major = styled.p`
   display: flex;
   justify-content: center;
   align-content: center;
-  font-size: 18px;
+  font-size: 12px;
   text-align: center;
   color: ${Colors.lightGrey};
 
   @media (max-width: ${BREAKPOINTS[1]}px) {
-    font-size: 16px;
+    font-size: 10px;
   }
   @media (max-width: ${BREAKPOINTS[0]}px) {
-    font-size: 12px;
+    font-size: 8px;
   }
 `;
 
