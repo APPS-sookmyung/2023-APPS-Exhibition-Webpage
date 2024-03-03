@@ -6,7 +6,7 @@ export const PROJECT_LIST = [
     name: 'Cookiee-',
     category: PROJECT_CATEGORIES.APP,
     imageUrl: '/images/thumbnail/img-thumbnail-1.png',
-    youtubeVideoId: '8AoxG-zcm-E',
+    youtubeVideoId: 'O2Hv4VpVumg',
     downloadLinkUrl: null,
     webpageLinkUrl: null,
     githubUrls: {
@@ -72,7 +72,7 @@ export const PROJECT_LIST = [
     name: 'POCHAK',
     category: PROJECT_CATEGORIES.APP,
     imageUrl: '/images/thumbnail/img-thumbnail-2.png',
-    youtubeVideoId: 'w1iIRwRci_I',
+    youtubeVideoId: 'qEkx6DvgzDk',
     downloadLinkUrl: null,
     webpageLinkUrl: null,
     githubUrls: {
@@ -181,12 +181,12 @@ export const PROJECT_LIST = [
     ],
     techStackList: [
       {
-        name: 'Spring Boot',
-        imageUrl: '/images/techStack/springboot.png',
+        name: 'Flutter',
+        imageUrl: '/images/techStack/flutter.png',
       },
       {
-        name: 'Swift',
-        imageUrl: '/images/techStack/swift.png',
+        name: 'SQFlite',
+        imageUrl: '/images/techStack/sqflite.png',
       },
     ],
   },
@@ -195,7 +195,7 @@ export const PROJECT_LIST = [
     name: 'AppsCheck',
     category: PROJECT_CATEGORIES.APP,
     imageUrl: '/images/thumbnail/img-thumbnail-4.png',
-    youtubeVideoId: 'ls-ILlutl-8',
+    youtubeVideoId: 'pf2Sf1lFTPg',
     downloadLinkUrl: null,
     webpageLinkUrl: null,
     githubUrls: {
@@ -252,7 +252,7 @@ export const PROJECT_LIST = [
     name: '새미새',
     category: PROJECT_CATEGORIES.WEB,
     imageUrl: '/images/thumbnail/img-thumbnail-5.png',
-    youtubeVideoId: 'I0p1C07SrjQ',
+    youtubeVideoId: 'ZKwwmry2FDE',
     downloadLinkUrl: null,
     webpageLinkUrl: 'https://apps-sookmyung.github.io/2023-BirdieBuddy/',
     githubUrls: {
@@ -353,7 +353,7 @@ export const PROJECT_LIST = [
     name: 'DevInsight',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-7.png',
-    youtubeVideoId: '4Woys_q06vY',
+    youtubeVideoId: 'ptX8lWrLZ90',
     downloadLinkUrl: null,
     webpageLinkUrl: 'https://2023-dev-insight.vercel.app/',
     githubUrls: {
@@ -517,7 +517,7 @@ export const PROJECT_LIST = [
     name: 'Photoshop_HR',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-11.png',
-    youtubeVideoId: 'X3UdlKpiqEk',
+    youtubeVideoId: 'h44LRtztfOs',
     downloadLinkUrl: null,
     webpageLinkUrl: null,
     githubUrls: {
@@ -645,14 +645,14 @@ export const PROJECT_LIST = [
     name: 'Colog',
     category: PROJECT_CATEGORIES.NEW_MEMBERS,
     imageUrl: '/images/thumbnail/img-thumbnail-14.png',
-    youtubeVideoId: 'BqSKfPj93rg',
+    youtubeVideoId: '2bYo7hpFgBk',
     downloadLinkUrl: null,
     webpageLinkUrl: null,
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-Colog',
       serverUrl: null,
     },
-    summary: '뿌듯함을 채워주고 성취감을 극대화하는 프로그래머 전용 타이머 앱, 코록',
+    summary: '뿌듯함을 채워주고 성취감을 극대화하는 프로그래머 전용 타이머 앱',
     introduction:
       '프로그래머만의 뿌듯함을 느끼고 싶으신가요? 나만의 코딩 기록 서비스, 코록은 타이머, 뽀모도로 등 집중을 위한 최적의 환경을 제공하고 월 별 통계를 통해 성취감을 극대화합니다. 코딩 시간, 기술 블로그 업로드 등 코딩 기록을 한 곳에 모아 보세요!',
     description:
