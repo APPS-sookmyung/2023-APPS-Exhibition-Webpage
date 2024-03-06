@@ -455,7 +455,7 @@ export const PROJECT_LIST = [
     imageUrl: '/images/thumbnail/img-thumbnail-8.png',
     youtubeVideoId: 'H0Gd2euCQ0U',
     downloadLinkUrl: null,
-    webpageLinkUrl: null,
+    webpageLinkUrl: 'https://2023-diary.vercel.app/',
     githubUrls: {
       clientUrl: 'https://github.com/APPS-sookmyung/2023-SMSW-Web-Project-client',
       serverUrl: null,
