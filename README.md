@@ -20,10 +20,12 @@
 
 ## 💡 웹 서비스 소개
 
-숙명여자대학교 소프트웨어학부 학회 APPS의 온라인 전시회 사이트입니다.
-지난 3월부터 열심히 노력하여 15개의 작품을 선보이게 되었습니다. 아래 사이트에서 그 힘찬 결실을 만나보실 수 있습니다.
+숙명여자대학교 소프트웨어학부 학회 APPS의 <U>2023 온라인 전시회 사이트</U> 입니다.<br>
+3월부터 열심히 노력하여 마침내 16개의 작품을 선보이게 되었습니다. 아래 사이트에서 그 힘찬 결실을 만나보실 수 있습니다.
 
-[**🔗 배포된 웹 서비스로 바로가기 Click !**](https://2023-apps-exhibition-webpage.vercel.app/) 👈
+[**🔗 배포된 웹 사이트 바로가기 Click !**](https://2023-apps-exhibition-webpage.vercel.app/) 👈 <br>
+[**🔗 LinkedIn에서 온라인 전시회 글 확인 (23/12/30) Click !**](https://www.linkedin.com/feed/update/urn:li:activity:7146839338822098944) 👈 <br>
+[**🔗 LinkedIn에서 오프라인 전시회 글 확인 (24/3/9) Click !**](https://www.linkedin.com/feed/update/urn:li:activity:7146839338822098944) 👈
 
 > 새 창 열기 방법 : CTRL+click (on Windows and Linux) | CMD+click (on MacOS)
 
@@ -61,6 +63,10 @@
 | :--------------------------------------------------------------------------------------------------: |
 | <img src="./readme_assets/gif-about-apps.gif" align="center" style="width: 700px" alt="APPS 소개" /> |
 
+|                                             APPS 멤버 소개                                              |
+| :-----------------------------------------------------------------------------------------------------: |
+| <img src="./readme_assets/gif-about-members.gif" align="center" style="width: 700px" alt="APPS 소개" /> |
+
 |                                                    프로젝트 소개                                                    |
 | :-----------------------------------------------------------------------------------------------------------------: |
 | <img src="./readme_assets/gif-introduction-projects.gif" align="center" style="width: 700px" alt="프로젝트 소개" /> |
@@ -77,11 +83,11 @@
 
 <br />
 
-|                                               이미지                                                |                                        이름 (세부 전공)                                        |   역할    |                               개발 내용                                |
-| :-------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: | :-------: | :--------------------------------------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/u/110973127?v=4" alt="경민서 프로필" width="80px"/> |    <a href="https://github.com/mxinseo" target="_blank">경민서<br />(소프트웨어융합 22)</a>    | Front-end | 메인페이지 내 APPS 소개 섹션 구현 <br /> 메인페이지 내 애니메이션 구현 |
-| <img src="https://avatars.githubusercontent.com/u/128569095?v=4" alt="류미성 프로필" width="80px"/> |    <a href="https://github.com/misung-dev" target="_blank">류미성<br /> (컴퓨터과학 21)</a>    | Front-end |   메인페이지 내 프로젝트 소개 섹션 구현 <br /> Header & Footer 구현    |
-| <img src="https://avatars.githubusercontent.com/u/102652293?v=4" alt="윤서희 프로필" width="80px"/> | <a href="https://github.com/seohee0925" target="_blank"> 윤서희<br /> (소프트웨어융합 21) </a> | Front-end |                       프로젝트 상세 페이지 구현                        |
+|                                               이미지                                                |                                        이름 (세부 전공)                                        |   역할    |                                          개발 내용                                          |
+| :-------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: | :-------: | :-----------------------------------------------------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/110973127?v=4" alt="경민서 프로필" width="80px"/> |    <a href="https://github.com/mxinseo" target="_blank">경민서<br />(소프트웨어융합 22)</a>    | Front-end |           메인페이지 내 APPS 소개 섹션 구현 <br /> 메인페이지 내 애니메이션 구현            |
+| <img src="https://avatars.githubusercontent.com/u/128569095?v=4" alt="류미성 프로필" width="80px"/> |    <a href="https://github.com/misung-dev" target="_blank">류미성<br /> (컴퓨터과학 21)</a>    | Front-end | 메인페이지 내 프로젝트 소개 섹션 구현 <br /> Header & Footer 구현 <br /> 모바일 반응형 구현 |
+| <img src="https://avatars.githubusercontent.com/u/102652293?v=4" alt="윤서희 프로필" width="80px"/> | <a href="https://github.com/seohee0925" target="_blank"> 윤서희<br /> (소프트웨어융합 21) </a> | Front-end |                                  프로젝트 상세 페이지 구현                                  |
 
 <br />
 
